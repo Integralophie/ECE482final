@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      cmyu3
 HostName                       fastx3-12.ews.illinois.edu
-ProcessIdentifier              3433250
-ProcessCreationTime_UTC        1699312713
-ProcessCreationTime_Readable   Mon Nov  6 17:18:33 2023 CST
+ProcessIdentifier              3651332
+ProcessCreationTime_UTC        1699323032
+ProcessCreationTime_Readable   Mon Nov  6 20:10:32 2023 CST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
 FilePathUsedToEditLock         /home/cmyu3/ece482.work/ECE482final/ece482final_jimmy/CCMOSREG/schematic/sch.oa.cdslck
-TimeEditLocked                 Mon Nov  6 19:55:42 2023 CST
+TimeEditLocked                 Mon Nov  6 20:22:21 2023 CST
