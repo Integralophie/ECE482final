@@ -1,0 +1,24 @@
+* "simulator" "PrimeSim HSPICE"
+* "version" "T-2022.06-SP1 linux64"
+* "format" "HSP"
+* "rundate" "19:08:51 11/11/2023 "
+* "netlist" "c2mos_reg.cir "
+* "runtitle" "** generated for: hspiced"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ clk = 0.000e+00       
++ clkbar = 1.100e+00       
++ d = 0.000e+00       
++ net2 = 1.100e+00       
++ net3 = 9.495e-01       
++ net4 = 1.072e+00       
++ net5 = 2.131e-08       
++ q = 3.191e-01       
++ vdd = 1.100e+00       
++ vss = 0.000e+00       
++ x = 1.100e+00       
+***   END: Saved Operating Point ***                     
