@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      yuwu9
 HostName                       eceb-2022-13.ews.illinois.edu
-ProcessIdentifier              19864
-ProcessCreationTime_UTC        1699826578
-ProcessCreationTime_Readable   Sun Nov 12 16:02:58 2023 CST
+ProcessIdentifier              5049
+ProcessCreationTime_UTC        1699836704
+ProcessCreationTime_Readable   Sun Nov 12 18:51:44 2023 CST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/yuwu9/ece482.work/ECE482final/ECE482final_cadence/mux/schematic/sch.oa.cdslck
-TimeEditLocked                 Sun Nov 12 18:28:10 2023 CST
+FilePathUsedToEditLock         /home/yuwu9/ece482.work/ECE482final/ECE482final_cadence/mux/symbol/symbol.oa.cdslck.dirlck
+TimeEditLocked                 Sun Nov 12 18:57:20 2023 CST
