@@ -1,0 +1,91 @@
+** Generated for: hspiceD
+** Generated on: Nov 14 00:35:06 2023
+** Design library name: ECE482final_cadence
+** Design cell name: serializer
+** Design view name: schematic
+.lib '/class/ece482/gpdk045_mos' TT
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2
+
+** Library name: ECE482final_cadence
+** Cell name: txgate
+** View name: schematic
+.subckt txgate clk clk_b d s vdd vss
+mnm0 s clk_b d vss g45n1svt L=45e-9 W=120e-9 AD=16.8e-15 AS=16.8e-15 PD=520e-9 PS=520e-9 NRD=1.16667 NRS=1.16667 M=1
+mpm0 s clk d vdd g45p1svt L=45e-9 W=120e-9 AD=16.8e-15 AS=16.8e-15 PD=520e-9 PS=520e-9 NRD=1.16667 NRS=1.16667 M=1
+.ends txgate
+** End of subcircuit definition.
+
+** Library name: ECE482final_cadence
+** Cell name: mux
+** View name: schematic
+.subckt mux a b s0 s0_b vdd vss out
+xi1 s0 s0_b b out vdd vss txgate
+xi0 s0_b s0 a out vdd vss txgate
+.ends mux
+** End of subcircuit definition.
+
+** Library name: ECE482final_cadence
+** Cell name: c2mos_register
+** View name: schematic
+.subckt c2mos_register clk clk_b d q vdd vss
+mpm3 q clk_b net4 vdd g45p1svt L=45e-9 W=240e-9 AD=33.6e-15 AS=33.6e-15 PD=760e-9 PS=760e-9 NRD=583.333e-3 NRS=583.333e-3 M=1
+mpm2 net4 x vdd vdd g45p1svt L=45e-9 W=240e-9 AD=33.6e-15 AS=33.6e-15 PD=760e-9 PS=760e-9 NRD=583.333e-3 NRS=583.333e-3 M=1
+mpm1 x clk net2 vdd g45p1svt L=45e-9 W=240e-9 AD=33.6e-15 AS=33.6e-15 PD=760e-9 PS=760e-9 NRD=583.333e-3 NRS=583.333e-3 M=1
+mpm0 net2 d vdd vdd g45p1svt L=45e-9 W=240e-9 AD=33.6e-15 AS=33.6e-15 PD=760e-9 PS=760e-9 NRD=583.333e-3 NRS=583.333e-3 M=1
+mnm3 net5 x vss vss g45n1svt L=45e-9 W=120e-9 AD=16.8e-15 AS=16.8e-15 PD=520e-9 PS=520e-9 NRD=1.16667 NRS=1.16667 M=1
+mnm2 q clk net5 vss g45n1svt L=45e-9 W=120e-9 AD=16.8e-15 AS=16.8e-15 PD=520e-9 PS=520e-9 NRD=1.16667 NRS=1.16667 M=1
+mnm1 net3 d vss vss g45n1svt L=45e-9 W=120e-9 AD=16.8e-15 AS=16.8e-15 PD=520e-9 PS=520e-9 NRD=1.16667 NRS=1.16667 M=1
+mnm0 x clk_b net3 vss g45n1svt L=45e-9 W=120e-9 AD=16.8e-15 AS=16.8e-15 PD=520e-9 PS=520e-9 NRD=1.16667 NRS=1.16667 M=1
+.ends c2mos_register
+** End of subcircuit definition.
+
+** Library name: ECE482final_cadence
+** Cell name: serializer
+** View name: schematic
+xi160 q15 net7 clk100m_b clk100m vdd vss out mux
+xi159 q14 net13 clk100m_b clk100m vdd vss net4 mux
+xi158 q13 net18 clk100m_b clk100m vdd vss net3 mux
+xi157 q12 net34 clk100m_b clk100m vdd vss net2 mux
+xi156 q11 net6 clk100m_b clk100m vdd vss net1 mux
+xi155 q10 net12 clk100m_b clk100m vdd vss net5 mux
+xi154 q9 net25 clk100m_b clk100m vdd vss net11 mux
+xi153 q8 net23 clk100m_b clk100m vdd vss net31 mux
+xi152 q7 net14 clk100m_b clk100m vdd vss net15 mux
+xi151 q6 net21 clk100m_b clk100m vdd vss net22 mux
+xi150 q5 net29 clk100m_b clk100m vdd vss net30 mux
+xi149 q4 net16 clk100m_b clk100m vdd vss net17 mux
+xi148 q3 net9 clk100m_b clk100m vdd vss net10 mux
+xi147 q2 net19 clk100m_b clk100m vdd vss net20 mux
+xi146 q1 net26 clk100m_b clk100m vdd vss net27 mux
+xi144 clk1pt6g clk1pt6g_b net4 net7 vdd vss c2mos_register
+xi143 clk1pt6g clk1pt6g_b net3 net13 vdd vss c2mos_register
+xi142 clk1pt6g clk1pt6g_b net2 net18 vdd vss c2mos_register
+xi141 clk1pt6g clk1pt6g_b net1 net34 vdd vss c2mos_register
+xi140 clk1pt6g clk1pt6g_b net5 net6 vdd vss c2mos_register
+xi139 clk1pt6g clk1pt6g_b net11 net12 vdd vss c2mos_register
+xi138 clk1pt6g clk1pt6g_b net31 net25 vdd vss c2mos_register
+xi137 clk1pt6g clk1pt6g_b net15 net23 vdd vss c2mos_register
+xi136 clk1pt6g clk1pt6g_b net22 net14 vdd vss c2mos_register
+xi135 clk1pt6g clk1pt6g_b net30 net21 vdd vss c2mos_register
+xi134 clk1pt6g clk1pt6g_b net17 net29 vdd vss c2mos_register
+xi133 clk1pt6g clk1pt6g_b net10 net16 vdd vss c2mos_register
+xi132 clk1pt6g clk1pt6g_b net20 net9 vdd vss c2mos_register
+xi131 clk1pt6g clk1pt6g_b net27 net19 vdd vss c2mos_register
+xi130 clk1pt6g clk1pt6g_b q0 net26 vdd vss c2mos_register
+
+** Power
+vvdd vdd 0 1.8
+vvss vss 0 0
+
+** Input Stimulus
+
+
+
+.option post
+.END
