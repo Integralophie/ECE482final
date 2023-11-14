@@ -22,7 +22,7 @@ cnet3   net3   vss 2fF
 cnet4   net4   vss 2fF
 cnet5   net5   vss 2fF
 cd      d      vss 2fF
-cq      q      vss 10pF
+cq      q      vss 10fF
 cclk    clk    vss 2fF
 cclkbar clkbar vss 2fF
 
