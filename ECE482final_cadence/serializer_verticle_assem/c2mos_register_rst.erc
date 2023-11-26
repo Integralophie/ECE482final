@@ -1,0 +1,30 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'c2mos_register_rst layout ECE482final_cadence':
+  info: Assign pin label "rst" at (0.6325, 2.1475) to layer `poly_conn'.
+  info: Assign pin label "CLK_b" at (0.4325, -0.1100) to layer `metal1_conn'.
+  info: Assign pin label "CLK" at (1.0625, -0.1100) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.0400, 1.0000) to layer `metal1_conn'.
+  info: Assign pin label "Q" at (1.2600, 0.4500) to layer `metal1_conn'.
+  info: Assign pin label "rst_b" at (0.8300, 1.1300) to layer `metal1_conn'.
+  info: Assign pin label "D" at (1.1475, 1.8600) to layer `metal1_conn'.
+  info: Assign pin label "VSS" at (1.1650, 2.0100) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
+
+***** Begin Label Report *****
+
+ Label in cell 'c2mos_register_rst layout ECE482final_cadence':
+  info: Assign pin label "rst" at (0.6325, 2.1475) to layer `poly_conn'.
+  info: Assign pin label "CLK_b" at (0.4325, -0.1100) to layer `metal1_conn'.
+  info: Assign pin label "CLK" at (1.0625, -0.1100) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.0400, 1.0000) to layer `metal1_conn'.
+  info: Assign pin label "Q" at (1.2600, 0.4500) to layer `metal1_conn'.
+  info: Assign pin label "rst_b" at (0.8300, 1.1300) to layer `metal1_conn'.
+  info: Assign pin label "D" at (1.1475, 1.8600) to layer `metal1_conn'.
+  info: Assign pin label "VSS" at (1.1650, 2.0100) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
