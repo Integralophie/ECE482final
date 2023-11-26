@@ -1,0 +1,60 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'serializer_verticle_assem layout ECE482final_cadence':
+  info: Assign pin label "CLK1pt6G" at (0.0375, 0.0400) to layer `metal3_conn'.
+  info: Assign pin label "CLK100M_b" at (0.0350, 1.2900) to layer `metal3_conn'.
+  info: Assign pin label "Q1" at (2.2850, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q2" at (3.5650, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q3" at (4.8450, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q4" at (6.1250, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q5" at (7.4050, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q6" at (8.6850, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q7" at (9.9650, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q8" at (11.2450, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q9" at (12.5250, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q10" at (13.8050, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q11" at (15.0850, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q12" at (16.3650, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q13" at (17.6450, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q14" at (18.9250, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q15" at (20.2050, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "CLK1pt6G_b" at (0.0375, -0.1200) to layer `metal2_conn'.
+  info: Assign pin label "Q0" at (1.3225, 0.5700) to layer `metal1_conn'.
+  info: Assign pin label "VSS" at (0.0975, 2.1700) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (1.4100, 1.1600) to layer `metal1_conn'.
+  info: Assign pin label "CLK100M" at (1.7275, 2.2950) to layer `metal1_conn'.
+  info: Assign pin label "out" at (21.8350, 0.6100) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
+
+***** Begin Label Report *****
+
+ Label in cell 'serializer_verticle_assem layout ECE482final_cadence':
+  info: Assign pin label "CLK1pt6G" at (0.0375, 0.0400) to layer `metal3_conn'.
+  info: Assign pin label "CLK100M_b" at (0.0350, 1.2900) to layer `metal3_conn'.
+  info: Assign pin label "Q1" at (2.2850, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q2" at (3.5650, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q3" at (4.8450, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q4" at (6.1250, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q5" at (7.4050, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q6" at (8.6850, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q7" at (9.9650, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q8" at (11.2450, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q9" at (12.5250, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q10" at (13.8050, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q11" at (15.0850, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q12" at (16.3650, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q13" at (17.6450, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q14" at (18.9250, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "Q15" at (20.2050, 2.3300) to layer `metal3_conn'.
+  info: Assign pin label "CLK1pt6G_b" at (0.0375, -0.1200) to layer `metal2_conn'.
+  info: Assign pin label "Q0" at (1.3225, 0.5700) to layer `metal1_conn'.
+  info: Assign pin label "VSS" at (0.0975, 2.1700) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (1.4100, 1.1600) to layer `metal1_conn'.
+  info: Assign pin label "CLK100M" at (1.7275, 2.2950) to layer `metal1_conn'.
+  info: Assign pin label "out" at (21.8350, 0.6100) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
