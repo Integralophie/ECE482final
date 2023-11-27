@@ -1,0 +1,23 @@
+; Assura generated file -- DO NOT EDIT --
+; Do NOT rely on the content of this file, it may change.
+;
+2 unmatched connect pin
+1 1 ((S "I31/I1/NM2" "g45n1svt")(L "I2/avD2_3" "g45n1svt")(("D" "net1" "net1")("S" "VSS" "I2/avC6")))
+1 0 ((S "I27" "c2mos_register_rst")(("VDD" "VDD")("VSS" "VSS")("D" "Q14")("CLK" "CLK")("rst_b" "rst_b")("Q" "Q15")("rst" "rst")("CLK_b" "CLK_b")))
+1 0 ((S "I23" "c2mos_register_rst")(("VDD" "VDD")("VSS" "VSS")("D" "Q8")("CLK" "CLK")("rst_b" "rst_b")("Q" "Q9")("rst" "rst")("CLK_b" "CLK_b")))
+1 0 ((S "I17" "c2mos_register_rst")(("VDD" "VDD")("VSS" "VSS")("D" "Q2")("CLK" "CLK")("rst_b" "rst_b")("Q" "Q3")("rst" "rst")("CLK_b" "CLK_b")))
+1 0 ((S "I##27" "g45p1svt:SerMos2#1")(("OUT" "VDD")("OUT2" "I31/net1")("TERM4" "VDD")("IN1" "Q15")("IN2" "Q14")))
+1 0 ((S "I##28" "g45n1svt:SerMos2#1")(("OUT" "net1")("OUT2" "VSS")("TERM4" "VSS")("IN1" "Q14")("IN2" "Q15")))
+1 0 ((S "I##29" "g45n1svt:ParMos2#1")(("OUT" "VSS")("OUT2" "I31/net1")("TERM4" "VSS")("IN1" "Q15")("IN2" "Q14")))
+1 0 ((S "I##30" "g45p1svt:ParMos2#1")(("OUT" "N##28")("OUT2" "N##28")("TERM4" "VDD")("IN1" "Q14")("IN2" "Q15")))
+1 0 ((S "I##31" "g45p1svt:SerMos3#1")(("OUT" "net1")("OUT2" "VDD")("TERM4" "VDD")("IN1" "I31/net1")("IN2" "N##28")("IN3" "N##28")))
+1 0 ((L "I2/avD2_1" "g45n1svt")(("D" "I2/avC6")("G" "Q15")("S" "VSS")("B" "VSS")))
+1 0 ((L "I2/avD2_2" "g45n1svt")(("D" "N##28")("G" "Q14")("S" "VSS")("B" "VSS")))
+1 0 ((L "I2/avD2_4" "g45n1svt")(("D" "Q15")("G" "N##28")("S" "net1")("B" "VSS")))
+1 0 ((L "I2/avD10_1" "g45p1svt")(("D" "I2/avC6")("G" "Q15")("S" "VDD")("B" "VDD")))
+1 0 ((L "I2/avD10_2" "g45p1svt")(("D" "N##28")("G" "Q14")("S" "VDD")("B" "VDD")))
+1 0 ((L "I2/avD10_3" "g45p1svt")(("D" "net1")("G" "N##28")("S" "I2/avC6")("B" "VDD")))
+1 0 ((L "I2/avD10_4" "g45p1svt")(("D" "Q15")("G" "Q14")("S" "net1")("B" "VDD")))
+1 0 ((L "I1" "c2mos_register_rst")(("VDD" "VDD")("CLK" "CLK")("CLK_b" "CLK_b")("D" "Q14")("rst" "rst")("rst_b" "rst_b")("Q" "avC4_1")("S_nmos1v_avC_9" "VSS")("avC11" "avC11_1")))
+1 0 ((L "I36" "c2mos_register_rst")(("VDD" "VDD")("CLK" "CLK")("CLK_b" "CLK_b")("D" "Q8")("rst" "rst")("rst_b" "rst_b")("Q" "Q9")("S_nmos1v_avC_9" "VSS")("avC11" "Q10")))
+1 0 ((L "I42" "c2mos_register_rst")(("VDD" "VDD")("CLK" "CLK")("CLK_b" "CLK_b")("D" "Q2")("rst" "rst")("rst_b" "rst_b")("Q" "Q3")("S_nmos1v_avC_9" "VSS")("avC11" "Q4")))

@@ -1,0 +1,4 @@
+!<alc> v1 45
+0    4    0 xor2 layout ECE482final_cadence
+0    3    0 c2mos_register_rst layout ECE482final_cadence
+0    5    0 prbs layout ECE482final_cadence
