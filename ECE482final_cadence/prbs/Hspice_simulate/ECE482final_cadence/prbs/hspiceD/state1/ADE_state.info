@@ -1,0 +1,3 @@
+projectDir = '"~/cadence/simulation"
+designInfo = '("ECE482final_cadence" "prbs" "schematic" "hspiceD")
+descriptionText = "None"
