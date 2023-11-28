@@ -8,7 +8,7 @@
   info: Assign pin label "VDD" at (0.0400, 1.0000) to layer `metal1_conn'.
   info: Assign pin label "Q" at (1.2600, 0.4500) to layer `metal1_conn'.
   info: Assign pin label "rst_b" at (0.8300, 1.1300) to layer `metal1_conn'.
-  info: Assign pin label "D" at (1.1475, 1.8600) to layer `metal1_conn'.
+  info: Assign pin label "D" at (0.9300, 1.8600) to layer `metal1_conn'.
   info: Assign pin label "VSS" at (1.1650, 2.0100) to layer `metal1_conn'.
 
 ***** End of Label Report *****
@@ -23,7 +23,7 @@
   info: Assign pin label "VDD" at (0.0400, 1.0000) to layer `metal1_conn'.
   info: Assign pin label "Q" at (1.2600, 0.4500) to layer `metal1_conn'.
   info: Assign pin label "rst_b" at (0.8300, 1.1300) to layer `metal1_conn'.
-  info: Assign pin label "D" at (1.1475, 1.8600) to layer `metal1_conn'.
+  info: Assign pin label "D" at (0.9300, 1.8600) to layer `metal1_conn'.
   info: Assign pin label "VSS" at (1.1650, 2.0100) to layer `metal1_conn'.
 
 ***** End of Label Report *****

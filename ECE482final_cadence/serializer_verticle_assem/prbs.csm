@@ -1,10 +1,7 @@
 Schematic                                       | Layout                                       | Status
-----------------------------------------------------------------------------------------------------------
-c2mos_register_rst schematic ECE482final_cadence| c2mos_register_rst layout ECE482final_cadence| matched 
-xor2 schematic basic_gates                      | xor2 layout ECE482final_cadence              | expanded
-prbs schematic ECE482final_cadence              | prbs layout ECE482final_cadence              | errors   *
+---------------------------------------------------------------------------------------------------------
+c2mos_register_rst schematic ECE482final_cadence| c2mos_register_rst layout ECE482final_cadence| matched
+xor2 schematic ECE482final_cadence              | xor2 layout ECE482final_cadence              | matched
+prbs schematic ECE482final_cadence              | prbs layout ECE482final_cadence              | matched
 
-Mismatch between Schematic and Layout
-   1 cell with errors
-   1 cell expanded
-   1 cell matched
+Schematic and Layout Match
