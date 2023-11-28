@@ -1,5 +1,5 @@
 gpdk045 nmos1v layout 236
 gpdk045 pmos1v layout 236
-ECE482final_cadence c2mos_register_rst layout 5014
+ECE482final_cadence c2mos_register_rst layout 5058
 ECE482final_cadence xor2 layout 1866
-ECE482final_cadence prbs layout 7137
+ECE482final_cadence prbs layout 8266

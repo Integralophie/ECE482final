@@ -1,4 +1,4 @@
-"xor2 layout ECE482final_cadence" "xor2 schematic basic_gates" "g45n1svt(MOS)" "g45p1svt(MOS)"
+"xor2 layout ECE482final_cadence" "xor2 schematic ECE482final_cadence" "g45n1svt(MOS)" "g45p1svt(MOS)"
 "g45p1svt(MOS)" "g45p1svt(MOS)"
 "g45n1svt(MOS)" "g45n1svt(MOS)"
 "c2mos_register_rst layout ECE482final_cadence" "c2mos_register_rst schematic ECE482final_cadence" "g45n1svt(MOS)" "g45p1svt(MOS)"

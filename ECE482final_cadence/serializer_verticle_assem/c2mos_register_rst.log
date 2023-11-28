@@ -6,14 +6,14 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:22 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
 
-run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Sat Nov 25 21:22:12 2023
+run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Mon Nov 27 20:13:26 2023
 
 
 Starting /software/cadence-2021-09/ASSURA41//tools.lnx86/assura/bin/aveng /home/yuwu9/ece482.work/ECE482final/ECE482final_cadence/serializer_verticle_assem/c2mos_register_rst.rsf -exec1 -LVS -cdslib /home/yuwu9/ece482.work/gpdk045/cds.lib
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:22 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
 
-run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Sat Nov 25 21:22:12 2023
+run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Mon Nov 27 20:13:26 2023
 
  Summary Report: c2mos_register_rst.sum
  RSF           : /home/yuwu9/ece482.work/ECE482final/ECE482final_cadence/serializer_verticle_assem/c2mos_register_rst.rsf
@@ -26,15 +26,15 @@ run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/too
  Work Directory: /home/yuwu9/ece482.work/ECE482final/ECE482final_cadence/serializer_verticle_assem
  Operating Mode: Legacy Mode is Off
 
-2023/11/25 21:22:12 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2023/11/25 21:22:12 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2023/11/27 20:13:26 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/11/27 20:13:26 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Starting dfIIToVdb...
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
 @(#)$CDS: dfIIToVdb_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:26 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
 
-run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVdb on Sat Nov 25 21:22:13 2023
+run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVdb on Mon Nov 27 20:13:27 2023
 
 Loading gpdk045/libInit.il ...
 	Loading gpdk045/loadCxt.ile ... done!
@@ -62,8 +62,8 @@ Compiling rules...
 
 WARNING LVS Run detected.
 Non-legacy mode has been disabled for this LVS run
-2023/11/25 21:22:14 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2023/11/25 21:22:14 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2023/11/27 20:13:27 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/11/27 20:13:27 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_LVS
 *WARNING* Failed to obtain license for Assura_LVS
 No Assura license available.
@@ -82,8 +82,8 @@ Reading the design data...
 Finished dfIIToVdb.
 
 Building the VDB part 2 in background mode.
-2023/11/25 21:22:14 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2023/11/25 21:22:14 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2023/11/27 20:13:28 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/11/27 20:13:28 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Building tables for LVS Preprocessing in background mode.
 
@@ -102,7 +102,7 @@ Checking out license for Pegasus_LVS_SP
 Checking out license for Pegasus_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:27 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
-run on eceb-2022-10.ews.illinois.edu at Sat Nov 25 21:22:15 2023
+run on eceb-2022-10.ews.illinois.edu at Mon Nov 27 20:13:29 2023
 
 *************************************************************** 
 
@@ -120,7 +120,7 @@ Virtuoso Framework License (111) was checked out successfully. Total checkout ti
 @(#)$CDS: dfIIToVldb_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:26 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
 
-run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVldb on Sat Nov 25 21:22:16 2023
+run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVldb on Mon Nov 27 20:13:29 2023
 
 
 *************************************************************** 
@@ -197,11 +197,11 @@ Finished /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/nvn
 Executing: bulk = cellBoundary(root)
 
 Building the VDB part 3 in background mode.
-2023/11/25 21:22:16 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2023/11/25 21:22:16 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2023/11/27 20:13:29 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/11/27 20:13:29 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.04  elap: 4  pf: 0  in: 2832  out: 72  virt: 101M  phys: 605M
+cpu: 0.04  elap: 4  pf: 0  in: 2824  out: 72  virt: 101M  phys: 598M
 
 Running the Task Processor, 1 cells, 2906 steps...
 
@@ -1756,12 +1756,12 @@ Executing: (saveInterconnect (npn_emit "Nimp"))
 Executing: (saveInterconnect (Nburied "Nburied"))
 
 Finished running rules. Task processor time in main process:
-cpu: 0.17  elap: 0  pf: 0  in: 0  out: 792  virt: 145M  phys: 761M
+cpu: 0.18  elap: 0  pf: 0  in: 0  out: 720  virt: 145M  phys: 765M
 
 No output post-processing: This is not a DRC run
 
 Finished building the persistent database.
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6448  virt: 150M  phys: 776M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6448  virt: 150M  phys: 778M
 
 
 *****  aveng terminated normally  *****
@@ -1773,14 +1773,14 @@ Starting /software/cadence-2021-09/ASSURA41//tools.lnx86/assura/bin/avrpt /home/
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:23 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
 
-run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/avrpt on Sat Nov 25 21:22:17 2023
+run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/avrpt on Mon Nov 27 20:13:30 2023
 
 
    Creating Error Database 'c2mos_register_rst'...
 
    Reading VDB ...
-2023/11/25 21:22:17 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2023/11/25 21:22:17 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2023/11/27 20:13:30 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/11/27 20:13:30 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 --------------------------------------------------------------------------------
 Rule      Message                                    FlatCount     RealCount
 --------------------------------------------------------------------------------
@@ -1950,7 +1950,7 @@ Total  errors:                                               0            0
 
    Writing Report into /home/yuwu9/ece482.work/ECE482final/ECE482final_cadence/serializer_verticle_assem/c2mos_register_rst.err ...
 
-avrpt cpu sec:    0.04  elapsed:     0  virtual:    93M
+avrpt cpu sec:    0.03  elapsed:     0  virtual:    93M
 
 Finished /software/cadence-2021-09/ASSURA41//tools.lnx86/assura/bin/avrpt
 
@@ -1972,11 +1972,11 @@ Checking out license for Pegasus_LVS
 @(#)$CDS: avnx_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:23 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
 
-run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/avnx on Sat Nov 25 21:22:18 2023
+run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/avnx on Mon Nov 27 20:13:31 2023
 
 avnx started...
-2023/11/25 21:22:18 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2023/11/25 21:22:18 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2023/11/27 20:13:31 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/11/27 20:13:31 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 cpu: 0.05  elap: 0  pf: 0  in: 0  out: 16  virt: 548M  phys: 938M
 
 Run time =  0.00 seconds
@@ -1985,7 +1985,7 @@ CPU time =  0.06 seconds
                   End of Summary Report
 
 ************************************************************************
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 12984  virt: 479M  phys: 939M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 12992  virt: 479M  phys: 939M
 ***** avnx terminated normally ***** 
 
 
@@ -1999,7 +1999,7 @@ Checking out license for Pegasus_LVS_SP
 Checking out license for Pegasus_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:27 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
-run on eceb-2022-10.ews.illinois.edu at Sat Nov 25 21:22:19 2023
+run on eceb-2022-10.ews.illinois.edu at Mon Nov 27 20:13:32 2023
 
 *************************************************************** 
 
@@ -2069,7 +2069,7 @@ Assura LVS terminated normally.
 
 
 
-Run ended: Sat Nov 25 21:22:21 2023
+Run ended: Mon Nov 27 20:13:34 2023
 
 *****  Assura terminated normally  *****
 
