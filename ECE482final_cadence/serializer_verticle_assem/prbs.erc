@@ -6,7 +6,14 @@
   info: Assign pin label "VDD" at (0.0275, 0.8100) to layer `metal1_conn'.
   info: Assign pin label "out" at (1.4400, 0.1025) to layer `metal1_conn'.
   info: Assign pin label "A" at (1.6875, 0.1800) to layer `metal1_conn'.
-  info: Assign pin label "B" at (1.5300, 0.8325) to layer `metal1_conn'.
+  info: Assign pin label "B" at (1.5800, 0.8325) to layer `metal1_conn'.
+
+ Label in cell 'xor2_VAR1 layout ECE482final_cadence':
+  info: Assign pin label "VSS" at (0.0275, 0.0100) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.0275, 0.8100) to layer `metal1_conn'.
+  info: Assign pin label "out" at (1.4400, 0.1025) to layer `metal1_conn'.
+  info: Assign pin label "A" at (1.6875, 0.1800) to layer `metal1_conn'.
+  info: Assign pin label "B" at (1.5800, 0.8325) to layer `metal1_conn'.
 
  Label in cell 'c2mos_register_rst layout ECE482final_cadence':
   info: Assign pin label "rst" at (0.6325, 2.1475) to layer `poly_conn'.
@@ -53,7 +60,14 @@
   info: Assign pin label "VDD" at (0.0275, 0.8100) to layer `metal1_conn'.
   info: Assign pin label "out" at (1.4400, 0.1025) to layer `metal1_conn'.
   info: Assign pin label "A" at (1.6875, 0.1800) to layer `metal1_conn'.
-  info: Assign pin label "B" at (1.5300, 0.8325) to layer `metal1_conn'.
+  info: Assign pin label "B" at (1.5800, 0.8325) to layer `metal1_conn'.
+
+ Label in cell 'xor2_VAR1 layout ECE482final_cadence':
+  info: Assign pin label "VSS" at (0.0275, 0.0100) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.0275, 0.8100) to layer `metal1_conn'.
+  info: Assign pin label "out" at (1.4400, 0.1025) to layer `metal1_conn'.
+  info: Assign pin label "A" at (1.6875, 0.1800) to layer `metal1_conn'.
+  info: Assign pin label "B" at (1.5800, 0.8325) to layer `metal1_conn'.
 
  Label in cell 'c2mos_register_rst layout ECE482final_cadence':
   info: Assign pin label "rst" at (0.6325, 2.1475) to layer `poly_conn'.
