@@ -1,11 +1,12 @@
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:27 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
-run on eceb-2022-10.ews.illinois.edu at Mon Nov 27 21:12:55 2023
+run on eceb-2022-13.ews.illinois.edu at Thu Nov 30 12:56:01 2023
 
 Schematic                                       | Layout                                       | Status
 ---------------------------------------------------------------------------------------------------------
 c2mos_register_rst schematic ECE482final_cadence| c2mos_register_rst layout ECE482final_cadence| matched
 xor2 schematic ECE482final_cadence              | xor2 layout ECE482final_cadence              | matched
+xor2 schematic ECE482final_cadence              | xor2_VAR1 layout ECE482final_cadence         | matched
 prbs schematic ECE482final_cadence              | prbs layout ECE482final_cadence              | matched
 
 Schematic and Layout Match

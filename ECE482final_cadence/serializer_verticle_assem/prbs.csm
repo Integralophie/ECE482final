@@ -2,6 +2,7 @@ Schematic                                       | Layout                        
 ---------------------------------------------------------------------------------------------------------
 c2mos_register_rst schematic ECE482final_cadence| c2mos_register_rst layout ECE482final_cadence| matched
 xor2 schematic ECE482final_cadence              | xor2 layout ECE482final_cadence              | matched
+xor2 schematic ECE482final_cadence              | xor2_VAR1 layout ECE482final_cadence         | matched
 prbs schematic ECE482final_cadence              | prbs layout ECE482final_cadence              | matched
 
 Schematic and Layout Match
