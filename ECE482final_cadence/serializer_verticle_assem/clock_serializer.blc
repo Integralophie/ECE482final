@@ -1,0 +1,12 @@
+"xor2 layout ECE482final_cadence" "xor2 schematic ECE482final_cadence" "g45n1svt(MOS)" "g45p1svt(MOS)"
+"prbs_mux_blk layout ECE482final_cadence" "prbs_mux_blk schematic ECE482final_cadence" "g45n1svt(MOS)" "g45p1svt(MOS)"
+"prbs layout ECE482final_cadence" "prbs schematic ECE482final_cadence"
+"inv_s4f16 layout ECE482final_cadence" "inv_s4f16 schematic ECE482final_cadence" "g45n1svt(MOS)" "g45p1svt(MOS)"
+"g45p1svt(MOS)" "g45p1svt(MOS)"
+"g45n1svt(MOS)" "g45n1svt(MOS)"
+"clock_divider_xor layout ECE482final_cadence" "clock_divider_xor schematic ECE482final_cadence" "g45n1svt(MOS)" "g45p1svt(MOS)"
+"c2mos_register_rst layout ECE482final_cadence" "c2mos_register_rst schematic ECE482final_cadence" "g45n1svt(MOS)" "g45p1svt(MOS)"
+"c2mos_register_2s2f layout ECE482final_cadence" "c2mos_register_2s2f schematic ECE482final_cadence" "g45n1svt(MOS)" "g45p1svt(MOS)"
+"clock_serializer layout ECE482final_cadence" "clock_serializer schematic ECE482final_cadence" "g45n1svt(MOS)" "g45p1svt(MOS)"
+Devices filtered from layout
+"TIE"

@@ -1,0 +1,646 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'xor2 layout ECE482final_cadence':
+  info: Assign pin label "VSS" at (0.0275, 0.0100) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.0275, 0.8100) to layer `metal1_conn'.
+  info: Assign pin label "out" at (1.4400, 0.1025) to layer `metal1_conn'.
+  info: Assign pin label "A" at (1.6875, 0.1800) to layer `metal1_conn'.
+  info: Assign pin label "B" at (1.5800, 0.8325) to layer `metal1_conn'.
+
+ Label in cell 'xor2_VAR1 layout ECE482final_cadence':
+  info: Assign pin label "VSS" at (0.0275, 0.0100) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.0275, 0.8100) to layer `metal1_conn'.
+  info: Assign pin label "out" at (1.4400, 0.1025) to layer `metal1_conn'.
+  info: Assign pin label "A" at (1.6875, 0.1800) to layer `metal1_conn'.
+  info: Assign pin label "B" at (1.5800, 0.8325) to layer `metal1_conn'.
+
+ Label in cell 'inv_s4f16 layout ECE482final_cadence':
+  info: Assign pin label "in" at (0.2325, 0.3475) to layer `poly_conn'.
+  info: Assign pin label "VSS" at (-0.1000, -0.3300) to layer `metal1_conn'.
+  info: Assign pin label "out" at (0.3350, 0.3300) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (-0.1000, 1.5100) to layer `metal1_conn'.
+
+ Label in cell 'inv_s2f2_nowell layout ECE482final_cadence':
+  info: Assign pin label "in" at (0.2325, 0.7375) to layer `poly_conn'.
+  info: Assign pin label "out" at (0.3350, 0.3300) to layer `metal1_conn'.
+  info: Assign net label "S_pmos1v_avC_6" at (0.1300, 0.7000) to layer `metal1_conn'.
+  info: Assign net label "S_nmos1v_avC_31" at (0.1300, 0.1200) to layer `metal1_conn'.
+
+ Label in cell 'c2mos_register_rst layout ECE482final_cadence':
+  info: Assign pin label "rst" at (0.6325, 2.1475) to layer `poly_conn'.
+  info: Assign pin label "CLK_b" at (0.4325, -0.1100) to layer `metal1_conn'.
+  info: Assign pin label "CLK" at (1.0625, -0.1100) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.0400, 1.0000) to layer `metal1_conn'.
+  info: Assign pin label "Q" at (1.2600, 0.4500) to layer `metal1_conn'.
+  info: Assign pin label "rst_b" at (0.8300, 1.1300) to layer `metal1_conn'.
+  info: Assign pin label "D" at (0.9300, 1.8600) to layer `metal1_conn'.
+  info: Assign pin label "VSS" at (1.1650, 2.0100) to layer `metal1_conn'.
+  info: Assign net label "S_nmos1v_avC_32" at (0.1300, 0.1600) to layer `metal1_conn'.
+
+ Label in cell 'c2mos_register_nowell_2s2f layout ECE482final_cadence':
+  info: Assign pin label "CLK" at (0.8975, 0.9850) to layer `poly_conn'.
+  info: Assign pin label "CLK_b" at (2.1175, 0.9850) to layer `poly_conn'.
+  info: Assign pin label "Q" at (2.2200, 0.2525) to layer `metal1_conn'.
+  info: Assign net label "S_nmos1v_avC_44" at (0.1850, -0.0600) to layer `metal1_conn'.
+  info: Assign net label "S_pmos1v_avC_48" at (0.1850, 0.6700) to layer `metal1_conn'.
+  info: Assign net label "G_nmos1v_avC_44" at (0.2875, -0.2550) to layer `poly_conn'.
+
+ Label in cell 'c2mos_register_2s2f layout ECE482final_cadence':
+  info: Assign pin label "CLK" at (0.8975, 0.9850) to layer `poly_conn'.
+  info: Assign pin label "CLK_b" at (2.1175, 0.9850) to layer `poly_conn'.
+  info: Assign pin label "VSS" at (-0.0850, -0.3300) to layer `metal1_conn'.
+  info: Assign pin label "D" at (-0.0200, 0.2450) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (-0.0850, 1.0950) to layer `metal1_conn'.
+  info: Assign pin label "Q" at (2.2200, 0.2525) to layer `metal1_conn'.
+
+ Label in cell 'pmos1v layout gpdk045 fingers=2 fw=9.6e-07 in1=I2':
+  info: Assign pin label "G" at (0.0225, -0.0750) to layer `poly_conn'.
+  info: Assign pin label "G" at (0.2275, -0.0750) to layer `poly_conn'.
+  info: Nets C5 and C4 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.2275, -0.0750) renamed G;1.
+  info: Assign pin label "G" at (0.0225, 1.0350) to layer `poly_conn'.
+  info: Assign pin label "G" at (0.2275, 1.0350) to layer `poly_conn'.
+  info: Nets C5 and C4 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.2275, 1.0350) renamed G;1.
+  info: Assign pin label "S" at (-0.0800, 0.4800) to layer `metal1_conn'.
+  info: Assign pin label "D" at (0.1250, 0.4800) to layer `metal1_conn'.
+  info: Assign pin label "S" at (0.3300, 0.4800) to layer `metal1_conn'.
+  info: Nets C3 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (0.3300, 0.4800) renamed S;1.
+
+ Label in cell 'nmos1v layout gpdk045 fingers=2 fw=4.8e-07 in1=I1':
+  info: Assign pin label "G" at (0.0225, -0.0750) to layer `poly_conn'.
+  info: Assign pin label "G" at (0.2275, -0.0750) to layer `poly_conn'.
+  info: Nets C5 and C4 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.2275, -0.0750) renamed G;1.
+  info: Assign pin label "G" at (0.0225, 0.5550) to layer `poly_conn'.
+  info: Assign pin label "G" at (0.2275, 0.5550) to layer `poly_conn'.
+  info: Nets C5 and C4 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.2275, 0.5550) renamed G;1.
+  info: Assign pin label "S" at (-0.0800, 0.2400) to layer `metal1_conn'.
+  info: Assign pin label "D" at (0.1250, 0.2400) to layer `metal1_conn'.
+  info: Assign pin label "S" at (0.3300, 0.2400) to layer `metal1_conn'.
+  info: Nets C3 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (0.3300, 0.2400) renamed S;1.
+
+ Label in cell 'nmos1v layout gpdk045 fingers=16 fw=4.8e-07 in1=I1':
+  info: Assign pin label "G" at (0.0225, -0.0750) to layer `poly_conn'.
+  info: Assign pin label "G" at (0.2275, -0.0750) to layer `poly_conn'.
+  info: Nets C19 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.2275, -0.0750) renamed G;1.
+  info: Assign pin label "G" at (0.4325, -0.0750) to layer `poly_conn'.
+  info: Nets C20 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.4325, -0.0750) renamed G;2.
+  info: Assign pin label "G" at (0.6375, -0.0750) to layer `poly_conn'.
+  info: Nets C21 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.6375, -0.0750) renamed G;3.
+  info: Assign pin label "G" at (0.0225, 0.5550) to layer `poly_conn'.
+  info: Assign pin label "G" at (0.8425, -0.0750) to layer `poly_conn'.
+  info: Nets C22 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.8425, -0.0750) renamed G;4.
+  info: Assign pin label "G" at (0.2275, 0.5550) to layer `poly_conn'.
+  info: Nets C19 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.2275, 0.5550) renamed G;1.
+  info: Assign pin label "G" at (1.0475, -0.0750) to layer `poly_conn'.
+  info: Nets C23 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.0475, -0.0750) renamed G;5.
+  info: Assign pin label "G" at (0.4325, 0.5550) to layer `poly_conn'.
+  info: Nets C20 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.4325, 0.5550) renamed G;2.
+  info: Assign pin label "G" at (1.2525, -0.0750) to layer `poly_conn'.
+  info: Nets C24 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.2525, -0.0750) renamed G;6.
+  info: Assign pin label "G" at (0.6375, 0.5550) to layer `poly_conn'.
+  info: Nets C21 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.6375, 0.5550) renamed G;3.
+  info: Assign pin label "G" at (1.4575, -0.0750) to layer `poly_conn'.
+  info: Nets C25 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.4575, -0.0750) renamed G;7.
+  info: Assign pin label "G" at (0.8425, 0.5550) to layer `poly_conn'.
+  info: Nets C22 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.8425, 0.5550) renamed G;4.
+  info: Assign pin label "G" at (1.6625, -0.0750) to layer `poly_conn'.
+  info: Nets C26 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.6625, -0.0750) renamed G;8.
+  info: Assign pin label "G" at (1.0475, 0.5550) to layer `poly_conn'.
+  info: Nets C23 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.0475, 0.5550) renamed G;5.
+  info: Assign pin label "G" at (1.8675, -0.0750) to layer `poly_conn'.
+  info: Nets C27 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.8675, -0.0750) renamed G;9.
+  info: Assign pin label "G" at (1.2525, 0.5550) to layer `poly_conn'.
+  info: Nets C24 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.2525, 0.5550) renamed G;6.
+  info: Assign pin label "G" at (2.0725, -0.0750) to layer `poly_conn'.
+  info: Nets C28 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.0725, -0.0750) renamed G;10.
+  info: Assign pin label "G" at (1.4575, 0.5550) to layer `poly_conn'.
+  info: Nets C25 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.4575, 0.5550) renamed G;7.
+  info: Assign pin label "G" at (2.2775, -0.0750) to layer `poly_conn'.
+  info: Nets C29 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.2775, -0.0750) renamed G;11.
+  info: Assign pin label "G" at (1.6625, 0.5550) to layer `poly_conn'.
+  info: Nets C26 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.6625, 0.5550) renamed G;8.
+  info: Assign pin label "G" at (2.4825, -0.0750) to layer `poly_conn'.
+  info: Nets C30 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.4825, -0.0750) renamed G;12.
+  info: Assign pin label "G" at (1.8675, 0.5550) to layer `poly_conn'.
+  info: Nets C27 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.8675, 0.5550) renamed G;9.
+  info: Assign pin label "G" at (2.6875, -0.0750) to layer `poly_conn'.
+  info: Nets C31 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.6875, -0.0750) renamed G;13.
+  info: Assign pin label "G" at (2.0725, 0.5550) to layer `poly_conn'.
+  info: Nets C28 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.0725, 0.5550) renamed G;10.
+  info: Assign pin label "G" at (2.8925, -0.0750) to layer `poly_conn'.
+  info: Nets C32 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.8925, -0.0750) renamed G;14.
+  info: Assign pin label "G" at (2.2775, 0.5550) to layer `poly_conn'.
+  info: Nets C29 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.2775, 0.5550) renamed G;11.
+  info: Assign pin label "G" at (3.0975, -0.0750) to layer `poly_conn'.
+  info: Nets C33 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (3.0975, -0.0750) renamed G;15.
+  info: Assign pin label "G" at (2.4825, 0.5550) to layer `poly_conn'.
+  info: Nets C30 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.4825, 0.5550) renamed G;12.
+  info: Assign pin label "G" at (2.6875, 0.5550) to layer `poly_conn'.
+  info: Nets C31 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.6875, 0.5550) renamed G;13.
+  info: Assign pin label "G" at (2.8925, 0.5550) to layer `poly_conn'.
+  info: Nets C32 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.8925, 0.5550) renamed G;14.
+  info: Assign pin label "G" at (3.0975, 0.5550) to layer `poly_conn'.
+  info: Nets C33 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (3.0975, 0.5550) renamed G;15.
+  info: Assign pin label "S" at (-0.0800, 0.2400) to layer `metal1_conn'.
+  info: Assign pin label "D" at (0.1250, 0.2400) to layer `metal1_conn'.
+  info: Assign pin label "S" at (0.3300, 0.2400) to layer `metal1_conn'.
+  info: Nets C3 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (0.3300, 0.2400) renamed S;1.
+  info: Assign pin label "D" at (0.5350, 0.2400) to layer `metal1_conn'.
+  info: Nets C4 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (0.5350, 0.2400) renamed D;1.
+  info: Assign pin label "S" at (0.7400, 0.2400) to layer `metal1_conn'.
+  info: Nets C5 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (0.7400, 0.2400) renamed S;2.
+  info: Assign pin label "D" at (0.9450, 0.2400) to layer `metal1_conn'.
+  info: Nets C6 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (0.9450, 0.2400) renamed D;2.
+  info: Assign pin label "S" at (1.1500, 0.2400) to layer `metal1_conn'.
+  info: Nets C7 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (1.1500, 0.2400) renamed S;3.
+  info: Assign pin label "D" at (1.3550, 0.2400) to layer `metal1_conn'.
+  info: Nets C8 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (1.3550, 0.2400) renamed D;3.
+  info: Assign pin label "S" at (1.5600, 0.2400) to layer `metal1_conn'.
+  info: Nets C9 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (1.5600, 0.2400) renamed S;4.
+  info: Assign pin label "D" at (1.7650, 0.2400) to layer `metal1_conn'.
+  info: Nets C10 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (1.7650, 0.2400) renamed D;4.
+  info: Assign pin label "S" at (1.9700, 0.2400) to layer `metal1_conn'.
+  info: Nets C11 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (1.9700, 0.2400) renamed S;5.
+  info: Assign pin label "D" at (2.1750, 0.2400) to layer `metal1_conn'.
+  info: Nets C12 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (2.1750, 0.2400) renamed D;5.
+  info: Assign pin label "S" at (2.3800, 0.2400) to layer `metal1_conn'.
+  info: Nets C13 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (2.3800, 0.2400) renamed S;6.
+  info: Assign pin label "D" at (2.5850, 0.2400) to layer `metal1_conn'.
+  info: Nets C14 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (2.5850, 0.2400) renamed D;6.
+  info: Assign pin label "S" at (2.7900, 0.2400) to layer `metal1_conn'.
+  info: Nets C15 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (2.7900, 0.2400) renamed S;7.
+  info: Assign pin label "D" at (2.9950, 0.2400) to layer `metal1_conn'.
+  info: Nets C16 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (2.9950, 0.2400) renamed D;7.
+  info: Assign pin label "S" at (3.2000, 0.2400) to layer `metal1_conn'.
+  info: Nets C17 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (3.2000, 0.2400) renamed S;8.
+
+ Label in cell 'prbs_mux_blk layout ECE482final_cadence':
+  info: Assign pin label "EN_b" at (0.9575, 2.5875) to layer `poly_conn'.
+  info: Assign pin label "EN" at (1.1625, 2.4475) to layer `poly_conn'.
+  info: Assign pin label "OUT0" at (1.5900, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT1" at (2.8700, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT2" at (4.1500, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT3" at (5.4300, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT4" at (6.7100, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT5" at (7.9900, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT6" at (9.2700, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT7" at (10.5500, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT8" at (11.8300, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT9" at (13.1100, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT10" at (14.3900, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT11" at (15.6700, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT12" at (16.9500, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT13" at (18.2300, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT14" at (19.5100, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT15" at (20.7900, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "PRBS0" at (0.7650, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS1" at (2.0450, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS2" at (3.3250, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS3" at (4.6050, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS4" at (5.8850, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS5" at (7.1650, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS6" at (8.4450, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS7" at (9.7250, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS8" at (11.0050, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS9" at (12.2850, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS10" at (13.5650, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS11" at (14.8450, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS12" at (16.1250, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS13" at (17.4050, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS14" at (18.6850, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS15" at (19.9650, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "VSS" at (0.6300, 1.4700) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.6300, 2.4600) to layer `metal1_conn'.
+
+ Label in cell 'prbs layout ECE482final_cadence':
+  info: Assign pin label "rst" at (0.6325, 2.3075) to layer `poly_conn'.
+  info: Assign pin label "rst_b" at (0.7725, 1.4825) to layer `metal5_conn'.
+  info: Assign pin label "CLK_b" at (0.0450, 0.0100) to layer `metal4_conn'.
+  info: Assign pin label "CLK" at (-1.7975, -0.1600) to layer `metal3_conn'.
+  info: Assign pin label "Q15" at (1.2500, -0.2450) to layer `metal2_conn'.
+  info: Assign pin label "Q14" at (2.5300, -0.2450) to layer `metal2_conn'.
+  info: Assign pin label "Q13" at (3.8100, -0.2475) to layer `metal2_conn'.
+  info: Assign pin label "Q12" at (5.0900, -0.2475) to layer `metal2_conn'.
+  info: Assign pin label "Q11" at (6.3700, -0.2475) to layer `metal2_conn'.
+  info: Assign pin label "Q10" at (7.6500, -0.2500) to layer `metal2_conn'.
+  info: Assign pin label "Q9" at (8.9300, -0.2475) to layer `metal2_conn'.
+  info: Assign pin label "Q8" at (10.2100, -0.2450) to layer `metal2_conn'.
+  info: Assign pin label "Q7" at (11.4900, -0.2475) to layer `metal2_conn'.
+  info: Assign pin label "Q6" at (12.7700, -0.2500) to layer `metal2_conn'.
+  info: Assign pin label "Q5" at (14.0500, -0.2475) to layer `metal2_conn'.
+  info: Assign pin label "Q4" at (15.3300, -0.2450) to layer `metal2_conn'.
+  info: Assign pin label "Q3" at (16.6100, -0.2475) to layer `metal2_conn'.
+  info: Assign pin label "Q2" at (17.8900, -0.2450) to layer `metal2_conn'.
+  info: Assign pin label "Q1" at (19.1700, -0.2450) to layer `metal2_conn'.
+  info: Assign pin label "Q0" at (20.4500, -0.2425) to layer `metal2_conn'.
+  info: Assign pin label "VDD" at (-1.8275, 0.9600) to layer `metal1_conn'.
+  info: Assign pin label "VSS" at (-1.8275, 1.7600) to layer `metal1_conn'.
+
+ Label in cell 'clock_divider_xor layout ECE482final_cadence':
+  info: Assign pin label "CLK1pt6G" at (1.1325, 1.5125) to layer `poly_conn'.
+  info: Assign pin label "CLK1pt6G_b" at (2.3525, 1.5125) to layer `poly_conn'.
+  info: Assign pin label "CLK100M_b" at (0.3450, 2.5050) to layer `metal2_conn'.
+  info: Assign pin label "CLK100M" at (4.2200, 2.5050) to layer `metal2_conn'.
+  info: Assign pin label "VSS" at (0.2100, 0.0300) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.2475, 1.4550) to layer `metal1_conn'.
+  info: Assign net label "B_xor2_s4f2__avC_8" at (13.3800, 2.5000) to layer `metal1_conn'.
+  info: Assign net label "A_xor2_s4f2__avC_8" at (12.8650, 2.5200) to layer `metal1_conn'.
+  info: Assign net label "out_xor2_s4f2__avC_8" at (11.3050, 2.5000) to layer `metal2_conn'.
+
+ Label in cell 'serializer_verticle layout ECE482final_cadence':
+  info: Assign pin label "Qprbs" at (1.4150, 1.4200) to layer `metal3_conn'.
+  info: Assign pin label "VSS" at (0.5350, -0.7400) to layer `metal1_conn'.
+  info: Assign pin label "CLK1pt6G_b" at (0.9375, -0.8600) to layer `metal1_conn'.
+  info: Assign pin label "CLK1pt6G" at (1.5675, -0.8600) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.5375, 0.2500) to layer `metal1_conn'.
+  info: Assign pin label "CLK100M" at (1.3150, 0.3800) to layer `metal1_conn'.
+  info: Assign pin label "CLK100M_b" at (1.1100, 1.3850) to layer `metal1_conn'.
+  info: Assign pin label "out" at (1.6225, 0.9500) to layer `metal1_conn'.
+  info: Assign net label "G_nmos1v_avC_60" at (0.7375, -0.7250) to layer `poly_conn'.
+
+ Label in cell 'clock_serializer layout ECE482final_cadence':
+  info: Assign pin label "EN_b" at (-0.4775, 7.5000) to layer `poly_conn'.
+  info: Assign pin label "EN" at (-0.2700, 7.3775) to layer `poly_conn'.
+  info: Assign pin label "rst_b" at (-1.9050, 10.6400) to layer `metal5_conn'.
+  info: Assign pin label "CLK1pt6G" at (-3.5600, 1.9150) to layer `metal4_conn'.
+  info: Assign pin label "OUT" at (20.9800, 4.5900) to layer `metal2_conn'.
+  info: Assign pin label "VSS" at (0.0250, 0.0300) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.3025, 1.4550) to layer `metal1_conn'.
+  info: Assign pin label "rst" at (-1.3500, 10.3300) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
+
+***** Begin Label Report *****
+
+ Label in cell 'xor2 layout ECE482final_cadence':
+  info: Assign pin label "VSS" at (0.0275, 0.0100) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.0275, 0.8100) to layer `metal1_conn'.
+  info: Assign pin label "out" at (1.4400, 0.1025) to layer `metal1_conn'.
+  info: Assign pin label "A" at (1.6875, 0.1800) to layer `metal1_conn'.
+  info: Assign pin label "B" at (1.5800, 0.8325) to layer `metal1_conn'.
+
+ Label in cell 'xor2_VAR1 layout ECE482final_cadence':
+  info: Assign pin label "VSS" at (0.0275, 0.0100) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.0275, 0.8100) to layer `metal1_conn'.
+  info: Assign pin label "out" at (1.4400, 0.1025) to layer `metal1_conn'.
+  info: Assign pin label "A" at (1.6875, 0.1800) to layer `metal1_conn'.
+  info: Assign pin label "B" at (1.5800, 0.8325) to layer `metal1_conn'.
+
+ Label in cell 'inv_s4f16 layout ECE482final_cadence':
+  info: Assign pin label "in" at (0.2325, 0.3475) to layer `poly_conn'.
+  info: Assign pin label "VSS" at (-0.1000, -0.3300) to layer `metal1_conn'.
+  info: Assign pin label "out" at (0.3350, 0.3300) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (-0.1000, 1.5100) to layer `metal1_conn'.
+
+ Label in cell 'inv_s2f2_nowell layout ECE482final_cadence':
+  info: Assign pin label "in" at (0.2325, 0.7375) to layer `poly_conn'.
+  info: Assign pin label "out" at (0.3350, 0.3300) to layer `metal1_conn'.
+  info: Assign net label "S_pmos1v_avC_6" at (0.1300, 0.7000) to layer `metal1_conn'.
+  info: Assign net label "S_nmos1v_avC_31" at (0.1300, 0.1200) to layer `metal1_conn'.
+
+ Label in cell 'c2mos_register_rst layout ECE482final_cadence':
+  info: Assign pin label "rst" at (0.6325, 2.1475) to layer `poly_conn'.
+  info: Assign pin label "CLK_b" at (0.4325, -0.1100) to layer `metal1_conn'.
+  info: Assign pin label "CLK" at (1.0625, -0.1100) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.0400, 1.0000) to layer `metal1_conn'.
+  info: Assign pin label "Q" at (1.2600, 0.4500) to layer `metal1_conn'.
+  info: Assign pin label "rst_b" at (0.8300, 1.1300) to layer `metal1_conn'.
+  info: Assign pin label "D" at (0.9300, 1.8600) to layer `metal1_conn'.
+  info: Assign pin label "VSS" at (1.1650, 2.0100) to layer `metal1_conn'.
+  info: Assign net label "S_nmos1v_avC_32" at (0.1300, 0.1600) to layer `metal1_conn'.
+
+ Label in cell 'c2mos_register_nowell_2s2f layout ECE482final_cadence':
+  info: Assign pin label "CLK" at (0.8975, 0.9850) to layer `poly_conn'.
+  info: Assign pin label "CLK_b" at (2.1175, 0.9850) to layer `poly_conn'.
+  info: Assign pin label "Q" at (2.2200, 0.2525) to layer `metal1_conn'.
+  info: Assign net label "S_nmos1v_avC_44" at (0.1850, -0.0600) to layer `metal1_conn'.
+  info: Assign net label "S_pmos1v_avC_48" at (0.1850, 0.6700) to layer `metal1_conn'.
+  info: Assign net label "G_nmos1v_avC_44" at (0.2875, -0.2550) to layer `poly_conn'.
+
+ Label in cell 'c2mos_register_2s2f layout ECE482final_cadence':
+  info: Assign pin label "CLK" at (0.8975, 0.9850) to layer `poly_conn'.
+  info: Assign pin label "CLK_b" at (2.1175, 0.9850) to layer `poly_conn'.
+  info: Assign pin label "VSS" at (-0.0850, -0.3300) to layer `metal1_conn'.
+  info: Assign pin label "D" at (-0.0200, 0.2450) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (-0.0850, 1.0950) to layer `metal1_conn'.
+  info: Assign pin label "Q" at (2.2200, 0.2525) to layer `metal1_conn'.
+
+ Label in cell 'pmos1v layout gpdk045 fingers=2 fw=9.6e-07 in1=I2':
+  info: Assign pin label "G" at (0.0225, -0.0750) to layer `poly_conn'.
+  info: Assign pin label "G" at (0.2275, -0.0750) to layer `poly_conn'.
+  info: Nets C5 and C4 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.2275, -0.0750) renamed G;1.
+  info: Assign pin label "G" at (0.0225, 1.0350) to layer `poly_conn'.
+  info: Assign pin label "G" at (0.2275, 1.0350) to layer `poly_conn'.
+  info: Nets C5 and C4 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.2275, 1.0350) renamed G;1.
+  info: Assign pin label "S" at (-0.0800, 0.4800) to layer `metal1_conn'.
+  info: Assign pin label "D" at (0.1250, 0.4800) to layer `metal1_conn'.
+  info: Assign pin label "S" at (0.3300, 0.4800) to layer `metal1_conn'.
+  info: Nets C3 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (0.3300, 0.4800) renamed S;1.
+
+ Label in cell 'nmos1v layout gpdk045 fingers=2 fw=4.8e-07 in1=I1':
+  info: Assign pin label "G" at (0.0225, -0.0750) to layer `poly_conn'.
+  info: Assign pin label "G" at (0.2275, -0.0750) to layer `poly_conn'.
+  info: Nets C5 and C4 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.2275, -0.0750) renamed G;1.
+  info: Assign pin label "G" at (0.0225, 0.5550) to layer `poly_conn'.
+  info: Assign pin label "G" at (0.2275, 0.5550) to layer `poly_conn'.
+  info: Nets C5 and C4 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.2275, 0.5550) renamed G;1.
+  info: Assign pin label "S" at (-0.0800, 0.2400) to layer `metal1_conn'.
+  info: Assign pin label "D" at (0.1250, 0.2400) to layer `metal1_conn'.
+  info: Assign pin label "S" at (0.3300, 0.2400) to layer `metal1_conn'.
+  info: Nets C3 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (0.3300, 0.2400) renamed S;1.
+
+ Label in cell 'nmos1v layout gpdk045 fingers=16 fw=4.8e-07 in1=I1':
+  info: Assign pin label "G" at (0.0225, -0.0750) to layer `poly_conn'.
+  info: Assign pin label "G" at (0.2275, -0.0750) to layer `poly_conn'.
+  info: Nets C19 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.2275, -0.0750) renamed G;1.
+  info: Assign pin label "G" at (0.4325, -0.0750) to layer `poly_conn'.
+  info: Nets C20 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.4325, -0.0750) renamed G;2.
+  info: Assign pin label "G" at (0.6375, -0.0750) to layer `poly_conn'.
+  info: Nets C21 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.6375, -0.0750) renamed G;3.
+  info: Assign pin label "G" at (0.0225, 0.5550) to layer `poly_conn'.
+  info: Assign pin label "G" at (0.8425, -0.0750) to layer `poly_conn'.
+  info: Nets C22 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.8425, -0.0750) renamed G;4.
+  info: Assign pin label "G" at (0.2275, 0.5550) to layer `poly_conn'.
+  info: Nets C19 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.2275, 0.5550) renamed G;1.
+  info: Assign pin label "G" at (1.0475, -0.0750) to layer `poly_conn'.
+  info: Nets C23 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.0475, -0.0750) renamed G;5.
+  info: Assign pin label "G" at (0.4325, 0.5550) to layer `poly_conn'.
+  info: Nets C20 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.4325, 0.5550) renamed G;2.
+  info: Assign pin label "G" at (1.2525, -0.0750) to layer `poly_conn'.
+  info: Nets C24 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.2525, -0.0750) renamed G;6.
+  info: Assign pin label "G" at (0.6375, 0.5550) to layer `poly_conn'.
+  info: Nets C21 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.6375, 0.5550) renamed G;3.
+  info: Assign pin label "G" at (1.4575, -0.0750) to layer `poly_conn'.
+  info: Nets C25 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.4575, -0.0750) renamed G;7.
+  info: Assign pin label "G" at (0.8425, 0.5550) to layer `poly_conn'.
+  info: Nets C22 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (0.8425, 0.5550) renamed G;4.
+  info: Assign pin label "G" at (1.6625, -0.0750) to layer `poly_conn'.
+  info: Nets C26 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.6625, -0.0750) renamed G;8.
+  info: Assign pin label "G" at (1.0475, 0.5550) to layer `poly_conn'.
+  info: Nets C23 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.0475, 0.5550) renamed G;5.
+  info: Assign pin label "G" at (1.8675, -0.0750) to layer `poly_conn'.
+  info: Nets C27 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.8675, -0.0750) renamed G;9.
+  info: Assign pin label "G" at (1.2525, 0.5550) to layer `poly_conn'.
+  info: Nets C24 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.2525, 0.5550) renamed G;6.
+  info: Assign pin label "G" at (2.0725, -0.0750) to layer `poly_conn'.
+  info: Nets C28 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.0725, -0.0750) renamed G;10.
+  info: Assign pin label "G" at (1.4575, 0.5550) to layer `poly_conn'.
+  info: Nets C25 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.4575, 0.5550) renamed G;7.
+  info: Assign pin label "G" at (2.2775, -0.0750) to layer `poly_conn'.
+  info: Nets C29 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.2775, -0.0750) renamed G;11.
+  info: Assign pin label "G" at (1.6625, 0.5550) to layer `poly_conn'.
+  info: Nets C26 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.6625, 0.5550) renamed G;8.
+  info: Assign pin label "G" at (2.4825, -0.0750) to layer `poly_conn'.
+  info: Nets C30 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.4825, -0.0750) renamed G;12.
+  info: Assign pin label "G" at (1.8675, 0.5550) to layer `poly_conn'.
+  info: Nets C27 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (1.8675, 0.5550) renamed G;9.
+  info: Assign pin label "G" at (2.6875, -0.0750) to layer `poly_conn'.
+  info: Nets C31 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.6875, -0.0750) renamed G;13.
+  info: Assign pin label "G" at (2.0725, 0.5550) to layer `poly_conn'.
+  info: Nets C28 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.0725, 0.5550) renamed G;10.
+  info: Assign pin label "G" at (2.8925, -0.0750) to layer `poly_conn'.
+  info: Nets C32 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.8925, -0.0750) renamed G;14.
+  info: Assign pin label "G" at (2.2775, 0.5550) to layer `poly_conn'.
+  info: Nets C29 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.2775, 0.5550) renamed G;11.
+  info: Assign pin label "G" at (3.0975, -0.0750) to layer `poly_conn'.
+  info: Nets C33 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (3.0975, -0.0750) renamed G;15.
+  info: Assign pin label "G" at (2.4825, 0.5550) to layer `poly_conn'.
+  info: Nets C30 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.4825, 0.5550) renamed G;12.
+  info: Assign pin label "G" at (2.6875, 0.5550) to layer `poly_conn'.
+  info: Nets C31 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.6875, 0.5550) renamed G;13.
+  info: Assign pin label "G" at (2.8925, 0.5550) to layer `poly_conn'.
+  info: Nets C32 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (2.8925, 0.5550) renamed G;14.
+  info: Assign pin label "G" at (3.0975, 0.5550) to layer `poly_conn'.
+  info: Nets C33 and C18 are associated with the same label "G". They must be joined.
+        Net label "G" at (3.0975, 0.5550) renamed G;15.
+  info: Assign pin label "S" at (-0.0800, 0.2400) to layer `metal1_conn'.
+  info: Assign pin label "D" at (0.1250, 0.2400) to layer `metal1_conn'.
+  info: Assign pin label "S" at (0.3300, 0.2400) to layer `metal1_conn'.
+  info: Nets C3 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (0.3300, 0.2400) renamed S;1.
+  info: Assign pin label "D" at (0.5350, 0.2400) to layer `metal1_conn'.
+  info: Nets C4 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (0.5350, 0.2400) renamed D;1.
+  info: Assign pin label "S" at (0.7400, 0.2400) to layer `metal1_conn'.
+  info: Nets C5 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (0.7400, 0.2400) renamed S;2.
+  info: Assign pin label "D" at (0.9450, 0.2400) to layer `metal1_conn'.
+  info: Nets C6 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (0.9450, 0.2400) renamed D;2.
+  info: Assign pin label "S" at (1.1500, 0.2400) to layer `metal1_conn'.
+  info: Nets C7 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (1.1500, 0.2400) renamed S;3.
+  info: Assign pin label "D" at (1.3550, 0.2400) to layer `metal1_conn'.
+  info: Nets C8 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (1.3550, 0.2400) renamed D;3.
+  info: Assign pin label "S" at (1.5600, 0.2400) to layer `metal1_conn'.
+  info: Nets C9 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (1.5600, 0.2400) renamed S;4.
+  info: Assign pin label "D" at (1.7650, 0.2400) to layer `metal1_conn'.
+  info: Nets C10 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (1.7650, 0.2400) renamed D;4.
+  info: Assign pin label "S" at (1.9700, 0.2400) to layer `metal1_conn'.
+  info: Nets C11 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (1.9700, 0.2400) renamed S;5.
+  info: Assign pin label "D" at (2.1750, 0.2400) to layer `metal1_conn'.
+  info: Nets C12 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (2.1750, 0.2400) renamed D;5.
+  info: Assign pin label "S" at (2.3800, 0.2400) to layer `metal1_conn'.
+  info: Nets C13 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (2.3800, 0.2400) renamed S;6.
+  info: Assign pin label "D" at (2.5850, 0.2400) to layer `metal1_conn'.
+  info: Nets C14 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (2.5850, 0.2400) renamed D;6.
+  info: Assign pin label "S" at (2.7900, 0.2400) to layer `metal1_conn'.
+  info: Nets C15 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (2.7900, 0.2400) renamed S;7.
+  info: Assign pin label "D" at (2.9950, 0.2400) to layer `metal1_conn'.
+  info: Nets C16 and C2 are associated with the same label "D". They must be joined.
+        Net label "D" at (2.9950, 0.2400) renamed D;7.
+  info: Assign pin label "S" at (3.2000, 0.2400) to layer `metal1_conn'.
+  info: Nets C17 and C1 are associated with the same label "S". They must be joined.
+        Net label "S" at (3.2000, 0.2400) renamed S;8.
+
+ Label in cell 'prbs_mux_blk layout ECE482final_cadence':
+  info: Assign pin label "EN_b" at (0.9575, 2.5875) to layer `poly_conn'.
+  info: Assign pin label "EN" at (1.1625, 2.4475) to layer `poly_conn'.
+  info: Assign pin label "OUT0" at (1.5900, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT1" at (2.8700, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT2" at (4.1500, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT3" at (5.4300, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT4" at (6.7100, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT5" at (7.9900, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT6" at (9.2700, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT7" at (10.5500, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT8" at (11.8300, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT9" at (13.1100, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT10" at (14.3900, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT11" at (15.6700, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT12" at (16.9500, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT13" at (18.2300, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT14" at (19.5100, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "OUT15" at (20.7900, 1.4075) to layer `metal3_conn'.
+  info: Assign pin label "PRBS0" at (0.7650, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS1" at (2.0450, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS2" at (3.3250, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS3" at (4.6050, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS4" at (5.8850, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS5" at (7.1650, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS6" at (8.4450, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS7" at (9.7250, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS8" at (11.0050, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS9" at (12.2850, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS10" at (13.5650, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS11" at (14.8450, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS12" at (16.1250, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS13" at (17.4050, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS14" at (18.6850, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "PRBS15" at (19.9650, 2.6525) to layer `metal2_conn'.
+  info: Assign pin label "VSS" at (0.6300, 1.4700) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.6300, 2.4600) to layer `metal1_conn'.
+
+ Label in cell 'prbs layout ECE482final_cadence':
+  info: Assign pin label "rst" at (0.6325, 2.3075) to layer `poly_conn'.
+  info: Assign pin label "rst_b" at (0.7725, 1.4825) to layer `metal5_conn'.
+  info: Assign pin label "CLK_b" at (0.0450, 0.0100) to layer `metal4_conn'.
+  info: Assign pin label "CLK" at (-1.7975, -0.1600) to layer `metal3_conn'.
+  info: Assign pin label "Q15" at (1.2500, -0.2450) to layer `metal2_conn'.
+  info: Assign pin label "Q14" at (2.5300, -0.2450) to layer `metal2_conn'.
+  info: Assign pin label "Q13" at (3.8100, -0.2475) to layer `metal2_conn'.
+  info: Assign pin label "Q12" at (5.0900, -0.2475) to layer `metal2_conn'.
+  info: Assign pin label "Q11" at (6.3700, -0.2475) to layer `metal2_conn'.
+  info: Assign pin label "Q10" at (7.6500, -0.2500) to layer `metal2_conn'.
+  info: Assign pin label "Q9" at (8.9300, -0.2475) to layer `metal2_conn'.
+  info: Assign pin label "Q8" at (10.2100, -0.2450) to layer `metal2_conn'.
+  info: Assign pin label "Q7" at (11.4900, -0.2475) to layer `metal2_conn'.
+  info: Assign pin label "Q6" at (12.7700, -0.2500) to layer `metal2_conn'.
+  info: Assign pin label "Q5" at (14.0500, -0.2475) to layer `metal2_conn'.
+  info: Assign pin label "Q4" at (15.3300, -0.2450) to layer `metal2_conn'.
+  info: Assign pin label "Q3" at (16.6100, -0.2475) to layer `metal2_conn'.
+  info: Assign pin label "Q2" at (17.8900, -0.2450) to layer `metal2_conn'.
+  info: Assign pin label "Q1" at (19.1700, -0.2450) to layer `metal2_conn'.
+  info: Assign pin label "Q0" at (20.4500, -0.2425) to layer `metal2_conn'.
+  info: Assign pin label "VDD" at (-1.8275, 0.9600) to layer `metal1_conn'.
+  info: Assign pin label "VSS" at (-1.8275, 1.7600) to layer `metal1_conn'.
+
+ Label in cell 'clock_divider_xor layout ECE482final_cadence':
+  info: Assign pin label "CLK1pt6G" at (1.1325, 1.5125) to layer `poly_conn'.
+  info: Assign pin label "CLK1pt6G_b" at (2.3525, 1.5125) to layer `poly_conn'.
+  info: Assign pin label "CLK100M_b" at (0.3450, 2.5050) to layer `metal2_conn'.
+  info: Assign pin label "CLK100M" at (4.2200, 2.5050) to layer `metal2_conn'.
+  info: Assign pin label "VSS" at (0.2100, 0.0300) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.2475, 1.4550) to layer `metal1_conn'.
+  info: Assign net label "B_xor2_s4f2__avC_8" at (13.3800, 2.5000) to layer `metal1_conn'.
+  info: Assign net label "A_xor2_s4f2__avC_8" at (12.8650, 2.5200) to layer `metal1_conn'.
+  info: Assign net label "out_xor2_s4f2__avC_8" at (11.3050, 2.5000) to layer `metal2_conn'.
+
+ Label in cell 'serializer_verticle layout ECE482final_cadence':
+  info: Assign pin label "Qprbs" at (1.4150, 1.4200) to layer `metal3_conn'.
+  info: Assign pin label "VSS" at (0.5350, -0.7400) to layer `metal1_conn'.
+  info: Assign pin label "CLK1pt6G_b" at (0.9375, -0.8600) to layer `metal1_conn'.
+  info: Assign pin label "CLK1pt6G" at (1.5675, -0.8600) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.5375, 0.2500) to layer `metal1_conn'.
+  info: Assign pin label "CLK100M" at (1.3150, 0.3800) to layer `metal1_conn'.
+  info: Assign pin label "CLK100M_b" at (1.1100, 1.3850) to layer `metal1_conn'.
+  info: Assign pin label "out" at (1.6225, 0.9500) to layer `metal1_conn'.
+  info: Assign net label "G_nmos1v_avC_60" at (0.7375, -0.7250) to layer `poly_conn'.
+
+ Label in cell 'clock_serializer layout ECE482final_cadence':
+  info: Assign pin label "EN_b" at (-0.4775, 7.5000) to layer `poly_conn'.
+  info: Assign pin label "EN" at (-0.2700, 7.3775) to layer `poly_conn'.
+  info: Assign pin label "rst_b" at (-1.9050, 10.6400) to layer `metal5_conn'.
+  info: Assign pin label "CLK1pt6G" at (-3.5600, 1.9150) to layer `metal4_conn'.
+  info: Assign pin label "OUT" at (20.9800, 4.5900) to layer `metal2_conn'.
+  info: Assign pin label "VSS" at (0.0250, 0.0300) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.3025, 1.4550) to layer `metal1_conn'.
+  info: Assign pin label "rst" at (-1.3500, 10.3300) to layer `metal1_conn'.
+
+***** End of Label Report *****
+

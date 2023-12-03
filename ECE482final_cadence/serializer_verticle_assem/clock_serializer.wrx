@@ -1,0 +1,6 @@
+*WARNING* 3 same-label  warnings found in cell 'pmos1v layout gpdk045 fingers=2 fw=9.6e-07 in1=I2'.
+*WARNING* 3 same-label  warnings found in cell 'nmos1v layout gpdk045 fingers=2 fw=4.8e-07 in1=I1'.
+*WARNING* 45 same-label  warnings found in cell 'nmos1v layout gpdk045 fingers=16 fw=4.8e-07 in1=I1'.
+*WARNING* 3 same-label  warnings found in cell 'pmos1v layout gpdk045 fingers=2 fw=9.6e-07 in1=I2'.
+*WARNING* 3 same-label  warnings found in cell 'nmos1v layout gpdk045 fingers=2 fw=4.8e-07 in1=I1'.
+*WARNING* 45 same-label  warnings found in cell 'nmos1v layout gpdk045 fingers=16 fw=4.8e-07 in1=I1'.

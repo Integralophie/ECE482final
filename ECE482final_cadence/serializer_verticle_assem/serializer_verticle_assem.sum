@@ -5,7 +5,7 @@
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:22 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
 
-run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Sat Nov 25 17:21:58 2023
+run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Sat Dec  2 19:05:21 2023
 
 Echoing run specific file...
     ;----------------------------------------------------------------------------
@@ -296,7 +296,7 @@ Echoing run specific file...
                   Time Summary - Database
 
 reading DFII data. . . .      0 cpu      0 elap  467.3M virt       0 pf
-LVS preprocessing. . . .      0 cpu      2 elap  100.8M virt       0 pf
+LVS preprocessing. . . .      0 cpu      1 elap  100.8M virt       0 pf
 duplicate inst removal .      0 cpu      0 elap  100.8M virt       0 pf
 cell boundary layer. . .      0 cpu      0 elap  100.8M virt       0 pf
 small cell flattening. .      0 cpu      0 elap  103.2M virt       0 pf
@@ -319,7 +319,7 @@ duplicate inst removal .      0 cpu      0 elap  105.7M virt       0 pf
 duplicate cell removal .      0 cpu      0 elap  105.7M virt       0 pf
 final VDB processing . .      0 cpu      0 elap  105.7M virt       0 pf
 -----------------------------------------------------------------------
-TOTALS (secs). . . . . .      0 cpu      2 elap  467.3M virt       0 pf
+TOTALS (secs). . . . . .      0 cpu      1 elap  467.3M virt       0 pf
 
 
 ************************************************************************
@@ -379,7 +379,7 @@ TOTALS (secs). . . . . .      0 cpu      2 elap  467.3M virt       0 pf
 
  ;# 14
     Metal2 = geomOr( Metal2 ) 
-    cpu: 0.0   elapsed: 0   virtual: 128M   task sum: 112
+    cpu: 0.0   elapsed: 0   virtual: 128M   task sum: 113
 
  ;# 15
     Metal2_pin = geomOr( Metal2_pin ) 
@@ -387,7 +387,7 @@ TOTALS (secs). . . . . .      0 cpu      2 elap  467.3M virt       0 pf
 
  ;# 16
     Metal2 = geomOr( Metal2 Metal2_pin ) 
-    cpu: 0.0   elapsed: 0   virtual: 128M   task sum: 112
+    cpu: 0.0   elapsed: 0   virtual: 128M   task sum: 113
 
  ;# 17
     Metal3 = geomOr( Metal3 ) 
@@ -831,7 +831,7 @@ TOTALS (secs). . . . . .      0 cpu      2 elap  467.3M virt       0 pf
 
  ;# 127
     metal2_conn = geomAndNot( Metal2 M2Resdum ) 
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 112
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 113
 
  ;# 128
     dataReduction( metal2_conn ) 
@@ -839,7 +839,7 @@ TOTALS (secs). . . . . .      0 cpu      2 elap  467.3M virt       0 pf
 
  ;# 129
  ;  region( metal2_conn )
-    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 112
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 113
 
  ;# 130
     metal3_conn = geomAndNot( Metal3 M3Resdum ) 
@@ -12158,7 +12158,7 @@ measureProximity2( T?2521 nwell_conn  5.000000 output( SCA_raw SCB_raw SCC_raw )
 Total cells checked = 1
 Total rules checked = 2906
 
-Run time =  5.00 seconds
+Run time =  4.00 seconds
 CPU time =  0.31 seconds
 VM HWM   =   467 Mbytes
 Disk HWM =     0 Mbytes

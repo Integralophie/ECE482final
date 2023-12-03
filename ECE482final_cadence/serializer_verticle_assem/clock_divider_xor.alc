@@ -1,0 +1,9 @@
+!<alc> v1 53
+0   12    0 inv_s4f16 layout ECE482final_cadence
+0   11    0 inv_s2f2_nowell layout ECE482final_cadence
+0   10    0 c2mos_register_nowell_2s2f layout ECE482final_cadence
+0    9    0 c2mos_register_2s2f layout ECE482final_cadence
+0    5    0 pmos1v layout gpdk045 fingers=2 fw=9.6e-07 in1=I2
+0    4    0 nmos1v layout gpdk045 fingers=16 fw=4.8e-07 in1=I1
+0    1    0 nmos1v layout gpdk045 fingers=2 fw=4.8e-07 in1=I1
+0   17    0 clock_divider_xor layout ECE482final_cadence

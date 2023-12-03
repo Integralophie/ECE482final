@@ -1,0 +1,16 @@
+!<alc> v1 53
+0   22    0 xor2 layout ECE482final_cadence
+0   29   22 xor2_VAR1 layout ECE482final_cadence
+0   16    0 inv_s4f16 layout ECE482final_cadence
+0   15    0 inv_s2f2_nowell layout ECE482final_cadence
+0   14    0 c2mos_register_rst layout ECE482final_cadence
+0   13    0 c2mos_register_nowell_2s2f layout ECE482final_cadence
+0   11    0 c2mos_register_2s2f layout ECE482final_cadence
+0    9    0 pmos1v layout gpdk045 fingers=2 fw=9.6e-07 in1=I2
+0    4    0 nmos1v layout gpdk045 fingers=2 fw=4.8e-07 in1=I1
+0    1    0 nmos1v layout gpdk045 fingers=16 fw=4.8e-07 in1=I1
+0   26    0 prbs_mux_blk layout ECE482final_cadence
+0   25    0 prbs layout ECE482final_cadence
+0   24    0 clock_divider_xor layout ECE482final_cadence
+0   21    0 serializer_verticle layout ECE482final_cadence
+0   28    0 clock_serializer layout ECE482final_cadence

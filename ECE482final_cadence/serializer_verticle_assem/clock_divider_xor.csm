@@ -1,0 +1,7 @@
+Schematic                                        | Layout                                        | Status
+-----------------------------------------------------------------------------------------------------------
+c2mos_register_2s2f schematic ECE482final_cadence| c2mos_register_2s2f layout ECE482final_cadence| matched
+inv_s4f16 schematic ECE482final_cadence          | inv_s4f16 layout ECE482final_cadence          | matched
+clock_divider_xor schematic ECE482final_cadence  | clock_divider_xor layout ECE482final_cadence  | matched
+
+Schematic and Layout Match

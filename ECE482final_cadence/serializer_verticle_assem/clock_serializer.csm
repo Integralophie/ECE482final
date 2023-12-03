@@ -1,0 +1,13 @@
+Schematic                                        | Layout                                        | Status
+-----------------------------------------------------------------------------------------------------------
+inv_s4f16 schematic ECE482final_cadence          | inv_s4f16 layout ECE482final_cadence          | matched
+prbs_mux_blk schematic ECE482final_cadence       | prbs_mux_blk layout ECE482final_cadence       | matched
+c2mos_register_rst schematic ECE482final_cadence | c2mos_register_rst layout ECE482final_cadence | matched
+xor2 schematic ECE482final_cadence               | xor2 layout ECE482final_cadence               | matched
+xor2 schematic ECE482final_cadence               | xor2_VAR1 layout ECE482final_cadence          | matched
+prbs schematic ECE482final_cadence               | prbs layout ECE482final_cadence               | matched
+c2mos_register_2s2f schematic ECE482final_cadence| c2mos_register_2s2f layout ECE482final_cadence| matched
+clock_divider_xor schematic ECE482final_cadence  | clock_divider_xor layout ECE482final_cadence  | matched
+clock_serializer schematic ECE482final_cadence   | clock_serializer layout ECE482final_cadence   | matched
+
+Schematic and Layout Match
