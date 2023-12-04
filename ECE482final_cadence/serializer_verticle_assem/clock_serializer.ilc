@@ -25,4 +25,4 @@ ECE482final_cadence clock_divider_xor layout 3716
 ECE482final_cadence prbs layout 8567
 ECE482final_cadence prbs_mux_blk layout 2221
 ECE482final_cadence serializer_verticle_assem layout 5602
-ECE482final_cadence clock_serializer layout 1662
+ECE482final_cadence clock_serializer layout 1764

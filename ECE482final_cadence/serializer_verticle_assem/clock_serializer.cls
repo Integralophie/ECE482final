@@ -206,7 +206,7 @@ Filter/Reduce statistics only. Network matching was OK.
 Pre-expand Statistics                      
 ======================                          Original       
 Cell/Device                               schematic  layout
-(inv_s4f16 schematic ECE482final_cadence, inv_s4f16) Cell           3       3
+(inv_s4f16 schematic ECE482final_cadence, inv_s4f16) Cell           2       2
 (prbs_mux_blk schematic ECE482final_cadence, prbs_mux_blk) Cell               1       1
 (prbs schematic ECE482final_cadence, prbs) Cell           1       1
 (clock_divider_xor schematic ECE482final_cadence, clock_divider_xor) Cell               1       1
@@ -215,13 +215,13 @@ Cell/Device                               schematic  layout
 (g45n1svt) MOS                                    0       4*
 (g45p1svt) MOS                                    0       4*
                                              ------  ------
-Total                                             7      29
+Total                                             6      28
 
 Reduce Statistics
 =================                               Original             Reduced
 Cell/Device                               schematic  layout   schematic  layout
 (clock_divider_xor) Cell                          1       1           1       1
-(inv_s4f16) Cell                                  3       3           3       3
+(inv_s4f16) Cell                                  2       2           2       2
 (prbs) Cell                                       1       1           1       1
 (prbs_mux_blk) Cell                               1       1           1       1
 (g45n1svt) MOS                                   94      94          30      30
@@ -229,6 +229,6 @@ Cell/Device                               schematic  layout   schematic  layout
 (g45n1svt:SerMos2#1) MosBlk                       -       -          32      32
 (g45p1svt:SerMos2#1) MosBlk                       -       -          32      32
                                              ------  ------      ------  ------
-Total                                           194     194         130     130
+Total                                           193     193         129     129
 
 Schematic and Layout Match

@@ -1,0 +1,38 @@
+#
+# OPTION COMMAND FILE created by Cadence Quantus Extraction Version 21.1.0-p101 from CCL
+#
+capacitance \
+	 -decoupling_factor 1.0 \
+	 -ground_net "VSS"
+extract \
+	 -selection "all" \
+	 -type "c_only_decoupled"
+extraction_setup \
+	 -macro_cells_type "default" \
+	 -net_name_space "LAYOUT"
+input_db -type assura \
+	 -design_cell_name "clock_serializer layout ECE482final_cadence" \
+	 -directory_name "/home/yuwu9/ece482.work/ECE482final/ECE482final_cadence/serializer_verticle_assem" \
+	 -format "DFII" \
+	 -hierarchy_delimiter "/" \
+	 -run_name "clock_serializer"
+log_file \
+	 -file_name "/home/yuwu9/ece482.work/ECE482final/ECE482final_cadence/serializer_verticle_assem/qrc.clock_serializer.log"
+output_db -type spice \
+	 -device_finger_delimiter "@" \
+	 -hierarchy_delimiter "/" \
+	 -include_cap_model "false" \
+	 -include_parasitic_cap_model "false" \
+	 -include_parasitic_res_model "false" \
+	 -include_res_model "false" \
+	 -sub_node_char "#"
+output_setup \
+	 -directory_name "/home/yuwu9/ece482.work/ECE482final/ECE482final_cadence/serializer_verticle_assem" \
+	 -file_name "/home/yuwu9/ece482.work/gpdk045/clock_serializer.sp" \
+	 -net_name_space "SCHEMATIC" \
+	 -temporary_directory_name "clock_serializer"
+process_technology \
+	 -technology_directory \
+		"/class/ece482/gpdk045_v_5_0/assura/../qrc/typical"
+
+
