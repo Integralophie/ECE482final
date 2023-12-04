@@ -1,9 +1,11 @@
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:27 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
-run on eceb-2022-11.ews.illinois.edu at Sun Dec  3 18:07:07 2023
+run on eceb-2022-11.ews.illinois.edu at Sun Dec  3 21:52:28 2023
 
 Schematic                                        | Layout                                        | Status
 -----------------------------------------------------------------------------------------------------------
+inv_s8f8 schematic ECE482final_cadence           | inv_s8f8 layout ECE482final_cadence           | matched
+mux schematic ECE482final_cadence                | mux layout ECE482final_cadence                | matched
 inv_s4f16 schematic ECE482final_cadence          | inv_s4f16 layout ECE482final_cadence          | matched
 prbs_mux_blk schematic ECE482final_cadence       | prbs_mux_blk layout ECE482final_cadence       | matched
 c2mos_register_rst schematic ECE482final_cadence | c2mos_register_rst layout ECE482final_cadence | matched
@@ -12,6 +14,7 @@ xor2 schematic ECE482final_cadence               | xor2_VAR1 layout ECE482final_
 prbs schematic ECE482final_cadence               | prbs layout ECE482final_cadence               | matched
 c2mos_register_2s2f schematic ECE482final_cadence| c2mos_register_2s2f layout ECE482final_cadence| matched
 clock_divider_xor schematic ECE482final_cadence  | clock_divider_xor layout ECE482final_cadence  | matched
+deserializer_large schematic ECE482final_cadence | deserializer_large layout ECE482final_cadence | matched
 clock_serializer schematic ECE482final_cadence   | clock_serializer layout ECE482final_cadence   | matched
 
 Schematic and Layout Match

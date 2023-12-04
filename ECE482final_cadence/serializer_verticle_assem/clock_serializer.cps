@@ -1,6 +1,10 @@
                                                                                
 ; autoPinSwap() results for schematic network.
 
+swapPins("inv_s8f8" "")
+
+swapPins("mux" "")
+
 swapPins("inv_s4f16" "")
 
 swapPins("prbs_mux_blk" "(p (f PRBS1 OUT1) (f PRBS0 OUT0) (f PRBS2 OUT2) (f
@@ -17,3 +21,5 @@ swapPins("prbs" "")
 swapPins("c2mos_register_2s2f" "")
 
 swapPins("clock_divider_xor" "")
+
+swapPins("deserializer_large" "")

@@ -1,0 +1,28 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'decoder layout ECE482final_cadence':
+  info: Assign pin label "VSS" at (0.1200, 0.0300) to layer `metal1_conn'.
+  info: Assign pin label "out2" at (0.1350, 0.1800) to layer `metal1_conn'.
+  info: Assign pin label "S0_b" at (0.1200, 0.3400) to layer `metal1_conn'.
+  info: Assign pin label "S0" at (0.1200, 0.4700) to layer `metal1_conn'.
+  info: Assign pin label "out1" at (0.0975, 0.7800) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.1200, 1.0200) to layer `metal1_conn'.
+  info: Assign pin label "in" at (0.9525, 0.3400) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
+
+***** Begin Label Report *****
+
+ Label in cell 'decoder layout ECE482final_cadence':
+  info: Assign pin label "VSS" at (0.1200, 0.0300) to layer `metal1_conn'.
+  info: Assign pin label "out2" at (0.1350, 0.1800) to layer `metal1_conn'.
+  info: Assign pin label "S0_b" at (0.1200, 0.3400) to layer `metal1_conn'.
+  info: Assign pin label "S0" at (0.1200, 0.4700) to layer `metal1_conn'.
+  info: Assign pin label "out1" at (0.0975, 0.7800) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (0.1200, 1.0200) to layer `metal1_conn'.
+  info: Assign pin label "in" at (0.9525, 0.3400) to layer `metal1_conn'.
+
+***** End of Label Report *****
+

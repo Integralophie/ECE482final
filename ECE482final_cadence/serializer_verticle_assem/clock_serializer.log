@@ -6,14 +6,14 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:22 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
 
-run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Sun Dec  3 18:07:00 2023
+run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Sun Dec  3 21:52:21 2023
 
 
 Starting /software/cadence-2021-09/ASSURA41//tools.lnx86/assura/bin/aveng /home/yuwu9/ece482.work/ECE482final/ECE482final_cadence/serializer_verticle_assem/clock_serializer.rsf -exec1 -LVS -cdslib /home/yuwu9/ece482.work/gpdk045/cds.lib
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:22 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
 
-run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Sun Dec  3 18:07:00 2023
+run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Sun Dec  3 21:52:21 2023
 
  Summary Report: clock_serializer.sum
  RSF           : /home/yuwu9/ece482.work/ECE482final/ECE482final_cadence/serializer_verticle_assem/clock_serializer.rsf
@@ -26,15 +26,15 @@ run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/too
  Work Directory: /home/yuwu9/ece482.work/ECE482final/ECE482final_cadence/serializer_verticle_assem
  Operating Mode: Legacy Mode is Off
 
-2023/12/03 18:07:00 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2023/12/03 18:07:00 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2023/12/03 21:52:21 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/12/03 21:52:21 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Starting dfIIToVdb...
 Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
 @(#)$CDS: dfIIToVdb_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:26 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
 
-run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVdb on Sun Dec  3 18:07:01 2023
+run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVdb on Sun Dec  3 21:52:22 2023
 
 Loading gpdk045/libInit.il ...
 	Loading gpdk045/loadCxt.ile ... done!
@@ -62,8 +62,8 @@ Compiling rules...
 
 WARNING LVS Run detected.
 Non-legacy mode has been disabled for this LVS run
-2023/12/03 18:07:02 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2023/12/03 18:07:02 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2023/12/03 21:52:23 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/12/03 21:52:23 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 Checking out license for Assura_LVS
 *WARNING* Failed to obtain license for Assura_LVS
 No Assura license available.
@@ -82,8 +82,8 @@ Reading the design data...
 Finished dfIIToVdb.
 
 Building the VDB part 2 in background mode.
-2023/12/03 18:07:02 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2023/12/03 18:07:02 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2023/12/03 21:52:23 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/12/03 21:52:23 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Building tables for LVS Preprocessing in background mode.
 
@@ -102,7 +102,7 @@ Checking out license for Pegasus_LVS_SP
 Checking out license for Pegasus_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:27 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
-run on eceb-2022-11.ews.illinois.edu at Sun Dec  3 18:07:03 2023
+run on eceb-2022-11.ews.illinois.edu at Sun Dec  3 21:52:24 2023
 
 *************************************************************** 
 
@@ -120,7 +120,7 @@ Virtuoso Framework License (111) was checked out successfully. Total checkout ti
 @(#)$CDS: dfIIToVldb_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:26 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
 
-run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVldb on Sun Dec  3 18:07:04 2023
+run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVldb on Sun Dec  3 21:52:24 2023
 
 
 *************************************************************** 
@@ -190,20 +190,20 @@ Preprocessing layout network phase 1
  will be considered a dummy cell. The default binding for layout cell 'g45inda(IND)' will be broken.
 Preprocessing schematic network phase 2
 Preprocessing layout network phase 2
-cpu=0.00m  wall=0.02m  mem=83.22mb
+cpu=0.00m  wall=0.02m  mem=83.35mb
 
 Finished /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/nvn
 
 Executing: bulk = cellBoundary(root)
 
 Building the VDB part 3 in background mode.
-2023/12/03 18:07:04 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2023/12/03 18:07:04 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2023/12/03 21:52:25 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/12/03 21:52:25 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.04  elap: 4  pf: 0  in: 2816  out: 72  virt: 101M  phys: 601M
+cpu: 0.04  elap: 4  pf: 0  in: 2816  out: 72  virt: 101M  phys: 603M
 
-Running the Task Processor, 14 cells, 2906 steps...
+Running the Task Processor, 18 cells, 2906 steps...
 
 Top Cell is 'clock_serializer layout ECE482final_cadence'
 
@@ -715,8 +715,8 @@ Executing: SPK_T?479 = geomOverlap(ind10 GOOD_SPRL_SPK_CONN_T?471)
 
 Executing: geomConnect((via bp_tap Bondpad metal11_conn) (via via10_cap metal11_conn Cap...
      3 same-label  warnings found in cell 'pmos1v layout gpdk045 fingers=2 fw=9.6e-07 in1=I2'.
-     3 same-label  warnings found in cell 'nmos1v layout gpdk045 fingers=2 fw=4.8e-07 in1=I1'.
     45 same-label  warnings found in cell 'nmos1v layout gpdk045 fingers=16 fw=4.8e-07 in1=I1'.
+     3 same-label  warnings found in cell 'nmos1v layout gpdk045 fingers=2 fw=4.8e-07 in1=I1'.
  See the label report in "clock_serializer.erc" file for details.
 
 
@@ -734,8 +734,8 @@ Executing: geomStamp(Nburied nb_tap error)
 
 Executing: geomConnect((buttOrOver ind11 metal11_conn) (via ind_via_diva ind11 ind10) (v...
      3 same-label  warnings found in cell 'pmos1v layout gpdk045 fingers=2 fw=9.6e-07 in1=I2'.
-     3 same-label  warnings found in cell 'nmos1v layout gpdk045 fingers=2 fw=4.8e-07 in1=I1'.
     45 same-label  warnings found in cell 'nmos1v layout gpdk045 fingers=16 fw=4.8e-07 in1=I1'.
+     3 same-label  warnings found in cell 'nmos1v layout gpdk045 fingers=2 fw=4.8e-07 in1=I1'.
  See the label report in "clock_serializer.erc" file for details.
 
 
@@ -768,17 +768,21 @@ Executing: innerDiaValLyr_g45inda = _measureSIParameter((innerDia IND_SPIRAL_T?5
 Executing: extractMOS("g45n1svt" _nmos1v (poly_conn "G") (ndiff_conn "S" "D") (pwell "B"...
          4 'g45n1svt' created in cell 'xor2 layout ECE482final_cadence'.
          4 'g45n1svt' created in cell 'xor2_VAR1 layout ECE482final_cadence'.
+         2 'g45n1svt' created in cell 'inv_s4f2_nowell layout ECE482final_cadence'.
         16 'g45n1svt' created in cell 'inv_s4f16 layout ECE482final_cadence'.
          2 'g45n1svt' created in cell 'inv_s2f2_nowell layout ECE482final_cadence'.
          6 'g45n1svt' created in cell 'c2mos_register_rst layout ECE482final_cadence'.
          8 'g45n1svt' created in cell 'c2mos_register_nowell_2s2f layout ECE482final_cadence'.
          8 'g45n1svt' created in cell 'c2mos_register_2s2f layout ECE482final_cadence'.
-         2 'g45n1svt' created in cell 'nmos1v layout gpdk045 fingers=2 fw=4.8e-07 in1=I1'.
         16 'g45n1svt' created in cell 'nmos1v layout gpdk045 fingers=16 fw=4.8e-07 in1=I1'.
+         2 'g45n1svt' created in cell 'nmos1v layout gpdk045 fingers=2 fw=4.8e-07 in1=I1'.
         32 'g45n1svt' created in cell 'prbs_mux_blk layout ECE482final_cadence'.
+         2 'g45n1svt' created in cell 'mux layout ECE482final_cadence'.
+         8 'g45n1svt' created in cell 'inv_s8f8 layout ECE482final_cadence'.
+        64 'g45n1svt' created in cell 'deserializer_large layout ECE482final_cadence'.
          8 'g45n1svt' created in cell 'clock_divider_xor layout ECE482final_cadence'.
          6 'g45n1svt' created in cell 'serializer_verticle layout ECE482final_cadence'.
-         4 'g45n1svt' created in cell 'clock_serializer layout ECE482final_cadence'.
+         7 'g45n1svt' created in cell 'clock_serializer layout ECE482final_cadence'.
 
 Executing: attachParameter(w "w" _nmos1v)
 
@@ -1109,6 +1113,7 @@ Executing: attachParameter(ps "ps" _nmoscap2v)
 Executing: extractMOS("g45p1svt" _pmos1v (poly_conn "G") (pdiff_conn "S" "D") (nwell_con...
          4 'g45p1svt' created in cell 'xor2 layout ECE482final_cadence'.
          4 'g45p1svt' created in cell 'xor2_VAR1 layout ECE482final_cadence'.
+         2 'g45p1svt' created in cell 'inv_s4f2_nowell layout ECE482final_cadence'.
         16 'g45p1svt' created in cell 'inv_s4f16 layout ECE482final_cadence'.
          2 'g45p1svt' created in cell 'inv_s2f2_nowell layout ECE482final_cadence'.
          6 'g45p1svt' created in cell 'c2mos_register_rst layout ECE482final_cadence'.
@@ -1116,9 +1121,12 @@ Executing: extractMOS("g45p1svt" _pmos1v (poly_conn "G") (pdiff_conn "S" "D") (n
          8 'g45p1svt' created in cell 'c2mos_register_2s2f layout ECE482final_cadence'.
          2 'g45p1svt' created in cell 'pmos1v layout gpdk045 fingers=2 fw=9.6e-07 in1=I2'.
         32 'g45p1svt' created in cell 'prbs_mux_blk layout ECE482final_cadence'.
-        26 'g45p1svt' created in cell 'clock_divider_xor layout ECE482final_cadence'.
+         2 'g45p1svt' created in cell 'mux layout ECE482final_cadence'.
+         8 'g45p1svt' created in cell 'inv_s8f8 layout ECE482final_cadence'.
+        64 'g45p1svt' created in cell 'deserializer_large layout ECE482final_cadence'.
+        24 'g45p1svt' created in cell 'clock_divider_xor layout ECE482final_cadence'.
          6 'g45p1svt' created in cell 'serializer_verticle layout ECE482final_cadence'.
-         4 'g45p1svt' created in cell 'clock_serializer layout ECE482final_cadence'.
+         7 'g45p1svt' created in cell 'clock_serializer layout ECE482final_cadence'.
 
 Executing: attachParameter(w "w" _pmos1v)
 
@@ -1785,12 +1793,12 @@ Executing: (saveInterconnect (npn_emit "Nimp"))
 Executing: (saveInterconnect (Nburied "Nburied"))
 
 Finished running rules. Task processor time in main process:
-cpu: 0.28  elap: 1  pf: 0  in: 0  out: 848  virt: 150M  phys: 819M
+cpu: 0.35  elap: 1  pf: 0  in: 0  out: 888  virt: 152M  phys: 832M
 
 No output post-processing: This is not a DRC run
 
 Finished building the persistent database.
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6480  virt: 155M  phys: 819M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6488  virt: 157M  phys: 832M
 
 
 *****  aveng terminated normally  *****
@@ -1802,14 +1810,14 @@ Starting /software/cadence-2021-09/ASSURA41//tools.lnx86/assura/bin/avrpt /home/
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:23 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
 
-run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/avrpt on Sun Dec  3 18:07:05 2023
+run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/avrpt on Sun Dec  3 21:52:26 2023
 
 
    Creating Error Database 'clock_serializer'...
 
    Reading VDB ...
-2023/12/03 18:07:05 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2023/12/03 18:07:05 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+2023/12/03 21:52:26 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/12/03 21:52:26 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
 --------------------------------------------------------------------------------
 Rule      Message                                    FlatCount     RealCount
 --------------------------------------------------------------------------------
@@ -2001,12 +2009,12 @@ Checking out license for Pegasus_LVS
 @(#)$CDS: avnx_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:23 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
 
-run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/avnx on Sun Dec  3 18:07:06 2023
+run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/avnx on Sun Dec  3 21:52:27 2023
 
 avnx started...
-2023/12/03 18:07:06 WARNING This OS does not appear to be a Cadence supported Linux configuration.
-2023/12/03 18:07:06 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
-cpu: 0.07  elap: 0  pf: 0  in: 0  out: 128  virt: 555M  phys: 945M
+2023/12/03 21:52:27 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/12/03 21:52:27 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+cpu: 0.06  elap: 0  pf: 0  in: 0  out: 176  virt: 555M  phys: 947M
 
 Run time =  0.00 seconds
 CPU time =  0.08 seconds
@@ -2014,7 +2022,7 @@ CPU time =  0.08 seconds
                   End of Summary Report
 
 ************************************************************************
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 13560  virt: 481M  phys: 945M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 13608  virt: 481M  phys: 948M
 ***** avnx terminated normally ***** 
 
 
@@ -2028,7 +2036,7 @@ Checking out license for Pegasus_LVS_SP
 Checking out license for Pegasus_LVS
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:27 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
-run on eceb-2022-11.ews.illinois.edu at Sun Dec  3 18:07:07 2023
+run on eceb-2022-11.ews.illinois.edu at Sun Dec  3 21:52:28 2023
 
 *************************************************************** 
 
@@ -2048,9 +2056,13 @@ Preprocessing layout network phase 1
 *WARNING* deleteCellPin - Unable to find cell 'g45inds'
 Preprocessing schematic network phase 2
 Preprocessing layout network phase 2
+Comparing inv_s8f8 schematic ECE482final_cadence vs inv_s8f8 layout ECE482final_cadence
+Comparing mux schematic ECE482final_cadence vs mux layout ECE482final_cadence
 Comparing inv_s4f16 schematic ECE482final_cadence vs inv_s4f16 layout ECE482final_cadence
 Comparing prbs_mux_blk schematic ECE482final_cadence vs prbs_mux_blk layout ECE482final_cadence
+ Expanding mux:  binding cell missing on layout.
 Comparing c2mos_register_rst schematic ECE482final_cadence vs c2mos_register_rst layout ECE482final_cadence
+ Expanding mux:  binding cell missing on layout.
 Comparing xor2 schematic ECE482final_cadence vs xor2 layout ECE482final_cadence
 Comparing xor2 schematic ECE482final_cadence vs xor2_VAR1 layout ECE482final_cadence
 Comparing prbs schematic ECE482final_cadence vs prbs layout ECE482final_cadence
@@ -2060,9 +2072,12 @@ Comparing clock_divider_xor schematic ECE482final_cadence vs clock_divider_xor l
  Expanding inv_s4f16: 2 schematic instances versus  1 layout.
  Expanding c2mos_register_2s2f: 2 layout instances versus  7 schematic.
  Expanding inv_s4f16: 1 layout instances versus  2 schematic.
+Comparing deserializer_large schematic ECE482final_cadence vs deserializer_large layout ECE482final_cadence
 Top cell  clock_serializer schematic ECE482final_cadence vs clock_serializer layout ECE482final_cadence
+ Expanding mux: 16 schematic instances versus  1 layout.
+ Expanding mux: 1 layout instances versus  16 schematic.
 Schematic and Layout Match
-cpu=0.00m  wall=0.00m  mem=85.03mb
+cpu=0.00m  wall=0.00m  mem=85.16mb
 
 Finished /software/cadence-2021-09/ASSURA41//tools.lnx86/assura/bin/nvn
 
@@ -2110,7 +2125,7 @@ Assura LVS terminated normally.
 
 
 
-Run ended: Sun Dec  3 18:07:09 2023
+Run ended: Sun Dec  3 21:52:30 2023
 
 *****  Assura terminated normally  *****
 
