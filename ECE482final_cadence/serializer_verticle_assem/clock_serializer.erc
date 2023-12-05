@@ -33,6 +33,14 @@
   info: Assign net label "S_pmos1v_avC_6" at (0.1300, 0.7000) to layer `metal1_conn'.
   info: Assign net label "S_nmos1v_avC_32" at (0.1300, 0.1200) to layer `metal1_conn'.
 
+ Label in cell 'c2mos_register_s2f1 layout ECE482final_cadence':
+  info: Assign net label "S_pmos1v_avC_33" at (0.3750, 1.0350) to layer `metal1_conn'.
+  info: Assign net label "D_pmos1v_avC_36" at (1.4150, 1.0350) to layer `metal1_conn'.
+  info: Assign net label "S_nmos1v_avC_37" at (0.3750, 0.2400) to layer `metal1_conn'.
+  info: Assign net label "G_pmos1v_avC_33" at (0.4775, 0.7200) to layer `poly_conn'.
+  info: Assign net label "G_pmos1v_avC_34" at (0.6825, 0.7200) to layer `poly_conn'.
+  info: Assign net label "G_pmos1v_avC_36" at (1.3125, 0.7200) to layer `poly_conn'.
+
  Label in cell 'c2mos_register_rst layout ECE482final_cadence':
   info: Assign pin label "rst" at (0.6325, 2.1475) to layer `poly_conn'.
   info: Assign pin label "CLK_b" at (0.4325, -0.1100) to layer `metal1_conn'.
@@ -42,15 +50,15 @@
   info: Assign pin label "rst_b" at (0.8300, 1.1300) to layer `metal1_conn'.
   info: Assign pin label "D" at (0.9300, 1.8600) to layer `metal1_conn'.
   info: Assign pin label "VSS" at (1.1650, 2.0100) to layer `metal1_conn'.
-  info: Assign net label "S_nmos1v_avC_33" at (0.1300, 0.1600) to layer `metal1_conn'.
+  info: Assign net label "S_nmos1v_avC_47" at (0.1300, 0.1600) to layer `metal1_conn'.
 
  Label in cell 'c2mos_register_nowell_2s2f layout ECE482final_cadence':
   info: Assign pin label "CLK" at (0.8975, 0.9850) to layer `poly_conn'.
   info: Assign pin label "CLK_b" at (2.1175, 0.9850) to layer `poly_conn'.
   info: Assign pin label "Q" at (2.2200, 0.2525) to layer `metal1_conn'.
-  info: Assign net label "S_nmos1v_avC_53" at (0.1850, -0.0600) to layer `metal1_conn'.
-  info: Assign net label "S_pmos1v_avC_57" at (0.1850, 0.6700) to layer `metal1_conn'.
-  info: Assign net label "G_nmos1v_avC_53" at (0.2875, -0.2550) to layer `poly_conn'.
+  info: Assign net label "S_nmos1v_avC_61" at (0.1850, -0.0600) to layer `metal1_conn'.
+  info: Assign net label "S_pmos1v_avC_65" at (0.1850, 0.6700) to layer `metal1_conn'.
+  info: Assign net label "G_nmos1v_avC_61" at (0.2875, -0.2550) to layer `poly_conn'.
 
  Label in cell 'c2mos_register_2s2f layout ECE482final_cadence':
   info: Assign pin label "CLK" at (0.8975, 0.9850) to layer `poly_conn'.
@@ -338,9 +346,9 @@
   info: Assign pin label "CLK100M" at (4.2200, 2.5050) to layer `metal2_conn'.
   info: Assign pin label "VSS" at (0.2100, 0.0300) to layer `metal1_conn'.
   info: Assign pin label "VDD" at (0.2475, 1.4550) to layer `metal1_conn'.
-  info: Assign net label "B_xor2_s4f2__avC_13" at (13.3800, 2.5000) to layer `metal1_conn'.
-  info: Assign net label "A_xor2_s4f2__avC_13" at (12.8650, 2.5200) to layer `metal1_conn'.
-  info: Assign net label "out_xor2_s4f2__avC_13" at (11.3050, 2.5000) to layer `metal2_conn'.
+  info: Assign net label "B_xor2_s4f2__avC_15" at (13.3800, 2.5000) to layer `metal1_conn'.
+  info: Assign net label "A_xor2_s4f2__avC_15" at (12.8650, 2.5200) to layer `metal1_conn'.
+  info: Assign net label "out_xor2_s4f2__avC_15" at (11.3050, 2.5000) to layer `metal2_conn'.
 
  Label in cell 'serializer_verticle layout ECE482final_cadence':
   info: Assign pin label "Qprbs" at (1.4150, 1.4200) to layer `metal3_conn'.
@@ -351,7 +359,7 @@
   info: Assign pin label "CLK100M" at (1.3150, 0.3800) to layer `metal1_conn'.
   info: Assign pin label "CLK100M_b" at (1.1100, 1.3850) to layer `metal1_conn'.
   info: Assign pin label "out" at (1.6225, 0.9500) to layer `metal1_conn'.
-  info: Assign net label "G_nmos1v_avC_73" at (0.7375, -0.7250) to layer `poly_conn'.
+  info: Assign net label "G_pmos1v_avC_81" at (0.7375, -0.1550) to layer `poly_conn'.
 
  Label in cell 'clock_serializer layout ECE482final_cadence':
   info: Assign pin label "EN_b" at (-0.4775, 7.5000) to layer `poly_conn'.
@@ -359,22 +367,22 @@
   info: Assign pin label "EXT_TX" at (20.6925, 1.0825) to layer `poly_conn'.
   info: Assign pin label "rst_b" at (-1.9050, 10.6400) to layer `metal5_conn'.
   info: Assign pin label "CLK1pt6G" at (-3.5600, 1.9150) to layer `metal4_conn'.
-  info: Assign pin label "OUT0" at (0.7450, -1.4775) to layer `metal2_conn'.
-  info: Assign pin label "OUT1" at (2.0250, -1.4775) to layer `metal2_conn'.
-  info: Assign pin label "OUT2" at (3.3050, -1.4800) to layer `metal2_conn'.
-  info: Assign pin label "OUT3" at (4.5850, -1.4800) to layer `metal2_conn'.
-  info: Assign pin label "OUT4" at (5.8650, -1.4825) to layer `metal2_conn'.
-  info: Assign pin label "OUT5" at (7.1450, -1.4800) to layer `metal2_conn'.
-  info: Assign pin label "OUT6" at (8.4225, -1.4825) to layer `metal2_conn'.
-  info: Assign pin label "OUT7" at (9.7050, -1.4850) to layer `metal2_conn'.
-  info: Assign pin label "OUT8" at (10.9850, -1.4800) to layer `metal2_conn'.
-  info: Assign pin label "OUT9" at (12.2650, -1.4825) to layer `metal2_conn'.
-  info: Assign pin label "OUT10" at (13.5450, -1.4825) to layer `metal2_conn'.
-  info: Assign pin label "OUT11" at (14.8250, -1.4825) to layer `metal2_conn'.
-  info: Assign pin label "OUT12" at (16.1050, -1.4825) to layer `metal2_conn'.
-  info: Assign pin label "OUT13" at (17.3850, -1.4800) to layer `metal2_conn'.
-  info: Assign pin label "OUT14" at (18.6650, -1.4825) to layer `metal2_conn'.
-  info: Assign pin label "OUT15" at (19.9450, -1.4825) to layer `metal2_conn'.
+  info: Assign pin label "OUT0" at (1.8800, -3.1775) to layer `metal2_conn'.
+  info: Assign pin label "OUT1" at (3.1600, -3.1775) to layer `metal2_conn'.
+  info: Assign pin label "OUT2" at (4.4400, -3.1800) to layer `metal2_conn'.
+  info: Assign pin label "OUT3" at (5.7200, -3.1800) to layer `metal2_conn'.
+  info: Assign pin label "OUT4" at (7.0000, -3.1825) to layer `metal2_conn'.
+  info: Assign pin label "OUT5" at (8.2800, -3.1800) to layer `metal2_conn'.
+  info: Assign pin label "OUT6" at (9.5575, -3.1825) to layer `metal2_conn'.
+  info: Assign pin label "OUT7" at (10.8400, -3.1850) to layer `metal2_conn'.
+  info: Assign pin label "OUT8" at (12.1200, -3.1800) to layer `metal2_conn'.
+  info: Assign pin label "OUT9" at (13.4000, -3.1825) to layer `metal2_conn'.
+  info: Assign pin label "OUT10" at (14.6800, -3.1825) to layer `metal2_conn'.
+  info: Assign pin label "OUT11" at (15.9600, -3.1825) to layer `metal2_conn'.
+  info: Assign pin label "OUT12" at (17.2400, -3.1825) to layer `metal2_conn'.
+  info: Assign pin label "OUT13" at (18.5200, -3.1800) to layer `metal2_conn'.
+  info: Assign pin label "OUT14" at (19.8000, -3.1825) to layer `metal2_conn'.
+  info: Assign pin label "OUT15" at (21.0800, -3.1825) to layer `metal2_conn'.
   info: Assign pin label "VSS" at (0.0250, 0.0300) to layer `metal1_conn'.
   info: Assign pin label "VDD" at (0.3025, 1.4550) to layer `metal1_conn'.
   info: Assign pin label "rst" at (-1.3500, 10.3300) to layer `metal1_conn'.
@@ -416,6 +424,14 @@
   info: Assign net label "S_pmos1v_avC_6" at (0.1300, 0.7000) to layer `metal1_conn'.
   info: Assign net label "S_nmos1v_avC_32" at (0.1300, 0.1200) to layer `metal1_conn'.
 
+ Label in cell 'c2mos_register_s2f1 layout ECE482final_cadence':
+  info: Assign net label "S_pmos1v_avC_33" at (0.3750, 1.0350) to layer `metal1_conn'.
+  info: Assign net label "D_pmos1v_avC_36" at (1.4150, 1.0350) to layer `metal1_conn'.
+  info: Assign net label "S_nmos1v_avC_37" at (0.3750, 0.2400) to layer `metal1_conn'.
+  info: Assign net label "G_pmos1v_avC_33" at (0.4775, 0.7200) to layer `poly_conn'.
+  info: Assign net label "G_pmos1v_avC_34" at (0.6825, 0.7200) to layer `poly_conn'.
+  info: Assign net label "G_pmos1v_avC_36" at (1.3125, 0.7200) to layer `poly_conn'.
+
  Label in cell 'c2mos_register_rst layout ECE482final_cadence':
   info: Assign pin label "rst" at (0.6325, 2.1475) to layer `poly_conn'.
   info: Assign pin label "CLK_b" at (0.4325, -0.1100) to layer `metal1_conn'.
@@ -425,15 +441,15 @@
   info: Assign pin label "rst_b" at (0.8300, 1.1300) to layer `metal1_conn'.
   info: Assign pin label "D" at (0.9300, 1.8600) to layer `metal1_conn'.
   info: Assign pin label "VSS" at (1.1650, 2.0100) to layer `metal1_conn'.
-  info: Assign net label "S_nmos1v_avC_33" at (0.1300, 0.1600) to layer `metal1_conn'.
+  info: Assign net label "S_nmos1v_avC_47" at (0.1300, 0.1600) to layer `metal1_conn'.
 
  Label in cell 'c2mos_register_nowell_2s2f layout ECE482final_cadence':
   info: Assign pin label "CLK" at (0.8975, 0.9850) to layer `poly_conn'.
   info: Assign pin label "CLK_b" at (2.1175, 0.9850) to layer `poly_conn'.
   info: Assign pin label "Q" at (2.2200, 0.2525) to layer `metal1_conn'.
-  info: Assign net label "S_nmos1v_avC_53" at (0.1850, -0.0600) to layer `metal1_conn'.
-  info: Assign net label "S_pmos1v_avC_57" at (0.1850, 0.6700) to layer `metal1_conn'.
-  info: Assign net label "G_nmos1v_avC_53" at (0.2875, -0.2550) to layer `poly_conn'.
+  info: Assign net label "S_nmos1v_avC_61" at (0.1850, -0.0600) to layer `metal1_conn'.
+  info: Assign net label "S_pmos1v_avC_65" at (0.1850, 0.6700) to layer `metal1_conn'.
+  info: Assign net label "G_nmos1v_avC_61" at (0.2875, -0.2550) to layer `poly_conn'.
 
  Label in cell 'c2mos_register_2s2f layout ECE482final_cadence':
   info: Assign pin label "CLK" at (0.8975, 0.9850) to layer `poly_conn'.
@@ -721,9 +737,9 @@
   info: Assign pin label "CLK100M" at (4.2200, 2.5050) to layer `metal2_conn'.
   info: Assign pin label "VSS" at (0.2100, 0.0300) to layer `metal1_conn'.
   info: Assign pin label "VDD" at (0.2475, 1.4550) to layer `metal1_conn'.
-  info: Assign net label "B_xor2_s4f2__avC_13" at (13.3800, 2.5000) to layer `metal1_conn'.
-  info: Assign net label "A_xor2_s4f2__avC_13" at (12.8650, 2.5200) to layer `metal1_conn'.
-  info: Assign net label "out_xor2_s4f2__avC_13" at (11.3050, 2.5000) to layer `metal2_conn'.
+  info: Assign net label "B_xor2_s4f2__avC_15" at (13.3800, 2.5000) to layer `metal1_conn'.
+  info: Assign net label "A_xor2_s4f2__avC_15" at (12.8650, 2.5200) to layer `metal1_conn'.
+  info: Assign net label "out_xor2_s4f2__avC_15" at (11.3050, 2.5000) to layer `metal2_conn'.
 
  Label in cell 'serializer_verticle layout ECE482final_cadence':
   info: Assign pin label "Qprbs" at (1.4150, 1.4200) to layer `metal3_conn'.
@@ -734,7 +750,7 @@
   info: Assign pin label "CLK100M" at (1.3150, 0.3800) to layer `metal1_conn'.
   info: Assign pin label "CLK100M_b" at (1.1100, 1.3850) to layer `metal1_conn'.
   info: Assign pin label "out" at (1.6225, 0.9500) to layer `metal1_conn'.
-  info: Assign net label "G_nmos1v_avC_73" at (0.7375, -0.7250) to layer `poly_conn'.
+  info: Assign net label "G_pmos1v_avC_81" at (0.7375, -0.1550) to layer `poly_conn'.
 
  Label in cell 'clock_serializer layout ECE482final_cadence':
   info: Assign pin label "EN_b" at (-0.4775, 7.5000) to layer `poly_conn'.
@@ -742,22 +758,22 @@
   info: Assign pin label "EXT_TX" at (20.6925, 1.0825) to layer `poly_conn'.
   info: Assign pin label "rst_b" at (-1.9050, 10.6400) to layer `metal5_conn'.
   info: Assign pin label "CLK1pt6G" at (-3.5600, 1.9150) to layer `metal4_conn'.
-  info: Assign pin label "OUT0" at (0.7450, -1.4775) to layer `metal2_conn'.
-  info: Assign pin label "OUT1" at (2.0250, -1.4775) to layer `metal2_conn'.
-  info: Assign pin label "OUT2" at (3.3050, -1.4800) to layer `metal2_conn'.
-  info: Assign pin label "OUT3" at (4.5850, -1.4800) to layer `metal2_conn'.
-  info: Assign pin label "OUT4" at (5.8650, -1.4825) to layer `metal2_conn'.
-  info: Assign pin label "OUT5" at (7.1450, -1.4800) to layer `metal2_conn'.
-  info: Assign pin label "OUT6" at (8.4225, -1.4825) to layer `metal2_conn'.
-  info: Assign pin label "OUT7" at (9.7050, -1.4850) to layer `metal2_conn'.
-  info: Assign pin label "OUT8" at (10.9850, -1.4800) to layer `metal2_conn'.
-  info: Assign pin label "OUT9" at (12.2650, -1.4825) to layer `metal2_conn'.
-  info: Assign pin label "OUT10" at (13.5450, -1.4825) to layer `metal2_conn'.
-  info: Assign pin label "OUT11" at (14.8250, -1.4825) to layer `metal2_conn'.
-  info: Assign pin label "OUT12" at (16.1050, -1.4825) to layer `metal2_conn'.
-  info: Assign pin label "OUT13" at (17.3850, -1.4800) to layer `metal2_conn'.
-  info: Assign pin label "OUT14" at (18.6650, -1.4825) to layer `metal2_conn'.
-  info: Assign pin label "OUT15" at (19.9450, -1.4825) to layer `metal2_conn'.
+  info: Assign pin label "OUT0" at (1.8800, -3.1775) to layer `metal2_conn'.
+  info: Assign pin label "OUT1" at (3.1600, -3.1775) to layer `metal2_conn'.
+  info: Assign pin label "OUT2" at (4.4400, -3.1800) to layer `metal2_conn'.
+  info: Assign pin label "OUT3" at (5.7200, -3.1800) to layer `metal2_conn'.
+  info: Assign pin label "OUT4" at (7.0000, -3.1825) to layer `metal2_conn'.
+  info: Assign pin label "OUT5" at (8.2800, -3.1800) to layer `metal2_conn'.
+  info: Assign pin label "OUT6" at (9.5575, -3.1825) to layer `metal2_conn'.
+  info: Assign pin label "OUT7" at (10.8400, -3.1850) to layer `metal2_conn'.
+  info: Assign pin label "OUT8" at (12.1200, -3.1800) to layer `metal2_conn'.
+  info: Assign pin label "OUT9" at (13.4000, -3.1825) to layer `metal2_conn'.
+  info: Assign pin label "OUT10" at (14.6800, -3.1825) to layer `metal2_conn'.
+  info: Assign pin label "OUT11" at (15.9600, -3.1825) to layer `metal2_conn'.
+  info: Assign pin label "OUT12" at (17.2400, -3.1825) to layer `metal2_conn'.
+  info: Assign pin label "OUT13" at (18.5200, -3.1800) to layer `metal2_conn'.
+  info: Assign pin label "OUT14" at (19.8000, -3.1825) to layer `metal2_conn'.
+  info: Assign pin label "OUT15" at (21.0800, -3.1825) to layer `metal2_conn'.
   info: Assign pin label "VSS" at (0.0250, 0.0300) to layer `metal1_conn'.
   info: Assign pin label "VDD" at (0.3025, 1.4550) to layer `metal1_conn'.
   info: Assign pin label "rst" at (-1.3500, 10.3300) to layer `metal1_conn'.

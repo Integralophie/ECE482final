@@ -21,6 +21,50 @@ Cell/Device                               schematic  layout   schematic  layout
 Total                                             2      16           2       2
 
 *******************************************************************************
+****** c2mos_register_s2f1 schematic ECE482final_cadence  <vs>  c2mos_register_s2f1 layout ECE482final_cadence
+*******************************************************************************
+
+Filter/Reduce statistics only. Network matching was OK.
+                                                                                                                                                                   
+Pre-expand Statistics                      
+======================                          Original       
+Cell/Device                               schematic  layout
+(g45n1svt) MOS                                    4       4
+(g45p1svt) MOS                                    4       4
+                                             ------  ------
+Total                                             8       8
+
+Reduce Statistics
+=================                               Original             Reduced
+Cell/Device                               schematic  layout   schematic  layout
+(g45n1svt) MOS                                    4       4           0       0
+(g45p1svt) MOS                                    4       4           0       0
+(g45n1svt:SerMos2#1) MosBlk                       -       -           2       2
+(g45p1svt:SerMos2#1) MosBlk                       -       -           2       2
+                                             ------  ------      ------  ------
+Total                                             8       8           4       4
+
+*******************************************************************************
+****** deserializer_reg_bank schematic ECE482final_cadence  <vs>  deserializer_reg_bank layout ECE482final_cadence
+*******************************************************************************
+
+Filter/Reduce statistics only. Network matching was OK.
+                                                                                                                                                                   
+Pre-expand Statistics                      
+======================                          Original       
+Cell/Device                               schematic  layout
+(c2mos_register_s2f1 schematic ECE482final_cadence, c2mos_register_s2f1) Cell          16      16
+                                             ------  ------
+Total                                            16      16
+
+Reduce Statistics
+=================                               Original             Reduced
+Cell/Device                               schematic  layout   schematic  layout
+(c2mos_register_s2f1) Cell                       16      16          16      16
+                                             ------  ------      ------  ------
+Total                                            16      16          16      16
+
+*******************************************************************************
 ****** mux schematic ECE482final_cadence  <vs>  mux layout ECE482final_cadence
 *******************************************************************************
 
@@ -278,6 +322,7 @@ Pre-expand Statistics
 ======================                          Original       
 Cell/Device                               schematic  layout
 (inv_s8f8 schematic ECE482final_cadence, inv_s8f8) Cell             1       1
+(deserializer_reg_bank schematic ECE482final_cadence, deserializer_reg_bank) Cell                 1       1
 (inv_s4f2 schematic ECE482final_cadence, _) Cell          1       0*
 (inv_s2f2 schematic ECE482final_cadence, _) Cell          1       0*
 (mux schematic ECE482final_cadence, mux) Cell             1       1
@@ -295,13 +340,14 @@ Cell/Device                               schematic  layout
 (g45n1svt) MOS                                    0       7*
 (g45p1svt) MOS                                    0       7*
                                              ------  ------
-Total                                            13      39
+Total                                            14      40
 
 Reduce Statistics
 =================                               Original             Reduced
 Cell/Device                               schematic  layout   schematic  layout
 (clock_divider_xor) Cell                          1       1           1       1
 (deserializer_large) Cell                         1       1           1       1
+(deserializer_reg_bank) Cell                      1       1           1       1
 (inv_s4f16) Cell                                  2       2           2       2
 (inv_s8f8) Cell                                   1       1           1       1
 (prbs) Cell                                       1       1           1       1
@@ -312,6 +358,6 @@ Cell/Device                               schematic  layout   schematic  layout
 (g45n1svt:SerMos2#1) MosBlk                       -       -          32      32
 (g45p1svt:SerMos2#1) MosBlk                       -       -          32      32
                                              ------  ------      ------  ------
-Total                                           209     213         144     144
+Total                                           210     214         145     145
 
 Schematic and Layout Match

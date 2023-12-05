@@ -1,20 +1,22 @@
 !<alc> v1 53
-0   27    0 xor2 layout ECE482final_cadence
-0   37   27 xor2_VAR1 layout ECE482final_cadence
-0   21    0 inv_s4f2_nowell layout ECE482final_cadence
-0   19    0 inv_s4f16 layout ECE482final_cadence
-0   18    0 inv_s2f2_nowell layout ECE482final_cadence
-0   17    0 c2mos_register_rst layout ECE482final_cadence
-0   15    0 c2mos_register_nowell_2s2f layout ECE482final_cadence
-0   13    0 c2mos_register_2s2f layout ECE482final_cadence
-0    9    0 pmos1v layout gpdk045 fingers=2 fw=9.6e-07 in1=I2
+0   30    0 xor2 layout ECE482final_cadence
+0   41   30 xor2_VAR1 layout ECE482final_cadence
+0   24    0 inv_s4f2_nowell layout ECE482final_cadence
+0   22    0 inv_s4f16 layout ECE482final_cadence
+0   21    0 inv_s2f2_nowell layout ECE482final_cadence
+0   20    0 c2mos_register_s2f1 layout ECE482final_cadence
+0   19    0 c2mos_register_rst layout ECE482final_cadence
+0   17    0 c2mos_register_nowell_2s2f layout ECE482final_cadence
+0   15    0 c2mos_register_2s2f layout ECE482final_cadence
+0   10    0 pmos1v layout gpdk045 fingers=2 fw=9.6e-07 in1=I2
 0    5    0 nmos1v layout gpdk045 fingers=16 fw=4.8e-07 in1=I1
 0    1    0 nmos1v layout gpdk045 fingers=2 fw=4.8e-07 in1=I1
-0   34    0 prbs_mux_blk layout ECE482final_cadence
-0   33    0 prbs layout ECE482final_cadence
-0   32    0 mux layout ECE482final_cadence
-0   31    0 inv_s8f8 layout ECE482final_cadence
-0   30    0 deserializer_large layout ECE482final_cadence
-0   29    0 clock_divider_xor layout ECE482final_cadence
-0   26    0 serializer_verticle layout ECE482final_cadence
-0   36    0 clock_serializer layout ECE482final_cadence
+0   38    0 prbs_mux_blk layout ECE482final_cadence
+0   37    0 prbs layout ECE482final_cadence
+0   36    0 mux layout ECE482final_cadence
+0   35    0 inv_s8f8 layout ECE482final_cadence
+0   34    0 deserializer_reg_bank layout ECE482final_cadence
+0   33    0 deserializer_large layout ECE482final_cadence
+0   32    0 clock_divider_xor layout ECE482final_cadence
+0   29    0 serializer_verticle layout ECE482final_cadence
+0   40    0 clock_serializer layout ECE482final_cadence

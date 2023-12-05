@@ -4,6 +4,8 @@ gpdk045 nmos1v layout 236
 gpdk045 nmos1v layout 236
 gpdk045 nmos1v layout 236
 gpdk045 nmos1v layout 236
+gpdk045 nmos1v layout 236
+gpdk045 pmos1v layout 236
 gpdk045 pmos1v layout 236
 gpdk045 pmos1v layout 236
 gpdk045 pmos1v layout 236
@@ -15,6 +17,7 @@ ECE482final_cadence c2mos_register_nowell layout 2644
 ECE482final_cadence c2mos_register_nowell_2s2f layout 4528
 ECE482final_cadence c2mos_register_nowell_large layout 4820
 ECE482final_cadence c2mos_register_rst layout 5058
+ECE482final_cadence c2mos_register_s2f1 layout 6436
 ECE482final_cadence inv_s2f2_nowell layout 518
 ECE482final_cadence inv_s4f16 layout 1172
 ECE482final_cadence inv_s4f16_nowell layout 1247
@@ -28,9 +31,10 @@ ECE482final_cadence xor2 layout 2025
 ECE482final_cadence xor2_s4f2_nowell layout 4187
 ECE482final_cadence clock_divider_xor layout 3716
 ECE482final_cadence deserializer_large layout 2012
+ECE482final_cadence deserializer_reg_bank layout 2895
 ECE482final_cadence inv_s8f8 layout 914
 ECE482final_cadence mux layout 2162
 ECE482final_cadence prbs layout 8567
 ECE482final_cadence prbs_mux_blk layout 2221
 ECE482final_cadence serializer_verticle_assem layout 5602
-ECE482final_cadence clock_serializer layout 3590
+ECE482final_cadence clock_serializer layout 4129
