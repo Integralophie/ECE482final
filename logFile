@@ -1,0 +1,24 @@
+header
+"PSFversion" "1.00"
+"simulator" "HSPICE"
+"version" "T-2022.06-SP1 linux64"
+"rundate" "19:53:24 12/04/2023 "
+"runtitle" ".lib '/class/ece482/gpdk045_mos' tt                               "
+"runtype" "logFile"
+TYPE
+"analysisInst" STRUCT(
+"analysisType" STRING *
+"dataFile" STRING *
+"format" STRING *
+"parent" STRING *
+"sweepVariable" ARRAY ( * ) STRING *
+"description" STRING * )
+VALUE
+"summary" "analysisInst" ( 
+"Summary Information"
+"clk_divider_test.su0"
+"PSF"
+""
+()
+"Summary Information"
+)

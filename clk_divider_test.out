@@ -1,0 +1,1298 @@
+Using: /software/Synopsys-2022_x86_64/hspice/T-2022.06-SP1/hspice/linux64/hspice clk_divider_test.cir
+ ****** PrimeSim HSPICE -- T-2022.06-SP1 linux64 (Aug 19 2022 7764626) ******
+  Copyright (c) 1986 - 2023 by Synopsys, Inc. All Rights Reserved.
+  This software and the associated documentation are proprietary
+  to Synopsys, Inc. This software may only be used in accordance
+  with the terms and conditions of a written license agreement with
+  Synopsys, Inc. All other use, reproduction, or distribution of
+  this software is strictly prohibited.
+  Input File: clk_divider_test.cir                                              
+  Command line options: /software/Synopsys-2022_x86_64/hspice/T-2022.06-SP1/hspice/linux64/hspice clk_divider_test.cir
+  Start time: Mon Dec  4 20:13:45 2023
+ lic:  
+ lic: FLEXlm: SDK_12.11.1 
+ lic: USER:   cmyu3                HOSTNAME: fastx3-31.ews.illinois.edu 
+ lic: HOSTID: 16ac1ce6             PID:      936819 
+ lic: Using FLEXlm license file: 
+ lic: 27005@synopsys.webstore.illinois.edu 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 16-apr-2024/2023.03 
+ lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 27005@synopsys.webstore.illinois.edu 
+ lic:   
+  **warning** (/class/ece482/gpdk045_mos_details:124) Model g45n1svt device geometries will not be checked against the limits set by lmin, lmax, wmin and wmax. To enable this check, add a period(.) to the model name(i.e. enable model selector).
+1****** PrimeSim HSPICE -- T-2022.06-SP1 linux64 (Aug 19 2022 7764626) ******
+ ******  
+ clkdivider
+
+ ****** mos   model parameters tnom=  25.000 temp=  25.000 ******
+ Model file: /class/ece482/gpdk045_mos_details
+ Model line:          124
+ Model Name: g45n1svt  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 2
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 0
+    RGATEMOD = 0
+    PERMOD = 1
+    GEOMOD = 0
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 1
+    VBFWDMOD = 0
+    VERSION =    4.3 
+    TOXREF =  3e-09 
+    TOXE = 2.41e-09 
+    TOXP = 2.095e-09 
+    TOXM = 2.41e-09 
+    DTOX = 3.15e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT = 0.0007212 
+    NFACTOR = 0.2326 
+    XJ = 8.1e-08 
+    VSAT = 1.464e+05 
+    A0 =  0.001 
+    AGS =   5.44 
+    A1 =      0 
+    A2 =      1 
+    AT = 1.4e+05 
+    KETA = -0.09481 
+    NSUB =  6e+16 
+    NDEP =  1e+17 
+    NSD =  1e+20 
+    NGATE = 1.6e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 = 0.3026 
+    KT1 = -0.181 
+    KT1L =      0 
+    KT2 = -0.036 
+    K2 = 0.01443 
+    K3 = -7.285 
+    K3B =  2.455 
+    LPE0 = 6.61e-08 
+    LPEB =  2e-08 
+    DVTP0 = 2.361e-06 
+    DVTP1 =    4.5 
+    W0 = 8.19e-08 
+    DVT0 = 0.2364 
+    DVT1 = 0.5374 
+    DVT2 = 0.05567 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =  0.672 
+    DSUB = 0.4222 
+    VTH0 = 0.3192 
+    EU =   1.67 
+    UA = -2.003e-09 
+    UA1 = 1.04e-09 
+    UB = 2.387e-18 
+    UB1 = -4.64e-19 
+    UC = 2.056e-10 
+    UC1 = 8.71e-11 
+    U0 = 0.01549 
+    UTE =     -1 
+    VOFF = -0.1568 
+    VOFFL = -3.595e-09 
+    MINV =  -0.15 
+    FPROUT =    300 
+    PDITS =      0 
+    PDITSD =      0 
+    PDITSL =      0 
+    DELTA = 0.007596 
+    RDSW =    100 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =    100 
+    RSW =    100 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 = 0.0009635 
+    ETAB = 0.1423 
+    PCLM =  1.441 
+    PDIBLC1 = -0.005428 
+    PDIBLC2 =      0 
+    PDIBLCB =      1 
+    PSCBE1 =  1e+09 
+    PSCBE2 =  1e-20 
+    PVAG =    1.2 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL =      0 
+    XLREF =      0 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  2e-10 
+    ALPHA1 =   0.01 
+    AGIDL = 2.151e-07 
+    BGIDL = 2.139e+09 
+    CGIDL =   0.22 
+    PHIN =      0 
+    EGIDL = 0.2973 
+    AIGC = 0.0112 
+    BIGC = 0.001392 
+    CIGC = 0.000622 
+    AIGSD = 0.0106 
+    BIGSD = 0.001235 
+    CIGSD =   0.07 
+    AIGBACC =   0.02 
+    BIGBACC = 0.00247 
+    CIGBACC = 0.3325 
+    AIGBINV = 0.0158 
+    BIGBINV = 0.004893 
+    CIGBINV = 0.0061 
+    NIGC =   3.07 
+    NIGBINV =     10 
+    NIGBACC =     10 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =  2.591 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      1 
+    BETA0 =    6.4 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =   0.01 
+    IJTHSREV =   0.01 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =     -1 
+    GBMIN =  1e-12 
+    RBDB =     50 
+    RBPB =     50 
+    RBSB =     50 
+    RBPS =     50 
+    RBPD =     50 
+    CGSL = 1.71e-11 
+    CGDL = 1.71e-11 
+    CKAPPAS =    0.6 
+    CKAPPAD =    0.6 
+    CF = 8.13e-11 
+    CLC = 1.04e-07 
+    CLE =    0.6 
+    DWC =      0 
+    DLC =      0 
+    DLCIG = 2.48e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =   5.67 
+    NOFF =   2.96 
+    VOFFCV =  -0.12 
+    DMCG =  4e-08 
+    DMCI =  4e-08 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =   15.5 
+    NGCON =      1 
+    TCJ = 0.000652 
+    TPB = 0.0011 
+    TCJSW = 0.000357 
+    TPBSW = 0.0019 
+    TCJSWG = 0.0015 
+    TPBSWG =  0.001 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    LNFACTOR = 1.398e-07 
+    LVSAT = -0.0005407 
+    LAGS = 2.574e-08 
+    LKETA = 3.624e-09 
+    LK2 = -6.378e-10 
+    LDROUT = -6.495e-09 
+    LVTH0 = 2.055e-09 
+    LUA = -1.953e-18 
+    LUB = -1.319e-27 
+    LUC = -6.933e-18 
+    LU0 = -1.37e-10 
+    LVOFF = -1.675e-10 
+    LETAB = -6.624e-09 
+    LPDIBLC1 = 3.148e-10 
+    WNFACTOR = 2.204e-10 
+    WVSAT = -0.004165 
+    WAGS = 7.09e-08 
+    WKETA = 1.039e-08 
+    WK2 = -8.114e-09 
+    WDROUT = -1.299e-08 
+    WVTH0 = 2.369e-09 
+    WUA = 4.873e-17 
+    WUB = -6.82e-26 
+    WUC = -2.044e-17 
+    WU0 = -7.771e-11 
+    WVOFF = -2.622e-10 
+    WETAB = -1.325e-08 
+    WPDIBLC1 = 6.296e-10 
+    PNFACTOR = 1.325e-16 
+    PVSAT = 2.416e-10 
+    PAGS = -7.618e-15 
+    PKETA = -4.204e-16 
+    PK2 = 2.54e-16 
+    PDROUT = 7.534e-16 
+    PVTH0 = 6.451e-17 
+    PUA = 6.699e-25 
+    PUB = -8.036e-34 
+    PUC = 9.34e-25 
+    PU0 = 8.434e-18 
+    PVOFF = 9.333e-18 
+    PETAB = 7.684e-16 
+    PPDIBLC1 = -3.652e-17 
+    TNOM =  298.1 
+    CGSO = 5.53e-11 
+    CGDO = 5.53e-11 
+    CGBO =      0 
+    XPART =      1 
+    RSH =   17.5 
+    JSS = 2.1e-07 
+    JSWS = 3.4e-13 
+    JSWGS = 1.2e-12 
+    PBS =  0.511 
+    MJS =  0.264 
+    PBSWS =  0.786 
+    MJSWS =  0.011 
+    CJS = 0.000861 
+    CJSWS = 4.87e-11 
+    NJS =      1 
+    PBSWGS =  0.464 
+    MJSWGS =  0.511 
+    CJSWGS = 2.56e-10 
+    XTIS =      3 
+    JSD = 2.1e-07 
+    JSWD = 3.4e-13 
+    JSWGD = 1.2e-12 
+    PBD =  0.511 
+    MJD =  0.264 
+    PBSWD =  0.786 
+    MJSWD =  0.011 
+    CJD = 0.000861 
+    CJSWD = 4.87e-11 
+    NJD =      1 
+    PBSWGD =  0.464 
+    MJSWGD =  0.511 
+    CJSWGD = 2.56e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT =  1e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =  4e-08 
+    LMAX =  6e-08 
+    WINT =  2e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN = 1.2e-07 
+    WMAX =  3e-07 
+    NOIA = 2.6e+42 
+    NOIB = 1.61e+21 
+    NOIC =  3e+08 
+    EM =  1e+06 
+    EF =   0.94 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+    TEMPMOD  =      0 
+    LAMBDA   =      0 
+    VTL      =  2e+05 m/s
+    LC       =  5e-09 
+    XN       =      3 
+    LLAMBDA  =      0 
+    LVTL     =      0 
+    LXN      =      0 
+    WLAMBDA  =      0 
+    WVTL     =      0 
+    WXN      =      0 
+    PLAMBDA  =      0 
+    PVTL     =      0 
+    PXN      =      0 
+    RNOIA    =  0.577 
+    RNOIB    =   0.37 
+    SAREF(SA0) = 6.1e-07 m
+    SBREF(SB0) = 6.1e-07 m
+    WLOD     = 1.37e-07 m
+    KU0      = -3.471e-08 1/m
+    KVSAT    =  0.342 
+    KVTH0    = 2.461e-09 m
+    TKU0     =  0.097 
+    LLODKU0  =      1 
+    WLODKU0  =      1 
+    LLODVTH  =      1 
+    WLODVTH  =      1 
+    LKU0     = 1.23e-08 
+    WKU0     = 9.96e-08 
+    PKU0     = 4.6e-14 
+    LKVTH0   = -2.421e-11 
+    WKVTH0   =      0 
+    PKVTH0   =      0 
+    STK2     = 3.87e-10 
+    LODK2    =    0.5 
+    STETA0   =      0 
+    LODETA0  =      1 
+    LXRCRG1  =      0 
+    WXRCRG1  =      0 
+    PXRCRG1  =      0 
+    LXRCRG2  =      0 
+    WXRCRG2  =      0 
+    PXRCRG2  =      0 
+ Model file: /class/ece482/gpdk045_mos_details
+ Model line:          245
+ Model Name: g45p1svt  
+ BSIM4 Model (Level 54)
+    MOBMOD = 0
+    BINUNIT = 2
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 0
+    RGATEMOD = 0
+    PERMOD = 1
+    GEOMOD = 0
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 1
+    VBFWDMOD = 0
+    VERSION =    4.3 
+    TOXREF =  3e-09 
+    TOXE = 2.4e-09 
+    TOXP = 2.071e-09 
+    TOXM = 2.4e-09 
+    DTOX = 3.29e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT = 0.0001 
+    NFACTOR = 0.5111 
+    XJ = 1.7e-07 
+    VSAT = 1.255e+05 
+    A0 =  0.001 
+    AGS =  2.604 
+    A1 =      0 
+    A2 =      1 
+    AT =  4e+04 
+    KETA = 0.07615 
+    NSUB =  6e+16 
+    NDEP = 8.5e+17 
+    NSD =  1e+20 
+    NGATE =  8e+19 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =   0.25 
+    KT1 = -0.229 
+    KT1L =      0 
+    KT2 = -0.01232 
+    K2 = -0.007129 
+    K3 = -1.701 
+    K3B =    1.2 
+    LPE0 = 7.52e-08 
+    LPEB = 5.608e-08 
+    DVTP0 = 2.2e-06 
+    DVTP1 =    0.2 
+    W0 = 1.585e-07 
+    DVT0 = 0.2034 
+    DVT1 = 0.9515 
+    DVT2 =   0.01 
+    DVT0W =      0 
+    DVT1W = 5.366e+06 
+    DVT2W =      0 
+    DROUT = 0.9621 
+    DSUB =  1.272 
+    VTH0 = -0.3691 
+    EU =      1 
+    UA = 1.195e-11 
+    UA1 = 4.549e-09 
+    UB = 1.496e-18 
+    UB1 = -5.441e-18 
+    UC = 2.836e-11 
+    UC1 = -5e-11 
+    U0 = 0.02471 
+    UTE = -1.524 
+    VOFF = -0.1319 
+    VOFFL = -6.036e-09 
+    MINV =      0 
+    FPROUT =  390.2 
+    PDITS = 0.005043 
+    PDITSD =      0 
+    PDITSL =    100 
+    DELTA =   0.02 
+    RDSW =  327.6 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =    100 
+    RSW =    100 
+    PRWG =   0.25 
+    PRWB =  -0.25 
+    PRT =      0 
+    ETA0 = 0.03115 
+    ETAB = 0.2478 
+    PCLM = 0.6273 
+    PDIBLC1 =      0 
+    PDIBLC2 = 0.0107 
+    PDIBLCB =      0 
+    PSCBE1 = 9.264e+08 
+    PSCBE2 =  1e-20 
+    PVAG =  1.425 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL =      0 
+    XLREF =      0 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =      0 
+    ALPHA1 =   0.06 
+    AGIDL =  9e-08 
+    BGIDL = 3.404e+09 
+    CGIDL =    0.5 
+    PHIN =      0 
+    EGIDL =   0.15 
+    AIGC = 0.00712 
+    BIGC = 0.000631 
+    CIGC =      0 
+    AIGSD = 0.0059 
+    BIGSD = 0.000248 
+    CIGSD =  0.032 
+    AIGBACC =  0.012 
+    BIGBACC = 0.00349 
+    CIGBACC =  0.131 
+    AIGBINV =  0.347 
+    BIGBINV = 0.0312 
+    CIGBINV = 0.0061 
+    NIGC =   2.28 
+    NIGBINV =      1 
+    NIGBACC =    5.2 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =   2.28 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      1 
+    BETA0 =   13.5 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =   0.01 
+    IJTHSREV =   0.01 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =     -1 
+    GBMIN =  1e-12 
+    RBDB =     50 
+    RBPB =     50 
+    RBSB =     50 
+    RBPS =     50 
+    RBPD =     50 
+    CGSL = 5.4e-11 
+    CGDL = 5.4e-11 
+    CKAPPAS =    0.6 
+    CKAPPAD =    0.6 
+    CF = 1.18e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =      0 
+    DLC =      0 
+    DLCIG = 2.52e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =    1.2 
+    MOIN =      8 
+    NOFF =    2.5 
+    VOFFCV = -0.0486 
+    DMCG = 8.5e-08 
+    DMCI = 8.5e-08 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.1 
+    NGCON =      1 
+    TCJ = 0.000798 
+    TPB = 0.0019 
+    TCJSW = 0.00024 
+    TPBSW = 0.0019 
+    TCJSWG = 0.00477 
+    TPBSWG = 0.0019 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    LNFACTOR = 2.816e-08 
+    LVSAT = 0.001652 
+    LKETA = -1.385e-08 
+    LK2 = -1.77e-10 
+    LDROUT = 1.023e-08 
+    LVTH0 = 4.367e-09 
+    LUB = 2.766e-26 
+    LU0 = -4.235e-10 
+    LVOFF = 5.304e-09 
+    LETAB = -1.63e-08 
+    LPDIBLC2 = -3.548e-10 
+    WNFACTOR = -4.782e-08 
+    WVSAT = -0.004554 
+    WAGS = 8.643e-08 
+    WKETA = -1.376e-08 
+    WK2 = -7.701e-10 
+    WDROUT = 4.745e-08 
+    WVTH0 = 6.061e-09 
+    WUB = 4.042e-26 
+    WUC = -1.637e-18 
+    WU0 = 5.029e-10 
+    WVOFF = 5.559e-09 
+    WETAB = -2.668e-08 
+    WPDIBLC2 = -9.676e-10 
+    PNFACTOR = 6.587e-16 
+    PVSAT = 2.732e-10 
+    PKETA = 1.122e-15 
+    PK2 = -1.19e-16 
+    PDROUT = -2.847e-15 
+    PVTH0 = -3.872e-16 
+    PUB = -3.73e-33 
+    PU0 = 2.13e-17 
+    PVOFF = -5.016e-16 
+    PETAB = 1.601e-15 
+    PPDIBLC2 = 3.298e-17 
+    TNOM =  298.1 
+    CGSO = 3.1e-11 
+    CGDO = 3.1e-11 
+    CGBO =      0 
+    XPART =      1 
+    RSH =   9.68 
+    JSS = 1.51e-07 
+    JSWS = 3.98e-13 
+    JSWGS = 2.47e-12 
+    PBS =   0.75 
+    MJS =   0.34 
+    PBSWS =   0.49 
+    MJSWS =  0.012 
+    CJS = 0.000998 
+    CJSWS = 6.21e-11 
+    NJS =      1 
+    PBSWGS =   0.71 
+    MJSWGS =   0.86 
+    CJSWGS = 2.53e-10 
+    XTIS =      3 
+    JSD = 1.51e-07 
+    JSWD = 3.98e-13 
+    JSWGD = 2.47e-12 
+    PBD =   0.75 
+    MJD =   0.34 
+    PBSWD =   0.49 
+    MJSWD =  0.012 
+    CJD = 0.000998 
+    CJSWD = 6.21e-11 
+    NJD =      1 
+    PBSWGD =   0.71 
+    MJSWGD =   0.86 
+    CJSWGD = 2.53e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT =  2e-24 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =  4e-08 
+    LMAX =  6e-08 
+    WINT = 1.089e-08 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN = 1.2e-07 
+    WMAX =  3e-07 
+    NOIA = 1.45e+42 
+    NOIB = 3.57e+26 
+    NOIC =  2e+10 
+    EM = 2.1e+07 
+    EF =  1.147 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+    TEMPMOD  =      0 
+    LAMBDA   =      0 
+    VTL      =  2e+05 m/s
+    LC       =  5e-09 
+    XN       =      3 
+    LLAMBDA  =      0 
+    LVTL     =      0 
+    LXN      =      0 
+    WLAMBDA  =      0 
+    WVTL     =      0 
+    WXN      =      0 
+    PLAMBDA  =      0 
+    PVTL     =      0 
+    PXN      =      0 
+    RNOIA    =  0.577 
+    RNOIB    =   0.37 
+    SAREF(SA0) = 6.1e-07 m
+    SBREF(SB0) = 6.1e-07 m
+    WLOD     = 2.86e-07 m
+    KU0      =  1e-07 1/m
+    KVSAT    = -0.386 
+    KVTH0    =  2e-10 m
+    TKU0     =   0.24 
+    LLODKU0  =      1 
+    WLODKU0  =      1 
+    LLODVTH  =    1.8 
+    WLODVTH  =      1 
+    LKU0     = 1.871e-07 
+    WKU0     = 2.4e-07 
+    PKU0     = -3.24e-14 
+    LKVTH0   = 2.4e-10 
+    WKVTH0   = 1.8e-10 
+    PKVTH0   =      0 
+    STK2     =      0 
+    LODK2    =    1.9 
+    STETA0   =      0 
+    LODETA0  =      1 
+    LXRCRG1  =      0 
+    WXRCRG1  =      0 
+    PXRCRG1  =      0 
+    LXRCRG2  =      0 
+    WXRCRG2  =      0 
+    PXRCRG2  =      0 
+  **info** (clk_divider_test.cir:2491) DC voltage reset to initial transient source value in source 0:vclk1pt6g. new dc=0.0000D+00
+  **warning** (clk_divider_test.cir:2495) Could not find branch element vvdd ;branch output ignored
+             
+ Summary of Linear Res Distribution Info
+ ---------------------------------------
+ |Range          |Total     |Percent(%)|
+ |---------------+----------+----------|
+ |1e-02  ~  1e-01|43        |3.2850    |
+ |1e-01  ~  1e+00|311       |23.7586   |
+ |1e+00  ~  1e+03|955       |72.9565   |
+ ---------------------------------------
+              
+             
+ Summary of Linear Cap Distribution Info
+ ---------------------------------------
+ |Range          |Total     |Percent(%)|
+ |---------------+----------+----------|
+ |1e-18  ~  1e-17|40        |4.1451    |
+ |1e-17  ~  1e-16|712       |73.7824   |
+ |1e-16  ~  1e-15|212       |21.9689   |
+ |1e-15  ~  1e-14|1         |0.1036    |
+ ---------------------------------------
+              
+             
+ Summary of Detailed RC Type Statistics
+ -------------------------
+ |Element Type|Number    |
+ |------------+----------|
+ |Constant Res|1309      |
+ |            |          |
+ |Constant Cap|965       |
+ -------------------------
+              
+  
+             
+ Warning:'No DC path nodes' occurs 53 times
+ No DC path from the following nodes,connected with gdcpath:
+ ----------------------------
+ |Node           |Subckt    |
+ |---------------+----------|
+ |clk1pt6g_b     |0         |
+ |n10__clk1pt6g_b|0         |
+ |n11__clk1pt6g_b|0         |
+ |n12__clk1pt6g_b|0         |
+ |n13__clk1pt6g_b|0         |
+ |n14__clk1pt6g_b|0         |
+ |n15__clk1pt6g_b|0         |
+ |n16__clk1pt6g_b|0         |
+ |n17__clk1pt6g_b|0         |
+ |n18__clk1pt6g_b|0         |
+ ----------------------------
+              
+             
+ Warning:'1 connection nodes' occurs 1 times
+ Summary of 1 connection from the following nodes:
+ -----------------------
+ |Node      |Subckt    |
+ |----------+----------|
+ |avs133    |0         |
+ -----------------------
+              
+      
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2.0000    
+ no convergence with standard algorithm,  trying damped pseudo-transient
+
+ 
+ **info** number of iteration exceeds min(7000, 20*itl1)= 4000 in pseudo
+ tran process (converge=1 process). Usually this happens when the
+ models are discontinous, or there are uninitialized bi-stable cells
+ (flip-flop) in the circuit. By setting options dcon=-1 and converge=-1
+ you can disable auto convergence process. Retry the run, non-convergence
+ diagnostics will provide useful information about the nodes and devices
+ which can be used to work around the non-convergence problems.
+
+   *** pseudo tran failed *** 
+  *** gshunt ramping started *** 
+   *** pseudo tran failed *** 
+  *** gshunt ramping succeeded *** 
+ ******  
+ clkdivider
+
+ ****** operating point information tnom=  25.000 temp=  25.000 ******
+ ****** operating point status is voltage   simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:avs133  =   0.      0:clk100m = 747.5888u 0:clk100m_=   1.1000 
+ +0:clk1pt6g=   0.      0:clk1pt6g= 230.1729m 0:i50__net= 398.3133m
+ +0:i50__net= 347.3365m 0:i51__net=   1.0584  0:i51__net=  52.3259m
+ +0:i51__net=   1.0553  0:i51__net=  55.0336m 0:i51__x  = 545.1661m
+ +0:i52__net=   1.0991  0:i52__net= 943.9539u 0:i52__net= 555.8741m
+ +0:i52__net= 745.8616u 0:i52__x  =   1.0990  0:i53__net=   1.0990 
+ +0:i53__net= 937.9225u 0:i53__net= 552.8437m 0:i53__net= 768.2926u
+ +0:i53__x  =   1.0990  0:i69__net=   1.0998  0:i69__net=  18.5720m
+ +0:i69__net= 558.2680m 0:i69__net= 101.0026u 0:i69__x  =   1.0997 
+ +0:i70__net= 871.7632m 0:i70__net=  56.5668m 0:i70__net= 920.1216m
+ +0:i70__net= 427.1076u 0:i70__x  = 760.1407m 0:i71__net=   1.0680 
+ +0:i71__net=  55.3205m 0:i71__net=   1.0565  0:i71__net=  65.9966m
+ +0:i71__x  = 541.6671m 0:i72__net=   1.0505  0:i72__net=  50.5853m
+ +0:i72__net=   1.0542  0:i72__net=  46.7996m 0:i72__x  = 548.8981m
+ +0:n100__vd=   1.0998  0:n100__vs= 743.9524u 0:n101__vd=   1.0998 
+ +0:n101__vs= 747.7230u 0:n102__vd=   1.0993  0:n102__vs= 755.5938u
+ +0:n103__vd=   1.0993  0:n103__vs= 759.4327u 0:n104__vd=   1.0994 
+ +0:n104__vs= 766.5518u 0:n105__vd=   1.0994  0:n105__vs= 769.9857u
+ +0:n106__vd=   1.0995  0:n106__vs= 882.4949u 0:n107__vd=   1.0996 
+ +0:n107__vs= 884.8150u 0:n108__vd=   1.1000  0:n108__vs= 882.7782u
+ +0:n109__vd=   1.1000  0:n109__vs= 881.9125u 0:n10__clk= 747.7154u
+ +0:n10__clk=   1.1000  0:n10__clk=   4.4486n 0:n10__clk= 230.1729m
+ +0:n10__i50= 398.4070m 0:n10__i51= 545.0728m 0:n10__i52=   1.0990 
+ +0:n10__i53=   1.0990  0:n10__i69=   1.0997  0:n10__i70= 760.0107m
+ +0:n10__i71= 541.5805m 0:n10__i72= 548.8003m 0:n10__net= 287.3407m
+ +0:n10__net= 762.9642u 0:n10__net= 548.9673m 0:n10__net= 543.8833m
+ +0:n10__net= 543.2539m 0:n10__net=   1.1000  0:n10__net= 564.8921m
+ +0:n10__net= 536.7210m 0:n10__net= 549.0022m 0:n10__net= 348.9910m
+ +0:n10__net= 287.7061m 0:n10__net= 564.8221m 0:n10__net= 536.6522m
+ +0:n10__net= 542.4940m 0:n10__net=   1.0992  0:n10__net= 544.4090m
+ +0:n10__net= 543.4765m 0:n10__net= 555.7685m 0:n10__net= 552.7246m
+ +0:n10__net= 558.1718m 0:n10__vdd=   1.0992  0:n10__vss= 620.0363u
+ +0:n110__vd=   1.0997  0:n110__vs= 766.7693u 0:n111__vd=   1.0997 
+ +0:n111__vs= 772.6188u 0:n112__vd=   1.1000  0:n112__vs= 762.6338u
+ +0:n113__vd=   1.1000  0:n113__vs= 762.6391u 0:n114__vd=   1.1000 
+ +0:n114__vs= 759.8817u 0:n115__vd=   1.1000  0:n115__vs= 757.1976u
+ +0:n116__vd=   1.1000  0:n116__vs= 754.3563u 0:n117__vd=   1.1000 
+ +0:n117__vs= 752.7836u 0:n118__vd=   1.1000  0:n118__vs= 750.1062u
+ +0:n119__vd=   1.1000  0:n119__vs= 747.5175u 0:n11__clk= 747.7184u
+ +0:n11__clk=   1.1000  0:n11__clk=   4.4296n 0:n11__clk= 230.1729m
+ +0:n11__i50= 398.3218m 0:n11__i51=   1.0584  0:n11__i51= 545.2052m
+ +0:n11__i52=   1.0991  0:n11__i52=   1.0990  0:n11__i53=   1.0990 
+ +0:n11__i53=   1.0990  0:n11__i69=   1.0998  0:n11__i69=   1.0997 
+ +0:n11__i70= 871.7365m 0:n11__i70= 760.1952m 0:n11__i71=   1.0680 
+ +0:n11__i71= 541.7035m 0:n11__i72=   1.0505  0:n11__i72= 548.9392m
+ +0:n11__net= 287.3407m 0:n11__net= 762.9612u 0:n11__net= 548.9673m
+ +0:n11__net= 543.8833m 0:n11__net= 543.2539m 0:n11__net=   1.1000 
+ +0:n11__net= 564.8921m 0:n11__net= 536.7210m 0:n11__net= 549.0022m
+ +0:n11__net= 348.9910m 0:n11__net= 287.7061m 0:n11__net= 564.8221m
+ +0:n11__net= 536.6522m 0:n11__net= 542.4940m 0:n11__net=   1.0992 
+ +0:n11__net= 544.4090m 0:n11__net= 543.4765m 0:n11__net= 555.7685m
+ +0:n11__net= 552.7246m 0:n11__net= 558.1718m 0:n11__vdd=   1.0992 
+ +0:n11__vss= 609.0196u 0:n120__vd=   1.1000  0:n120__vs= 744.9286u
+ +0:n121__vd=   1.1000  0:n121__vs= 742.0644u 0:n122__vd=   1.1000 
+ +0:n122__vs= 740.4854u 0:n123__vd=   1.1000  0:n123__vs= 737.7428u
+ +0:n124__vd=   1.1000  0:n124__vs= 734.9928u 0:n125__vd=   1.1000 
+ +0:n125__vs= 732.3080u 0:n126__vd=   1.1000  0:n126__vs= 828.4549u
+ +0:n127__vd=   1.1000  0:n127__vs= 783.3336u 0:n128__vd=   1.1000 
+ +0:n128__vs= 769.2154u 0:n129__vd=   1.1000  0:n129__vs= 683.6841u
+ +0:n12__clk= 747.7147u 0:n12__clk=   1.1000  0:n12__clk=   4.4599n
+ +0:n12__clk= 230.1729m 0:n12__i50= 398.1072m 0:n12__i51=   1.0584 
+ +0:n12__i52=   1.0991  0:n12__i53=   1.0990  0:n12__i69=   1.0998 
+ +0:n12__i70= 871.7632m 0:n12__i71=   1.0680  0:n12__i72=   1.0505 
+ +0:n12__net= 287.3407m 0:n12__net= 762.9601u 0:n12__net= 548.9673m
+ +0:n12__net= 543.8833m 0:n12__net= 543.2539m 0:n12__net=   1.1000 
+ +0:n12__net= 564.8921m 0:n12__net= 536.7210m 0:n12__net= 549.0022m
+ +0:n12__net= 348.9910m 0:n12__net= 287.7061m 0:n12__net= 564.8221m
+ +0:n12__net= 536.6522m 0:n12__net= 542.4940m 0:n12__net=   1.0992 
+ +0:n12__net= 544.1670m 0:n12__net= 543.4765m 0:n12__net= 555.7685m
+ +0:n12__net= 552.7246m 0:n12__net= 558.1718m 0:n12__vdd=   1.0992 
+ +0:n12__vss= 587.1699u 0:n130__vd=   1.1000  0:n130__vs= 660.9265u
+ +0:n131__vd=   1.1000  0:n131__vs= 536.0701u 0:n132__vd=   1.1000 
+ +0:n132__vs= 504.6953u 0:n133__vd=   1.1000  0:n133__vs= 331.0395u
+ +0:n134__vd=   1.1000  0:n134__vs= 291.9196u 0:n135__vd=   1.1000 
+ +0:n135__vs= 772.6165u 0:n136__vd=   1.1000  0:n136__vs= 762.6391u
+ +0:n137__vd=   1.1000  0:n138__vd=   1.1000  0:n139__vd=   1.1000 
+ +0:n13__clk= 747.7156u 0:n13__clk=   4.4290n 0:n13__clk= 230.1729m
+ +0:n13__i50= 398.3133m 0:n13__i51=   1.0584  0:n13__i51=   1.0553 
+ +0:n13__i52=   1.0991  0:n13__i52= 555.8741m 0:n13__i53=   1.0990 
+ +0:n13__i53= 552.8437m 0:n13__i69=   1.0998  0:n13__i69= 558.2680m
+ +0:n13__i70= 871.7645m 0:n13__i70= 920.1212m 0:n13__i71=   1.0680 
+ +0:n13__i71=   1.0565  0:n13__i72=   1.0505  0:n13__i72=   1.0541 
+ +0:n13__net= 287.1179m 0:n13__net= 762.9598u 0:n13__net= 548.9673m
+ +0:n13__net= 543.8833m 0:n13__net= 543.2539m 0:n13__net=   1.1000 
+ +0:n13__net= 564.6480m 0:n13__net= 536.4786m 0:n13__net= 548.7599m
+ +0:n13__net= 348.9910m 0:n13__net= 287.7061m 0:n13__net= 564.8221m
+ +0:n13__net= 536.6522m 0:n13__net= 542.4940m 0:n13__net= 544.5103m
+ +0:n13__net= 543.4765m 0:n13__net= 555.7685m 0:n13__net= 552.7246m
+ +0:n13__net= 558.1718m 0:n13__vdd=   1.0991  0:n13__vss= 575.3918u
+ +0:n140__vd=   1.1000  0:n14__clk= 747.7128u 0:n14__clk=  11.2252n
+ +0:n14__clk= 230.1729m 0:n14__i50= 398.3133m 0:n14__net= 287.4340m
+ +0:n14__net= 762.9627u 0:n14__net= 548.9673m 0:n14__net= 543.8833m
+ +0:n14__net= 543.2539m 0:n14__net=   1.1000  0:n14__net= 564.9944m
+ +0:n14__net= 536.8225m 0:n14__net= 549.1038m 0:n14__net= 348.9910m
+ +0:n14__net= 287.7061m 0:n14__net= 564.8221m 0:n14__net= 536.6522m
+ +0:n14__net= 542.4940m 0:n14__net= 544.4090m 0:n14__net= 543.4765m
+ +0:n14__net= 555.7685m 0:n14__net= 552.7246m 0:n14__net= 558.1718m
+ +0:n14__vdd=   1.0993  0:n14__vss= 561.9280u 0:n15__clk= 747.7116u
+ +0:n15__clk=  11.2786n 0:n15__clk= 230.1729m 0:n15__net= 287.3407m
+ +0:n15__net= 762.9548u 0:n15__net= 548.7250m 0:n15__net= 543.8833m
+ +0:n15__net= 543.2539m 0:n15__net=   1.1000  0:n15__net= 564.8921m
+ +0:n15__net= 536.7210m 0:n15__net= 549.0022m 0:n15__net= 348.9910m
+ +0:n15__net= 287.4834m 0:n15__net= 564.5780m 0:n15__net= 536.4099m
+ +0:n15__net= 542.4940m 0:n15__net= 544.4090m 0:n15__net= 543.4765m
+ +0:n15__net= 555.7685m 0:n15__net= 552.7246m 0:n15__net= 558.1718m
+ +0:n15__vdd=   1.0999  0:n15__vss= 538.9850u 0:n16__clk= 747.7112u
+ +0:n16__clk=  11.3320n 0:n16__clk= 230.1729m 0:n16__i51=   1.0553 
+ +0:n16__i52= 555.8741m 0:n16__i53= 552.8437m 0:n16__i69= 558.2680m
+ +0:n16__i70= 920.1216m 0:n16__i71=   1.0565  0:n16__i72=   1.0542 
+ +0:n16__net= 762.9545u 0:n16__net= 549.0688m 0:n16__net= 543.8833m
+ +0:n16__net= 543.2539m 0:n16__net=   1.1000  0:n16__net= 348.9910m
+ +0:n16__net= 287.7994m 0:n16__net= 564.9243m 0:n16__net= 536.7537m
+ +0:n16__net= 542.4940m 0:n16__net= 543.4765m 0:n16__net= 555.7685m
+ +0:n16__net= 552.7246m 0:n16__net= 558.1718m 0:n16__vdd=   1.0992 
+ +0:n16__vss= 498.1641u 0:n17__clk= 747.7142u 0:n17__clk=   4.4294n
+ +0:n17__clk= 230.1729m 0:n17__net= 762.9544u 0:n17__net= 548.9673m
+ +0:n17__net= 543.8833m 0:n17__net= 543.2539m 0:n17__net=   1.1000 
+ +0:n17__net= 348.9910m 0:n17__net= 287.7061m 0:n17__net= 564.8221m
+ +0:n17__net= 536.6522m 0:n17__net= 542.4940m 0:n17__net= 543.4765m
+ +0:n17__net= 555.7685m 0:n17__net= 552.7246m 0:n17__net= 558.1718m
+ +0:n17__vdd=   1.0992  0:n17__vss= 481.8128u 0:n18__clk= 747.7071u
+ +0:n18__clk=  21.9112n 0:n18__clk= 230.1729m 0:n18__net= 762.9587u
+ +0:n18__net= 548.9673m 0:n18__net= 543.8833m 0:n18__net= 543.2539m
+ +0:n18__net=   1.1000  0:n18__net= 348.9910m 0:n18__net= 287.7061m
+ +0:n18__net= 564.8221m 0:n18__net= 542.4940m 0:n18__net= 543.4765m
+ +0:n18__net= 555.7685m 0:n18__net= 552.7246m 0:n18__net= 558.1718m
+ +0:n18__vdd=   1.0992  0:n18__vss= 449.6665u 0:n19__clk= 747.7060u
+ +0:n19__clk=  21.9297n 0:n19__clk= 230.1729m 0:n19__net= 762.9584u
+ +0:n19__net= 548.9673m 0:n19__net= 543.8833m 0:n19__net= 543.2539m
+ +0:n19__net=   1.1000  0:n19__net= 348.9910m 0:n19__net= 287.7061m
+ +0:n19__net= 564.8221m 0:n19__net= 536.6522m 0:n19__net= 542.4940m
+ +0:n19__net= 543.3797m 0:n19__net= 555.7685m 0:n19__net= 552.7246m
+ +0:n19__net= 558.1718m 0:n19__vdd=   1.0992  0:n19__vss= 432.5629u
+ +0:n1__clk1= 747.6304u 0:n1__clk1=   1.1000  0:n1__clk1=  11.1718n
+ +0:n1__clk1= 230.1729m 0:n1__vdd =   1.0992  0:n1__vss = 647.3229u
+ +0:n20__clk= 747.7057u 0:n20__clk=  21.9357n 0:n20__clk= 230.1729m
+ +0:n20__net= 762.9609u 0:n20__net= 543.8833m 0:n20__net= 543.2539m
+ +0:n20__net=   1.1000  0:n20__net= 348.9910m 0:n20__net= 542.4940m
+ +0:n20__net= 543.5171m 0:n20__net= 555.7685m 0:n20__net= 558.1718m
+ +0:n20__vdd=   1.0992  0:n20__vss= 413.4464u 0:n21__clk= 747.7101u
+ +0:n21__clk=  21.9415n 0:n21__clk= 230.1729m 0:n21__net= 762.9490u
+ +0:n21__net= 543.8833m 0:n21__net= 543.2539m 0:n21__net=   1.1000 
+ +0:n21__net= 542.4940m 0:n21__net= 543.4765m 0:n21__net= 555.7685m
+ +0:n21__net= 558.1718m 0:n21__vdd=   1.0992  0:n21__vss= 381.8669u
+ +0:n22__clk= 747.7093u 0:n22__clk=  21.9343n 0:n22__clk= 230.1729m
+ +0:n22__net= 762.9501u 0:n22__net= 543.8833m 0:n22__net= 543.2539m
+ +0:n22__net=   1.1000  0:n22__net= 542.4940m 0:n22__net= 543.4765m
+ +0:n22__net= 558.1718m 0:n22__vdd=   1.0992  0:n22__vss= 327.4774u
+ +0:n23__clk= 747.7120u 0:n23__clk=  12.2376n 0:n23__clk= 230.1729m
+ +0:n23__net= 762.9480u 0:n23__net= 543.8833m 0:n23__net= 543.2539m
+ +0:n23__net=   1.1000  0:n23__net= 542.4940m 0:n23__net= 543.4765m
+ +0:n23__net= 555.7685m 0:n23__net= 558.1718m 0:n23__vdd=   1.0991 
+ +0:n23__vss= 306.2108u 0:n24__clk= 747.7008u 0:n24__clk=  20.4224n
+ +0:n24__clk= 230.1729m 0:n24__net= 762.9196u 0:n24__net= 543.8833m
+ +0:n24__net= 543.2539m 0:n24__net=   1.1000  0:n24__net= 542.4940m
+ +0:n24__net= 543.4765m 0:n24__net= 555.7685m 0:n24__net= 558.1718m
+ +0:n24__vdd=   1.0991  0:n24__vss= 265.3733u 0:n25__clk= 747.7018u
+ +0:n25__clk=  21.3158n 0:n25__clk= 230.1729m 0:n25__net= 762.9193u
+ +0:n25__net= 543.8833m 0:n25__net= 543.2539m 0:n25__net=   1.1000 
+ +0:n25__net= 542.4940m 0:n25__net= 555.7685m 0:n25__net= 558.1718m
+ +0:n25__vdd=   1.0991  0:n25__vss= 243.5673u 0:n26__clk= 747.6991u
+ +0:n26__clk=  21.8917n 0:n26__clk= 230.1729m 0:n26__net= 762.9097u
+ +0:n26__net= 543.8833m 0:n26__net= 543.2539m 0:n26__net=   1.1000 
+ +0:n26__net= 542.4940m 0:n26__net= 555.7685m 0:n26__net= 558.1718m
+ +0:n26__vdd=   1.0992  0:n26__vss= 219.1113u 0:n27__clk= 747.6979u
+ +0:n27__clk=  22.0231n 0:n27__clk= 230.1729m 0:n27__net= 543.8833m
+ +0:n27__net= 543.2539m 0:n27__net=   1.1000  0:n27__net= 542.4940m
+ +0:n27__net= 555.7685m 0:n27__net= 558.1718m 0:n27__vdd=   1.0993 
+ +0:n27__vss= 179.8578u 0:n28__clk= 747.6975u 0:n28__clk=  20.9404n
+ +0:n28__clk= 230.1729m 0:n28__net= 543.8833m 0:n28__net= 543.2539m
+ +0:n28__net=   1.1000  0:n28__net= 542.4940m 0:n28__net= 555.7685m
+ +0:n28__net= 558.1718m 0:n28__vdd=   1.0993  0:n28__vss= 113.8736u
+ +0:n29__clk= 747.7031u 0:n29__clk=  21.9103n 0:n29__clk= 230.1729m
+ +0:n29__net= 543.8833m 0:n29__net= 543.2539m 0:n29__net=   1.1000 
+ +0:n29__net= 542.4940m 0:n29__net= 555.7685m 0:n29__net= 558.1718m
+ +0:n29__vdd=   1.0993  0:n29__vss=  88.0832u 0:n2__clk1= 747.6363u
+ +0:n2__clk1=   1.1000  0:n2__clk1=   3.3679n 0:n2__clk1= 230.1729m
+ +0:n2__i50_= 398.3133m 0:n2__i50_= 347.2478m 0:n2__i51_=   1.0584 
+ +0:n2__i51_=  52.4199m 0:n2__i51_=   1.0553  0:n2__i51_=  55.1312m
+ +0:n2__i51_= 545.1661m 0:n2__i52_=   1.0991  0:n2__i52_= 943.6642u
+ +0:n2__i52_= 555.8741m 0:n2__i52_= 745.8614u 0:n2__i52_=   1.0990 
+ +0:n2__i53_=   1.0990  0:n2__i53_= 937.6328u 0:n2__i53_= 552.8437m
+ +0:n2__i53_= 768.2924u 0:n2__i53_=   1.0990  0:n2__i69_=   1.0998 
+ +0:n2__i69_=  18.5723m 0:n2__i69_= 558.2680m 0:n2__i69_= 101.0030u
+ +0:n2__i69_=   1.0997  0:n2__i70_= 871.7668m 0:n2__i70_=  56.6978m
+ +0:n2__i70_= 920.1217m 0:n2__i70_= 428.9477u 0:n2__i70_= 760.1407m
+ +0:n2__i71_=   1.0680  0:n2__i71_=  55.4079m 0:n2__i71_=   1.0565 
+ +0:n2__i71_=  66.0982m 0:n2__i71_= 541.6671m 0:n2__i72_=   1.0505 
+ +0:n2__i72_=  50.6839m 0:n2__i72_=   1.0542  0:n2__i72_=  46.8937m
+ +0:n2__i72_= 548.8981m 0:n2__net1= 287.3407m 0:n2__net1= 762.9431u
+ +0:n2__net1= 548.9673m 0:n2__net1= 543.8833m 0:n2__net1= 543.2539m
+ +0:n2__net1=   1.1000  0:n2__net1= 564.8921m 0:n2__net1= 536.7210m
+ +0:n2__net1= 549.0022m 0:n2__net2= 348.9910m 0:n2__net2= 287.7061m
+ +0:n2__net2= 564.8221m 0:n2__net2= 536.6522m 0:n2__net3= 542.4940m
+ +0:n2__net4=   1.0992  0:n2__net5= 544.4090m 0:n2__net6= 543.4765m
+ +0:n2__net7= 555.7685m 0:n2__net8= 552.7246m 0:n2__net9= 558.1718m
+ +0:n2__vdd =   1.0992  0:n2__vss = 730.1445u 0:n30__clk= 747.6877u
+ +0:n30__clk=  21.9782n 0:n30__clk= 230.1729m 0:n30__net= 543.8833m
+ +0:n30__net= 543.2539m 0:n30__net=   1.1000  0:n30__net= 542.4940m
+ +0:n30__net= 555.7685m 0:n30__net= 558.1718m 0:n30__vdd=   1.0993 
+ +0:n30__vss=  38.5732u 0:n31__clk= 747.6866u 0:n31__clk=  21.9969n
+ +0:n31__clk= 230.1729m 0:n31__net= 543.8833m 0:n31__net= 543.2539m
+ +0:n31__net=   1.1000  0:n31__net= 542.4940m 0:n31__net= 555.7685m
+ +0:n31__net= 558.1718m 0:n31__vdd=   1.0993  0:n31__vss=  12.7535u
+ +0:n32__clk= 747.6863u 0:n32__clk=  22.0030n 0:n32__clk= 230.1729m
+ +0:n32__net= 543.7825m 0:n32__net= 543.1606m 0:n32__net=   1.1000 
+ +0:n32__net= 542.4922m 0:n32__net= 558.1718m 0:n32__vdd=   1.0993 
+ +0:n32__vss= 732.6881u 0:n33__clk= 747.6908u 0:n33__clk=  22.0089n
+ +0:n33__clk= 230.1729m 0:n33__net= 543.9255m 0:n33__net= 543.2930m
+ +0:n33__net=   1.1000  0:n33__net= 542.4948m 0:n33__net= 558.1718m
+ +0:n33__vdd=   1.0993  0:n33__vss= 736.5377u 0:n34__clk= 747.6902u
+ +0:n34__clk=  22.0016n 0:n34__clk= 230.1729m 0:n34__net= 543.8833m
+ +0:n34__net= 543.2539m 0:n34__net=   1.1000  0:n34__net= 542.4940m
+ +0:n34__net= 558.1718m 0:n34__vdd=   1.0993  0:n34__vss= 743.9155u
+ +0:n35__clk= 747.6955u 0:n35__clk=  12.3014n 0:n35__clk= 230.1729m
+ +0:n35__net= 543.8833m 0:n35__net= 543.2539m 0:n35__net=   1.1000 
+ +0:n35__net= 542.4940m 0:n35__net= 558.1718m 0:n35__vdd=   1.0994 
+ +0:n35__vss= 747.7586u 0:n36__clk= 747.6760u 0:n36__clk=  20.4886n
+ +0:n36__clk= 230.1729m 0:n36__net= 543.8833m 0:n36__net= 543.2539m
+ +0:n36__net=   1.1000  0:n36__net= 542.4940m 0:n36__net= 558.1718m
+ +0:n36__vdd=   1.0994  0:n36__vss= 755.3039u 0:n37__clk= 747.6769u
+ +0:n37__clk=  21.3821n 0:n37__clk= 230.1729m 0:n37__net= 543.8833m
+ +0:n37__net= 543.2539m 0:n37__net=   1.1000  0:n37__net= 542.4940m
+ +0:n37__net= 558.1718m 0:n37__vdd=   1.0994  0:n37__vss= 759.1490u
+ +0:n38__clk= 747.6741u 0:n38__clk=  21.9584n 0:n38__clk= 230.1729m
+ +0:n38__net= 543.8833m 0:n38__net= 543.2539m 0:n38__net=   1.1000 
+ +0:n38__net= 542.4940m 0:n38__net= 558.1718m 0:n38__vdd=   1.0994 
+ +0:n38__vss= 766.5181u 0:n39__clk= 747.6731u 0:n39__clk=  22.0898n
+ +0:n39__clk= 230.1729m 0:n39__net= 543.8833m 0:n39__net= 543.2539m
+ +0:n39__net=   1.1000  0:n39__net= 542.4940m 0:n39__net= 558.1718m
+ +0:n39__vdd=   1.0994  0:n39__vss= 770.0181u 0:n3__clk1= 747.6564u
+ +0:n3__clk1=   1.1000  0:n3__clk1=   4.2664n 0:n3__clk1= 230.1729m
+ +0:n3__i50_= 398.3133m 0:n3__i50_= 347.2478m 0:n3__i51_=   1.0585 
+ +0:n3__i51_=  52.4675m 0:n3__i51_=   1.0554  0:n3__i51_=  55.1806m
+ +0:n3__i51_= 545.1661m 0:n3__i52_=   1.0991  0:n3__i52_= 943.9521u
+ +0:n3__i52_= 555.8741m 0:n3__i52_= 745.8616u 0:n3__i52_=   1.0990 
+ +0:n3__i53_=   1.0990  0:n3__i53_= 937.9207u 0:n3__i53_= 552.8437m
+ +0:n3__i53_= 768.2926u 0:n3__i53_=   1.0990  0:n3__i69_=   1.0998 
+ +0:n3__i69_=  18.5725m 0:n3__i69_= 558.2680m 0:n3__i69_= 101.0032u
+ +0:n3__i69_=   1.0997  0:n3__i70_= 871.8204m 0:n3__i70_=  56.7641m
+ +0:n3__i70_= 920.1224m 0:n3__i70_= 429.8778u 0:n3__i70_= 760.1407m
+ +0:n3__i71_=   1.0681  0:n3__i71_=  55.4520m 0:n3__i71_=   1.0566 
+ +0:n3__i71_=  66.1496m 0:n3__i71_= 541.6671m 0:n3__i72_=   1.0506 
+ +0:n3__i72_=  50.7338m 0:n3__i72_=   1.0542  0:n3__i72_=  46.9412m
+ +0:n3__i72_= 548.8981m 0:n3__net1= 287.3407m 0:n3__net1= 762.9462u
+ +0:n3__net1= 548.9673m 0:n3__net1= 543.8833m 0:n3__net1= 543.2539m
+ +0:n3__net1=   1.1000  0:n3__net1= 564.8921m 0:n3__net1= 536.7210m
+ +0:n3__net1= 549.0022m 0:n3__net2= 348.9910m 0:n3__net2= 287.7061m
+ +0:n3__net2= 564.8221m 0:n3__net2= 536.6522m 0:n3__net3= 542.4940m
+ +0:n3__net4=   1.0992  0:n3__net5= 544.4090m 0:n3__net6= 543.4765m
+ +0:n3__net7= 555.7685m 0:n3__net8= 552.7246m 0:n3__net9= 558.1718m
+ +0:n3__vdd =   1.0992  0:n3__vss = 706.7988u 0:n40__clk= 747.6728u
+ +0:n40__clk=  21.0068n 0:n40__clk= 230.1729m 0:n40__net=   1.1000 
+ +0:n40__vdd=   1.0995  0:n40__vss= 778.2071u 0:n41__clk= 747.6809u
+ +0:n41__clk=  21.9773n 0:n41__clk= 230.1729m 0:n41__net=   1.1000 
+ +0:n41__vdd=   1.0995  0:n41__vss= 780.4437u 0:n42__clk= 747.6558u
+ +0:n42__clk=  21.9109n 0:n42__clk= 230.1729m 0:n42__net=   1.1000 
+ +0:n42__vdd=   1.0995  0:n42__vss= 780.7673u 0:n43__clk= 747.6562u
+ +0:n43__clk=  12.2109n 0:n43__clk= 230.1729m 0:n43__net=   1.1000 
+ +0:n43__vdd=   1.0995  0:n43__vss= 779.7830u 0:n44__clk= 747.6563u
+ +0:n44__clk=  21.9105n 0:n44__clk= 230.1729m 0:n44__net=   1.1000 
+ +0:n44__vdd=   1.0996  0:n44__vss= 766.6348u 0:n45__clk= 747.6604u
+ +0:n45__clk=  21.9779n 0:n45__clk= 230.1729m 0:n45__net=   1.1000 
+ +0:n45__vdd=   1.0996  0:n45__vss= 762.6337u 0:n46__clk= 747.6606u
+ +0:n46__clk=  12.2747n 0:n46__clk= 230.1729m 0:n46__net=   1.1000 
+ +0:n46__vdd=   1.0996  0:n46__vss= 759.8814u 0:n47__clk= 747.6683u
+ +0:n47__clk=  21.9775n 0:n47__clk= 230.1729m 0:n47__net=   1.1000 
+ +0:n47__vdd=   1.0997  0:n47__vss= 757.1972u 0:n48__clk= 747.6436u
+ +0:n48__clk=  12.1842n 0:n48__clk= 230.1729m 0:n48__net=   1.1000 
+ +0:n48__vdd=   1.0997  0:n48__vss= 754.3560u 0:n49__clk= 747.6387u
+ +0:n49__clk=  12.2480n 0:n49__clk= 230.1729m 0:n49__net=   1.1000 
+ +0:n49__vdd=   1.0997  0:n49__vss= 752.8747u 0:n4__clk1= 747.6724u
+ +0:n4__clk1=   1.1000  0:n4__clk1=   4.4097n 0:n4__clk1= 230.1729m
+ +0:n4__i50_= 398.3218m 0:n4__i50_= 347.2478m 0:n4__i51_=   1.0584 
+ +0:n4__i51_=  52.4205m 0:n4__i51_=  55.1318m 0:n4__i51_= 545.1661m
+ +0:n4__i52_=   1.0991  0:n4__i52_= 943.6626u 0:n4__i52_= 745.8614u
+ +0:n4__i52_=   1.0990  0:n4__i53_=   1.0990  0:n4__i53_= 937.6312u
+ +0:n4__i53_= 768.2924u 0:n4__i53_=   1.0990  0:n4__i69_=   1.0998 
+ +0:n4__i69_=  18.5723m 0:n4__i69_= 101.0030u 0:n4__i69_=   1.0997 
+ +0:n4__i70_= 871.7670m 0:n4__i70_=  56.6985m 0:n4__i70_= 428.9578u
+ +0:n4__i70_= 760.1407m 0:n4__i71_=   1.0680  0:n4__i71_=  55.4084m
+ +0:n4__i71_=  66.0988m 0:n4__i71_= 541.6671m 0:n4__i72_=   1.0505 
+ +0:n4__i72_=  50.6845m 0:n4__i72_=  46.8942m 0:n4__i72_= 548.8981m
+ +0:n4__net1= 287.3407m 0:n4__net1= 762.9542u 0:n4__net1= 548.9673m
+ +0:n4__net1= 543.8833m 0:n4__net1= 543.2539m 0:n4__net1=   1.1000 
+ +0:n4__net1= 564.8921m 0:n4__net1= 536.7210m 0:n4__net1= 549.0022m
+ +0:n4__net2= 348.9910m 0:n4__net2= 287.7061m 0:n4__net2= 564.8221m
+ +0:n4__net2= 536.6522m 0:n4__net3= 542.4940m 0:n4__net4=   1.0992 
+ +0:n4__net5= 544.4090m 0:n4__net6= 543.4765m 0:n4__net7= 555.7685m
+ +0:n4__net8= 552.7246m 0:n4__net9= 558.1718m 0:n4__vdd =   1.0992 
+ +0:n4__vss = 693.1028u 0:n50__clk= 747.6354u 0:n50__clk=  12.1575n
+ +0:n50__clk= 230.1729m 0:n50__net=   1.1000  0:n50__vdd=   1.0998 
+ +0:n50__vss= 750.1932u 0:n51__clk= 747.6016u 0:n51__clk=  12.2213n
+ +0:n51__clk= 230.1729m 0:n51__net=   1.1000  0:n51__vdd=   1.0998 
+ +0:n51__vss= 747.5143u 0:n52__clk= 747.6012u 0:n52__clk=  12.1500n
+ +0:n52__clk= 230.1729m 0:n52__net=   1.1000  0:n52__vdd=   1.0998 
+ +0:n52__vss= 744.8353u 0:n53__clk= 747.5976u 0:n53__net=   1.1000 
+ +0:n53__vdd=   1.0998  0:n53__vss= 741.9668u 0:n54__clk= 747.5924u
+ +0:n54__net=   1.1000  0:n54__vdd=   1.0998  0:n54__vss= 740.4852u
+ +0:n55__clk= 747.5886u 0:n55__net=   1.1000  0:n55__vdd=   1.0998 
+ +0:n55__vss= 737.7424u 0:n56__clk= 747.7363u 0:n56__net=   1.1000 
+ +0:n56__vdd=   1.0998  0:n56__vss= 734.9923u 0:n57__clk= 747.6405u
+ +0:n57__vdd=   1.0998  0:n57__vss= 732.3076u 0:n58__clk= 747.5980u
+ +0:n58__vdd=   1.0998  0:n58__vss= 727.6857u 0:n59__clk= 747.5449u
+ +0:n59__vdd=   1.0992  0:n59__vss= 727.6859u 0:n5__clk1= 747.6860u
+ +0:n5__clk1=   1.1000  0:n5__clk1=   4.4287n 0:n5__clk1= 230.1729m
+ +0:n5__i50_= 398.3218m 0:n5__i50_= 347.2478m 0:n5__i51_=  52.4678m
+ +0:n5__i51_=  55.1808m 0:n5__i51_= 545.1661m 0:n5__i52_= 943.0802u
+ +0:n5__i52_= 745.8610u 0:n5__i52_=   1.0990  0:n5__i53_= 937.0488u
+ +0:n5__i53_= 768.2920u 0:n5__i53_=   1.0990  0:n5__i69_=  18.5725m
+ +0:n5__i69_= 101.0032u 0:n5__i69_=   1.0997  0:n5__i70_=  56.7645m
+ +0:n5__i70_= 429.8827u 0:n5__i70_= 760.1407m 0:n5__i71_=  55.4523m
+ +0:n5__i71_=  66.1499m 0:n5__i71_= 541.6671m 0:n5__i72_=  50.7341m
+ +0:n5__i72_=  46.9415m 0:n5__i72_= 548.8981m 0:n5__net1= 287.3407m
+ +0:n5__net1= 762.9594u 0:n5__net1= 548.9673m 0:n5__net1= 543.8833m
+ +0:n5__net1= 543.2539m 0:n5__net1=   1.1000  0:n5__net1= 564.8921m
+ +0:n5__net1= 536.7210m 0:n5__net1= 549.0022m 0:n5__net2= 348.9910m
+ +0:n5__net2= 287.7061m 0:n5__net2= 564.8221m 0:n5__net2= 536.6522m
+ +0:n5__net3= 542.4940m 0:n5__net4=   1.0992  0:n5__net5= 544.4090m
+ +0:n5__net6= 543.4765m 0:n5__net7= 555.7685m 0:n5__net8= 552.7246m
+ +0:n5__net9= 558.1718m 0:n5__vdd =   1.0992  0:n5__vss = 687.3696u
+ +0:n60__clk= 747.5928u 0:n60__vdd=   1.0993  0:n60__vss= 707.2010u
+ +0:n61__clk= 747.4458u 0:n61__vdd=   1.0993  0:n61__vss= 828.7086u
+ +0:n62__clk= 747.5890u 0:n62__vdd=   1.0993  0:n62__vss= 741.4323u
+ +0:n63__vdd=   1.0993  0:n63__vss= 735.7062u 0:n64__vdd=   1.0993 
+ +0:n64__vss= 722.2214u 0:n65__vdd=   1.0993  0:n65__vss= 715.7308u
+ +0:n66__vdd=   1.0993  0:n66__vss= 661.9688u 0:n67__vdd=   1.0993 
+ +0:n67__vss= 783.7623u 0:n68__vdd=   1.0993  0:n68__vss= 647.6874u
+ +0:n69__vdd=   1.0993  0:n69__vss= 769.4212u 0:n6__clk1= 747.6971u
+ +0:n6__clk1=   1.1000  0:n6__clk1=   4.9629n 0:n6__clk1= 230.1729m
+ +0:n6__i50_= 398.3218m 0:n6__i50_= 347.0434m 0:n6__i51_=   1.0584 
+ +0:n6__i51_=  52.4207m 0:n6__i51_=  55.1320m 0:n6__i51_= 545.1661m
+ +0:n6__i52_=   1.0991  0:n6__i52_= 943.6592u 0:n6__i52_= 745.8614u
+ +0:n6__i52_=   1.0990  0:n6__i53_=   1.0990  0:n6__i53_= 937.6279u
+ +0:n6__i53_= 768.2924u 0:n6__i53_=   1.0990  0:n6__i69_=   1.0998 
+ +0:n6__i69_=  18.5723m 0:n6__i69_= 101.0030u 0:n6__i69_=   1.0997 
+ +0:n6__i70_= 871.7636m 0:n6__i70_=  56.6989m 0:n6__i70_= 428.9626u
+ +0:n6__i70_= 760.1407m 0:n6__i71_=   1.0680  0:n6__i71_=  55.4086m
+ +0:n6__i71_=  66.0991m 0:n6__i71_= 541.6671m 0:n6__i72_=   1.0505 
+ +0:n6__i72_=  50.6848m 0:n6__i72_=  46.8944m 0:n6__i72_= 548.8981m
+ +0:n6__net1= 287.3407m 0:n6__net1= 762.9628u 0:n6__net1= 548.9673m
+ +0:n6__net1= 543.8833m 0:n6__net1= 543.2539m 0:n6__net1=   1.1000 
+ +0:n6__net1= 564.8921m 0:n6__net1= 536.7210m 0:n6__net1= 549.0022m
+ +0:n6__net2= 348.9910m 0:n6__net2= 287.7061m 0:n6__net2= 564.8221m
+ +0:n6__net2= 536.6522m 0:n6__net3= 542.4940m 0:n6__net4=   1.0992 
+ +0:n6__net5= 544.4090m 0:n6__net6= 543.4765m 0:n6__net7= 555.7685m
+ +0:n6__net8= 552.7246m 0:n6__net9= 558.1718m 0:n6__vdd =   1.0992 
+ +0:n6__vss = 675.6358u 0:n70__vdd=   1.0994  0:n70__vss= 666.6147u
+ +0:n71__vdd=   1.0994  0:n71__vss= 655.6126u 0:n72__vdd=   1.0994 
+ +0:n72__vss= 636.0105u 0:n73__vdd=   1.0994  0:n73__vss= 624.2338u
+ +0:n74__vdd=   1.0994  0:n74__vss= 562.3308u 0:n75__vdd=   1.0995 
+ +0:n75__vss= 684.1128u 0:n76__vdd=   1.0994  0:n76__vss= 539.3880u
+ +0:n77__vdd=   1.0995  0:n77__vss= 661.1323u 0:n78__vdd=   1.0995 
+ +0:n78__vss= 548.4739u 0:n79__vdd=   1.0995  0:n79__vss= 532.1415u
+ +0:n7__clk1= 747.7053u 0:n7__clk1=   1.1000  0:n7__clk1=   3.8841n
+ +0:n7__clk1= 230.1729m 0:n7__i50_= 398.3133m 0:n7__i50_= 347.2478m
+ +0:n7__i51_=   1.0584  0:n7__i51_=   1.0553  0:n7__i51_= 545.1661m
+ +0:n7__i52_=   1.0991  0:n7__i52_= 555.8741m 0:n7__i52_=   1.0990 
+ +0:n7__i53_=   1.0990  0:n7__i53_= 552.8437m 0:n7__i53_=   1.0990 
+ +0:n7__i69_=   1.0998  0:n7__i69_= 558.2680m 0:n7__i69_=   1.0997 
+ +0:n7__i70_= 871.7368m 0:n7__i70_= 920.1216m 0:n7__i70_= 760.1407m
+ +0:n7__i71_=   1.0680  0:n7__i71_=   1.0565  0:n7__i71_= 541.6671m
+ +0:n7__i72_=   1.0505  0:n7__i72_=   1.0542  0:n7__i72_= 548.8981m
+ +0:n7__net1= 287.3407m 0:n7__net1= 762.9639u 0:n7__net1= 548.9673m
+ +0:n7__net1= 543.8833m 0:n7__net1= 543.2539m 0:n7__net1=   1.1000 
+ +0:n7__net1= 564.8921m 0:n7__net1= 536.7210m 0:n7__net1= 549.0022m
+ +0:n7__net2= 348.9910m 0:n7__net2= 287.7061m 0:n7__net2= 564.8221m
+ +0:n7__net2= 536.6522m 0:n7__net3= 542.4940m 0:n7__net4=   1.0992 
+ +0:n7__net5= 544.4090m 0:n7__net6= 543.4765m 0:n7__net7= 555.7685m
+ +0:n7__net8= 552.7246m 0:n7__net9= 558.1718m 0:n7__vdd =   1.0992 
+ +0:n7__vss = 669.1507u 0:n80__vdd=   1.0995  0:n80__vss= 492.9278u
+ +0:n81__vdd=   1.0996  0:n81__vss= 475.8305u 0:n82__vdd=   1.0995 
+ +0:n82__vss= 413.8521u 0:n83__vdd=   1.0996  0:n83__vss= 536.5018u
+ +0:n84__vdd=   1.0996  0:n84__vss= 382.2728u 0:n85__vdd=   1.0997 
+ +0:n85__vss= 504.9025u 0:n86__vdd=   1.0997  0:n86__vss= 328.3008u
+ +0:n87__vdd=   1.0997  0:n87__vss= 307.2101u 0:n88__vdd=   1.0997 
+ +0:n88__vss= 330.2531u 0:n89__vdd=   1.1000  0:n89__vss= 308.4634u
+ +0:n8__clk1= 747.7108u 0:n8__clk1=   1.1000  0:n8__clk1=   4.4611n
+ +0:n8__clk1= 230.1729m 0:n8__i50_= 398.3218m 0:n8__i50_= 347.2478m
+ +0:n8__i51_=   1.0584  0:n8__i51_=   1.0553  0:n8__i51_= 545.1661m
+ +0:n8__i52_=   1.0991  0:n8__i52_= 555.8741m 0:n8__i52_=   1.0990 
+ +0:n8__i53_=   1.0990  0:n8__i53_= 552.8437m 0:n8__i53_=   1.0990 
+ +0:n8__i69_=   1.0998  0:n8__i69_= 558.2680m 0:n8__i69_=   1.0997 
+ +0:n8__i70_= 871.7635m 0:n8__i70_= 920.1212m 0:n8__i70_= 760.1407m
+ +0:n8__i71_=   1.0680  0:n8__i71_=   1.0565  0:n8__i71_= 541.6671m
+ +0:n8__i72_=   1.0505  0:n8__i72_=   1.0541  0:n8__i72_= 548.8981m
+ +0:n8__net1= 287.3407m 0:n8__net1= 762.9670u 0:n8__net1= 548.9673m
+ +0:n8__net1= 543.8833m 0:n8__net1= 543.2539m 0:n8__net1=   1.1000 
+ +0:n8__net1= 564.8921m 0:n8__net1= 536.7210m 0:n8__net1= 549.0022m
+ +0:n8__net2= 348.9910m 0:n8__net2= 287.7061m 0:n8__net2= 564.8221m
+ +0:n8__net2= 536.6522m 0:n8__net3= 542.4940m 0:n8__net4=   1.0992 
+ +0:n8__net5= 544.4090m 0:n8__net6= 543.4765m 0:n8__net7= 555.7685m
+ +0:n8__net8= 552.7246m 0:n8__net9= 558.1718m 0:n8__vdd =   1.0992 
+ +0:n8__vss = 661.5660u 0:n90__vdd=   1.1000  0:n90__vss= 219.4816u
+ +0:n91__vdd=   1.1000  0:n91__vss= 331.4336u 0:n92__vdd=   1.1000 
+ +0:n92__vss= 180.2282u 0:n93__vss= 292.1087u 0:n94__vdd=   1.0998 
+ +0:n94__vss= 113.6304u 0:n95__vdd=   1.0997  0:n95__vss=  88.3278u
+ +0:n96__vdd=   1.0998  0:n96__vss=  38.7325u 0:n97__vdd=   1.0997 
+ +0:n97__vss=  12.9130u 0:n98__vdd=   1.0998  0:n98__vss= 732.9775u
+ +0:n99__vdd=   1.0998  0:n99__vss= 736.8219u 0:n9__clk1= 747.7142u
+ +0:n9__clk1=   1.1000  0:n9__clk1=   4.4549n 0:n9__clk1= 230.1729m
+ +0:n9__i50_= 398.3218m 0:n9__i50_= 347.2478m 0:n9__i51_= 545.1661m
+ +0:n9__i52_=   1.0990  0:n9__i53_=   1.0990  0:n9__i69_=   1.0997 
+ +0:n9__i70_= 760.1407m 0:n9__i71_= 541.6671m 0:n9__i72_= 548.8981m
+ +0:n9__net1= 287.3407m 0:n9__net1= 762.9634u 0:n9__net1= 548.9673m
+ +0:n9__net1= 543.8833m 0:n9__net1= 543.2539m 0:n9__net1=   1.1000 
+ +0:n9__net1= 564.8921m 0:n9__net1= 536.7210m 0:n9__net1= 549.0022m
+ +0:n9__net2= 348.9910m 0:n9__net2= 287.7061m 0:n9__net2= 564.8221m
+ +0:n9__net2= 536.6522m 0:n9__net3= 542.4940m 0:n9__net4=   1.0992 
+ +0:n9__net5= 544.4090m 0:n9__net6= 543.4765m 0:n9__net7= 555.7685m
+ +0:n9__net8= 552.7246m 0:n9__net9= 558.1718m 0:n9__vdd =   1.0992 
+ +0:n9__vss = 647.2845u 0:net1    = 287.3407m 0:net10   = 762.9194u
+ +0:net11   = 548.9673m 0:net12   = 543.8833m 0:net13   = 543.2539m
+ +0:net14   =   1.1000  0:net15   = 564.8921m 0:net17   = 536.7210m
+ +0:net19   = 549.0022m 0:net2    = 348.9910m 0:net20   = 287.7061m
+ +0:net23   = 564.8221m 0:net26   = 536.6522m 0:net3    = 542.4940m
+ +0:net4    =   1.0992  0:net5    = 544.4090m 0:net6    = 543.4765m
+ +0:net7    = 555.7685m 0:net8    = 552.7246m 0:net9    = 558.1718m
+ +0:vdd     =   1.1000  0:vss     =   0.     
+
+ ******
+ clkdivider
+
+ ****** transient analysis tnom=  25.000 temp=  25.000 ******
+ avg_power=   failed
+
+          ***** job concluded
+ ******  
+ clkdivider
+
+ ****** job statistics summary tnom=  25.000 temp=  25.000 ******
+  
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) Silver 4216 CPU @ 2.10GHz
+ cpu MHz	: 2095.077
+ CPU(s)		: 8
+  
+ OS:
+ Linux version 4.18.0-513.5.1.el8_9.x86_64 (mockbuild@x64-builder02.almalinux.org) (gcc version 8.5.0 20210514 (Red Hat 8.5.0-20) (GCC)) #1 SMP Mon Nov 20 08:56:15 EST 2023
+
+ System loadavg : 1.18 0.73 0.77 2/1715 936902
+
+
+  ******  PrimeSim HSPICE Threads Information  ******
+
+  Command Line Threads Count :     1
+  Available CPU Count        :     8
+  Actual Threads Count       :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =    1681 # elements   =    2489
+  # resistors   =    1309 # capacitors =     965 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       3
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =     212 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+  # vector_srcs =       0 # N elements =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point          10.28           1       11443
+  transient         20.80      256001       33482       13931 rev=       819
+  readin             0.05
+  errchk             0.01
+  setup              0.06
+  output             0.00
+
+
+           peak memory used        534.98 megabytes
+           total cpu time           31.21 seconds
+           total elapsed time       31.29 seconds
+           job started at     20:13:45 12/04/2023
+           job ended   at     20:14:16 12/04/2023
+
+>info:         ***** hspice job concluded
+           job total runtime        31.29 seconds
+
+
+ lic: Release hspice token(s) 
+ lic: total license checkout elapse time:        0.06(s)

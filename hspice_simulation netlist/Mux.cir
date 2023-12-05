@@ -1,0 +1,95 @@
+** Generated for: hspiceD
+** Generated on: Dec  4 18:47:46 2023
+** Design library name: ECE482final_cadence
+** Design cell name: mux
+** Design view name: av_extracted
+
+
+.PROBE TRAN
++    V(b)
++    V(a)
++    V(s0)
++    V(s0_b)
++    V(out)
+.TRAN 1e-12 8e-9 START=0.0
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2
+.LIB "/class/ece482/gpdk045_mos" TT
+
+** Library name: ECE482final_cadence
+** Cell name: mux
+** View name: av_extracted
+c1 vdd vss 40.8051e-18
+c2 a vss 25.0731e-18
+c3 b vss 47.9759e-18
+c4 s0 vss 15.2703e-18
+c5 s0_b vss 51.2033e-18
+c6 out vss 76.288e-18
+c7 n4__s0 vss 33.5908e-18
+c8 n1__s0_b vss 42.7982e-18
+c9 n3__s0 vss 30.9288e-18
+c10 n4__s0_b vss 24.4468e-18
+c11 n1__s0 vss 12.8802e-18
+c12 n3__s0_b vss 84.7843e-18
+c13 n8__a vss 30.9326e-18
+c14 n7__a vss 27.5385e-18
+c15 n5__b vss 91.539e-18
+c16 n4__a vss 162.079e-18
+c17 n6__s0 vss 183.457e-18
+c18 n1__a vss 140.658e-18
+c19 n3__b vss 117.353e-18
+c20 n5__s0 vss 168.181e-18
+c21 n3__vdd vss 259.286e-18
+c22 n2__out vss 48.1993e-18
+c23 n1__b vss 77.0771e-18
+c24 n6__b vss 32.4864e-18
+c25 n3__out vss 79.5765e-18
+c26 n2__s0_b vss 20.1655e-18
+c27 n2__s0 vss 17.9121e-18
+c28 n4__b vss 36.7232e-18
+c29 n1__out vss 72.385e-18
+c30 n2__vdd vss 34.2435e-18
+ri1 n8__a n7__a 404.7e-3
+rj1 n1__a n7__a 1
+rj2 n6__s0 n5__s0 815.9e-3
+rj3 n4__a n8__a 1
+rj4 n5__b n3__b 1.0764
+rk1 b n2__b 108.3e-3
+rk2 n2__b n3__b 504.9e-3
+rk3 n1__b n2__b 75
+rk4 n5__s0 s0 523.5e-3
+rk5 n1__a n3__a 13.61e-3
+rk6 n3__a a 152.7e-3
+rk7 n2__a n3__a 31
+rk8 n3__s0_b s0_b 249.5e-3
+rk9 n4__b n5__b 2.671e-3
+rk10 n7__b n8__b 2.671e-3
+rk11 n4__b n8__b 15.75e-3
+rk12 n6__b n7__b 31
+rk13 n4__a n6__a 7.059e-3
+rk14 n5__a n6__a 75
+rk15 n6__s0 n1__s0 3.784e-3
+rk16 out n1__out 354.1e-3
+rk17 n1__out n2__out 75.1319
+rk18 n1__out n3__out 31.2815
+rk20 n2__vdd vdd 604.1e-3
+rk21 n2__vdd n3__vdd 75.107
+rk23 n2__vss vss 679.1e-3
+rk24 n2__vss n3__vss 62.0778
+rl1 n1__s0_b n2__s0_b 84.3295
+rl2 n2__s0_b n3__s0_b 50.1123
+rl3 n2__s0_b n4__s0_b 34.3295
+rl4 n1__s0 n2__s0 49.3192
+rl5 n2__s0 n3__s0 80.4834
+rl6 n2__s0 n4__s0 38.1757
+mi0__pm0 n3__out n1__s0_b n2__a n3__vdd g45p1svt L=45e-9 W=240e-9 AD=38.4e-15 AS=38.4e-15 PD=780e-9 PS=780e-9 NRD=1.16667 NRS=1.16667 M=1
+mi1__pm0 n6__b n4__s0 n3__out n3__vdd g45p1svt L=45e-9 W=240e-9 AD=33.6e-15 AS=33.6e-15 PD=780e-9 PS=780e-9 NRD=1.16667 NRS=1.16667 M=1
+mi1__nm0 n2__out n4__s0_b n1__b n3__vss g45n1svt L=45e-9 W=120e-9 AD=19.2e-15 AS=19.2e-15 PD=540e-9 PS=540e-9 NRD=1.16667 NRS=1.16667 M=1
+mi0__nm0 n5__a n3__s0 n2__out n3__vss g45n1svt L=45e-9 W=120e-9 AD=16.8e-15 AS=16.8e-15 PD=540e-9 PS=540e-9 NRD=1.16667 NRS=1.16667 M=1
+.include "./_graphical_stimuli.scs"
+.END
