@@ -1,0 +1,30 @@
+!<alc> v1 53
+0   43    0 xor2 layout ECE482final_cadence
+0   57   43 xor2_VAR1 layout ECE482final_cadence
+0   41    0 schmitt_buff_1_8V layout ECE482final_cadence
+0   37    0 lvl_shifter_iotoc layout ECE482final_cadence
+0   35    0 inv_s4f8 layout ECE482final_cadence
+0   34    0 inv_s4f2_nowell layout ECE482final_cadence
+0   33    0 inv_s4f16_nowell layout ECE482final_cadence
+0   32    0 inv_s4f16 layout ECE482final_cadence
+0   30    0 inv_s2f2_nowell layout ECE482final_cadence
+0   29    0 clk_buffer layout ECE482final_cadence
+0   28    0 c2mos_register_s2f1 layout ECE482final_cadence
+0   27    0 c2mos_register_rst layout ECE482final_cadence
+0   25    0 c2mos_register_nowell_2s2f layout ECE482final_cadence
+0   24    0 c2mos_register_2s2f layout ECE482final_cadence
+0   17    0 pmos1v layout gpdk045 fingers=2 fw=9.6e-07 in1=I2
+0    3    0 nmos1v layout gpdk045 fingers=4 fw=2.4e-07 in1=I5
+0    2    0 nmos1v layout gpdk045 fingers=8 fw=4.8e-07 in1=I1
+0    1    0 nmos1v layout gpdk045 fingers=2 fw=4.8e-07 in1=I1
+0   54    0 prbs_mux_blk layout ECE482final_cadence
+0   53    0 prbs layout ECE482final_cadence
+0   52    0 mux layout ECE482final_cadence
+0   51    0 inv_s8f8 layout ECE482final_cadence
+0   50    0 deserializer_reg_bank layout ECE482final_cadence
+0   49    0 deserializer_large layout ECE482final_cadence
+0   47    0 clock_divider_xor layout ECE482final_cadence
+0   46    0 clk_buffer_full layout ECE482final_cadence
+0   45    0 EN_IO layout ECE482final_cadence
+0   42    0 serializer_verticle layout ECE482final_cadence
+0   56    0 clock_serializer_NAND layout ECE482final_cadence
