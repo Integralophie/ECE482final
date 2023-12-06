@@ -1,0 +1,58 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'schmitt_buff_1_8V layout ECE482final_cadence':
+  info: Assign pin label "VSS" at (1.0750, 0.1500) to layer `metal1_conn'.
+  info: Assign pin label "A" at (0.4000, 1.0200) to layer `metal1_conn'.
+  info: Assign pin label "VDDIO" at (0.7850, 2.4700) to layer `metal1_conn'.
+  info: Assign pin label "Y" at (2.3550, 1.0200) to layer `metal1_conn'.
+  info: Assign net label "D_nmos2v_avC_1" at (0.6400, 0.6350) to layer `metal1_conn'.
+  info: Assign net label "D_pmos2v_avC_2" at (1.5300, 1.7550) to layer `metal1_conn'.
+
+ Label in cell 'lvl_shifter_iotoc layout ECE482final_cadence':
+  info: Assign pin label "Aio" at (2.2850, 0.7675) to layer `poly_conn'.
+  info: Assign pin label "VDD" at (0.6800, 1.1600) to layer `metal2_conn'.
+  info: Assign pin label "out" at (0.4400, 0.8825) to layer `metal1_conn'.
+  info: Assign pin label "VSS" at (1.2325, 0.0975) to layer `metal1_conn'.
+  info: Assign pin label "out_b" at (1.2600, 0.9225) to layer `metal1_conn'.
+  info: Assign pin label "VDDIO" at (1.8500, 1.7550) to layer `metal1_conn'.
+
+ Label in cell 'EN_IO layout ECE482final_cadence':
+  info: Assign pin label "VDD" at (5.9575, 1.2400) to layer `metal2_conn'.
+  info: Assign pin label "VSS" at (0.1275, 0.1250) to layer `metal1_conn'.
+  info: Assign pin label "EN_IO" at (0.1600, 1.0200) to layer `metal1_conn'.
+  info: Assign pin label "VDDIO" at (0.1375, 2.4400) to layer `metal1_conn'.
+  info: Assign pin label "EN" at (3.3650, 0.9975) to layer `metal1_conn'.
+  info: Assign pin label "EN_b" at (4.1850, 1.0075) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
+
+***** Begin Label Report *****
+
+ Label in cell 'schmitt_buff_1_8V layout ECE482final_cadence':
+  info: Assign pin label "VSS" at (1.0750, 0.1500) to layer `metal1_conn'.
+  info: Assign pin label "A" at (0.4000, 1.0200) to layer `metal1_conn'.
+  info: Assign pin label "VDDIO" at (0.7850, 2.4700) to layer `metal1_conn'.
+  info: Assign pin label "Y" at (2.3550, 1.0200) to layer `metal1_conn'.
+  info: Assign net label "D_nmos2v_avC_1" at (0.6400, 0.6350) to layer `metal1_conn'.
+  info: Assign net label "D_pmos2v_avC_2" at (1.5300, 1.7550) to layer `metal1_conn'.
+
+ Label in cell 'lvl_shifter_iotoc layout ECE482final_cadence':
+  info: Assign pin label "Aio" at (2.2850, 0.7675) to layer `poly_conn'.
+  info: Assign pin label "VDD" at (0.6800, 1.1600) to layer `metal2_conn'.
+  info: Assign pin label "out" at (0.4400, 0.8825) to layer `metal1_conn'.
+  info: Assign pin label "VSS" at (1.2325, 0.0975) to layer `metal1_conn'.
+  info: Assign pin label "out_b" at (1.2600, 0.9225) to layer `metal1_conn'.
+  info: Assign pin label "VDDIO" at (1.8500, 1.7550) to layer `metal1_conn'.
+
+ Label in cell 'EN_IO layout ECE482final_cadence':
+  info: Assign pin label "VDD" at (5.9575, 1.2400) to layer `metal2_conn'.
+  info: Assign pin label "VSS" at (0.1275, 0.1250) to layer `metal1_conn'.
+  info: Assign pin label "EN_IO" at (0.1600, 1.0200) to layer `metal1_conn'.
+  info: Assign pin label "VDDIO" at (0.1375, 2.4400) to layer `metal1_conn'.
+  info: Assign pin label "EN" at (3.3650, 0.9975) to layer `metal1_conn'.
+  info: Assign pin label "EN_b" at (4.1850, 1.0075) to layer `metal1_conn'.
+
+***** End of Label Report *****
+

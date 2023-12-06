@@ -1,0 +1,26 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'lvl_shifter_ctoio layout ECE482final_cadence':
+  info: Assign pin label "out" at (8.9500, 3.3950) to layer `metal1_conn'.
+  info: Assign pin label "out_b" at (9.7700, 3.4200) to layer `metal1_conn'.
+  info: Assign pin label "VSS" at (11.0400, 2.5250) to layer `metal1_conn'.
+  info: Assign pin label "VDDIO" at (9.2250, 4.4000) to layer `metal1_conn'.
+  info: Assign pin label "Bcore" at (11.0600, 3.4100) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (10.8200, 3.9900) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
+
+***** Begin Label Report *****
+
+ Label in cell 'lvl_shifter_ctoio layout ECE482final_cadence':
+  info: Assign pin label "out" at (8.9500, 3.3950) to layer `metal1_conn'.
+  info: Assign pin label "out_b" at (9.7700, 3.4200) to layer `metal1_conn'.
+  info: Assign pin label "VSS" at (11.0400, 2.5250) to layer `metal1_conn'.
+  info: Assign pin label "VDDIO" at (9.2250, 4.4000) to layer `metal1_conn'.
+  info: Assign pin label "Bcore" at (11.0600, 3.4100) to layer `metal1_conn'.
+  info: Assign pin label "VDD" at (10.8200, 3.9900) to layer `metal1_conn'.
+
+***** End of Label Report *****
+

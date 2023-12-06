@@ -1,0 +1,4 @@
+!<alc> v1 44
+0    9    0 schmitt_buff_1_8V layout ECE482final_cadence
+0    8    0 lvl_shifter_iotoc layout ECE482final_cadence
+0   10    0 EN_IO layout ECE482final_cadence
