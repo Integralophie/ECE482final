@@ -25,7 +25,7 @@
 (opts CDS) "Off (0)"
 (opts CHGTOL) "1e-15"
 (opts CO) "Narrow (80)"
-(opts CONVERGE) "Autoconvergance (0)"
+(opts CONVERGE) "Gmath ramping (4)"
 (opts CPTIME) "1e+7"
 (opts CSDF) nil
 (opts CSHDC) "1e-12"
