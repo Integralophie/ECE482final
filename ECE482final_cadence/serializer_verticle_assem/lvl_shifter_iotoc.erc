@@ -1,0 +1,26 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'lvl_shifter_iotoc layout ECE482final_cadence':
+  info: Assign pin label "Aio" at (61.9150, 30.7825) to layer `poly_conn'.
+  info: Assign pin label "VDD" at (59.6700, 30.9900) to layer `metal2_conn'.
+  info: Assign pin label "out" at (60.0700, 30.8975) to layer `metal1_conn'.
+  info: Assign pin label "VSS" at (60.8625, 30.1125) to layer `metal1_conn'.
+  info: Assign pin label "out_b" at (60.8900, 30.9375) to layer `metal1_conn'.
+  info: Assign pin label "VDDIO" at (61.4800, 31.7700) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
+
+***** Begin Label Report *****
+
+ Label in cell 'lvl_shifter_iotoc layout ECE482final_cadence':
+  info: Assign pin label "Aio" at (61.9150, 30.7825) to layer `poly_conn'.
+  info: Assign pin label "VDD" at (59.6700, 30.9900) to layer `metal2_conn'.
+  info: Assign pin label "out" at (60.0700, 30.8975) to layer `metal1_conn'.
+  info: Assign pin label "VSS" at (60.8625, 30.1125) to layer `metal1_conn'.
+  info: Assign pin label "out_b" at (60.8900, 30.9375) to layer `metal1_conn'.
+  info: Assign pin label "VDDIO" at (61.4800, 31.7700) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
