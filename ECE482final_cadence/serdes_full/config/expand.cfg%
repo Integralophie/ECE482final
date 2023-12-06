@@ -1,0 +1,22 @@
+//Revision 3
+//NOTE
+// Default template for spectre
+// Note:
+//      Please remember to replace Top Cell Library, Cell, and View
+//      fields with the actual names used by your design.
+//END_NOTE
+
+config serdes_full;
+design ECE482final_cadence.serdes_full:schematic;
+liblist myLib;
+
+viewlist spectre, cmos_sch, \cmos.sch , schematic, veriloga, ahdl, pspice, dspf;
+stoplist spectre;
+
+
+cell ECE482final_cadence.clock_serializer binding :av_extracted;
+cell ECE482final_cadence.EN_IO binding :av_extracted;
+cell ECE482final_cadence.lvl_shifter_ctoio binding :av_extracted;
+
+
+endconfig

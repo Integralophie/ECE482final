@@ -143,12 +143,17 @@ tmp2 = (let
 (tmp1 tmp2 tmp3 tmp4 tmp5)
 tmp1 = 'integ
 tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'abs
+tmp2 = (let
 (tmp1 tmp2 tmp3 tmp4)
 tmp1 = 'v
 tmp2 = "/OUT"
 tmp3 = '?result
 tmp4 = "timeSweep"
 list(tmp1 tmp2 tmp3 tmp4)
+)
+list(tmp1 tmp2)
 )
 tmp3 = (let
 (tmp1 tmp2 tmp3)
@@ -195,12 +200,17 @@ tmp3 = (let
 (tmp1 tmp2 tmp3 tmp4 tmp5)
 tmp1 = 'integ
 tmp2 = (let
+(tmp1 tmp2)
+tmp1 = 'abs
+tmp2 = (let
 (tmp1 tmp2 tmp3 tmp4)
 tmp1 = 'v
 tmp2 = "/OUT"
 tmp3 = '?result
 tmp4 = "timeSweep"
 list(tmp1 tmp2 tmp3 tmp4)
+)
+list(tmp1 tmp2)
 )
 tmp3 = 0
 tmp4 = 1.0000000000000000e-08
@@ -229,7 +239,7 @@ tmp1->depList = nil
 tmp1->type = nil
 tmp1->areaTable = nil
 tmp1->selectionDetail = nil
-tmp1->value = nil
+tmp1->value = 9.4892641324814704e+01
 tmp1->plot = 't
 tmp1->save = nil
 tmp1->march = nil
@@ -241,7 +251,7 @@ tmp1->yaxisLabel = nil
 tmp1->label = nil
 tmp1->yaxisUnit = nil
 tmp1->waveSpec = nil
-tmp1->uniqueName = "(100 * (integ(v(\"/OUT\" ?result \"timeSweep\") (xmax(v(\"/OUT\" ?result \"timeSweep\")) - 6.25e-10) (xmax(v(\"/OUT\" ?result \"timeSweep\")) + 6.25e-10) \" \") / integ(v(\"/OUT\" ?result \"timeSweep\") 0 1e-08 \"\")))"
+tmp1->uniqueName = "(100 * (integ(abs(v(\"/OUT\" ?result \"timeSweep\")) (xmax(v(\"/OUT\" ?result \"timeSweep\")) - 6.25e-10) (xmax(v(\"/OUT\" ?result \"timeSweep\")) + 6.25e-10) \" \") / integ(abs(v(\"/OUT\" ?result \"timeSweep\")) 0 1e-08 \"\")))"
 tmp1->inValidObject = nil
 list(tmp1)
 )
