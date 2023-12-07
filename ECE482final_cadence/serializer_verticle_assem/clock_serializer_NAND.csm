@@ -1,24 +1,24 @@
 Schematic                                          | Layout                                          | Status
----------------------------------------------------------------------------------------------------------------
-clk_buffer schematic ECE482final_cadence           | clk_buffer layout ECE482final_cadence           | matched
-inv_s4f16 schematic ECE482final_cadence            | inv_s4f16 layout ECE482final_cadence            | matched
-inv_s4f8 schematic ECE482final_cadence             | inv_s4f8 layout ECE482final_cadence             | matched
-clk_buffer_full schematic ECE482final_cadence      | clk_buffer_full layout ECE482final_cadence      | matched
-inv_s8f8 schematic ECE482final_cadence             | inv_s8f8 layout ECE482final_cadence             | matched
-c2mos_register_s2f1 schematic ECE482final_cadence  | c2mos_register_s2f1 layout ECE482final_cadence  | matched
-deserializer_reg_bank schematic ECE482final_cadence| deserializer_reg_bank layout ECE482final_cadence| matched
-mux schematic ECE482final_cadence                  | mux layout ECE482final_cadence                  | matched
-prbs_mux_blk schematic ECE482final_cadence         | prbs_mux_blk layout ECE482final_cadence         | matched
-c2mos_register_rst schematic ECE482final_cadence   | c2mos_register_rst layout ECE482final_cadence   | matched
-xor2 schematic ECE482final_cadence                 | xor2 layout ECE482final_cadence                 | matched
-xor2 schematic ECE482final_cadence                 | xor2_VAR1 layout ECE482final_cadence            | matched
-prbs schematic ECE482final_cadence                 | prbs layout ECE482final_cadence                 | matched
-c2mos_register_2s2f schematic ECE482final_cadence  | c2mos_register_2s2f layout ECE482final_cadence  | matched
-clock_divider_xor schematic ECE482final_cadence    | clock_divider_xor layout ECE482final_cadence    | matched
-deserializer_large schematic ECE482final_cadence   | deserializer_large layout ECE482final_cadence   | matched
-schmitt_buff_1_8V schematic ECE482final_cadence    | schmitt_buff_1_8V layout ECE482final_cadence    | matched
-lvl_shifter_iotoc schematic ECE482final_cadence    | lvl_shifter_iotoc layout ECE482final_cadence    | matched
-EN_IO schematic ECE482final_cadence                | EN_IO layout ECE482final_cadence                | matched
-clock_serializer_NAND schematic ECE482final_cadence| clock_serializer_NAND layout ECE482final_cadence| matched
+----------------------------------------------------------------------------------------------------------------
+clk_buffer schematic ECE482final_cadence           | clk_buffer layout ECE482final_cadence           | matched 
+inv_s4f16 schematic ECE482final_cadence            | inv_s4f16 layout ECE482final_cadence            | matched 
+inv_s4f8 schematic ECE482final_cadence             | inv_s4f8 layout ECE482final_cadence             | matched 
+clk_buffer_full schematic ECE482final_cadence      | clk_buffer_full layout ECE482final_cadence      | matched 
+inv_s8f8 schematic ECE482final_cadence             | inv_s8f8 layout ECE482final_cadence             | matched 
+c2mos_register_s2f1 schematic ECE482final_cadence  | c2mos_register_s2f1 layout ECE482final_cadence  | matched 
+deserializer_reg_bank schematic ECE482final_cadence| deserializer_reg_bank layout ECE482final_cadence| matched 
+mux schematic ECE482final_cadence                  | mux layout ECE482final_cadence                  | matched 
+prbs_mux_blk schematic ECE482final_cadence         | prbs_mux_blk layout ECE482final_cadence         | expanded
+c2mos_register_rst schematic ECE482final_cadence   | c2mos_register_rst layout ECE482final_cadence   | matched 
+xor2 schematic ECE482final_cadence                 | xor2 layout ECE482final_cadence                 | matched 
+xor2 schematic ECE482final_cadence                 | xor2_VAR1 layout ECE482final_cadence            | matched 
+prbs schematic ECE482final_cadence                 | prbs layout ECE482final_cadence                 | matched 
+c2mos_register_2s2f schematic ECE482final_cadence  | c2mos_register_2s2f layout ECE482final_cadence  | matched 
+clock_divider_xor schematic ECE482final_cadence    | clock_divider_xor layout ECE482final_cadence    | matched 
+deserializer_large schematic ECE482final_cadence   | deserializer_large layout ECE482final_cadence   | matched 
+schmitt_buff_1_8V schematic ECE482final_cadence    | schmitt_buff_1_8V layout ECE482final_cadence    | matched 
+lvl_shifter_iotoc schematic ECE482final_cadence    | lvl_shifter_iotoc layout ECE482final_cadence    | matched 
+EN_IO schematic ECE482final_cadence                | EN_IO layout ECE482final_cadence                | matched 
+clock_serializer_NAND schematic ECE482final_cadence| clock_serializer_NAND layout ECE482final_cadence| matched 
 
 Schematic and Layout Match

@@ -371,6 +371,22 @@
   info: Assign net label "G_pmos1v_avC_98" at (0.7375, -0.1550) to layer `poly_conn'.
 
  Label in cell 'clock_serializer_NAND layout ECE482final_cadence':
+  info: Assign pin label "DIN15" at (0.2300, -3.4325) to layer `metal4_conn'.
+  info: Assign pin label "DIN14" at (1.5100, -3.4475) to layer `metal4_conn'.
+  info: Assign pin label "DIN13" at (2.7900, -3.4400) to layer `metal4_conn'.
+  info: Assign pin label "DIN12" at (4.0700, -3.4375) to layer `metal4_conn'.
+  info: Assign pin label "DIN11" at (5.3500, -3.4375) to layer `metal4_conn'.
+  info: Assign pin label "DIN10" at (6.6300, -3.4450) to layer `metal4_conn'.
+  info: Assign pin label "DIN9" at (7.9100, -3.4400) to layer `metal4_conn'.
+  info: Assign pin label "DIN8" at (9.1900, -3.4450) to layer `metal4_conn'.
+  info: Assign pin label "DIN7" at (10.4700, -3.4425) to layer `metal4_conn'.
+  info: Assign pin label "DIN6" at (11.7500, -3.4350) to layer `metal4_conn'.
+  info: Assign pin label "DIN5" at (13.0300, -3.4425) to layer `metal4_conn'.
+  info: Assign pin label "DIN4" at (14.3100, -3.4400) to layer `metal4_conn'.
+  info: Assign pin label "DIN3" at (15.5900, -3.4375) to layer `metal4_conn'.
+  info: Assign pin label "DIN2" at (16.8675, -3.4350) to layer `metal4_conn'.
+  info: Assign pin label "DIN1" at (18.1500, -3.4350) to layer `metal4_conn'.
+  info: Assign pin label "DIN0" at (19.4300, -3.4450) to layer `metal4_conn'.
   info: Assign pin label "OUT0" at (1.8800, -3.1775) to layer `metal2_conn'.
   info: Assign pin label "OUT1" at (3.1600, -3.1775) to layer `metal2_conn'.
   info: Assign pin label "OUT2" at (4.4400, -3.1800) to layer `metal2_conn'.
@@ -392,7 +408,8 @@
   info: Assign pin label "VDD" at (0.3025, 1.4550) to layer `metal1_conn'.
   info: Assign pin label "EN_IO" at (-5.3950, 11.4150) to layer `metal1_conn'.
   info: Assign pin label "VDDIO" at (-5.4650, 12.8350) to layer `metal1_conn'.
-  info: Assign pin label "DATA" at (21.2050, 2.4150) to layer `metal1_conn'.
+  info: Assign pin label "EXT_DATA_IN" at (21.2100, 1.9950) to layer `metal1_conn'.
+  info: Assign pin label "EXT_DATA_OUT" at (21.2050, 2.4150) to layer `metal1_conn'.
   info: Assign pin label "EXT_TX_IO" at (12.8025, 11.4075) to layer `metal1_conn'.
 
 ***** End of Label Report *****
@@ -770,6 +787,22 @@
   info: Assign net label "G_pmos1v_avC_98" at (0.7375, -0.1550) to layer `poly_conn'.
 
  Label in cell 'clock_serializer_NAND layout ECE482final_cadence':
+  info: Assign pin label "DIN15" at (0.2300, -3.4325) to layer `metal4_conn'.
+  info: Assign pin label "DIN14" at (1.5100, -3.4475) to layer `metal4_conn'.
+  info: Assign pin label "DIN13" at (2.7900, -3.4400) to layer `metal4_conn'.
+  info: Assign pin label "DIN12" at (4.0700, -3.4375) to layer `metal4_conn'.
+  info: Assign pin label "DIN11" at (5.3500, -3.4375) to layer `metal4_conn'.
+  info: Assign pin label "DIN10" at (6.6300, -3.4450) to layer `metal4_conn'.
+  info: Assign pin label "DIN9" at (7.9100, -3.4400) to layer `metal4_conn'.
+  info: Assign pin label "DIN8" at (9.1900, -3.4450) to layer `metal4_conn'.
+  info: Assign pin label "DIN7" at (10.4700, -3.4425) to layer `metal4_conn'.
+  info: Assign pin label "DIN6" at (11.7500, -3.4350) to layer `metal4_conn'.
+  info: Assign pin label "DIN5" at (13.0300, -3.4425) to layer `metal4_conn'.
+  info: Assign pin label "DIN4" at (14.3100, -3.4400) to layer `metal4_conn'.
+  info: Assign pin label "DIN3" at (15.5900, -3.4375) to layer `metal4_conn'.
+  info: Assign pin label "DIN2" at (16.8675, -3.4350) to layer `metal4_conn'.
+  info: Assign pin label "DIN1" at (18.1500, -3.4350) to layer `metal4_conn'.
+  info: Assign pin label "DIN0" at (19.4300, -3.4450) to layer `metal4_conn'.
   info: Assign pin label "OUT0" at (1.8800, -3.1775) to layer `metal2_conn'.
   info: Assign pin label "OUT1" at (3.1600, -3.1775) to layer `metal2_conn'.
   info: Assign pin label "OUT2" at (4.4400, -3.1800) to layer `metal2_conn'.
@@ -791,7 +824,8 @@
   info: Assign pin label "VDD" at (0.3025, 1.4550) to layer `metal1_conn'.
   info: Assign pin label "EN_IO" at (-5.3950, 11.4150) to layer `metal1_conn'.
   info: Assign pin label "VDDIO" at (-5.4650, 12.8350) to layer `metal1_conn'.
-  info: Assign pin label "DATA" at (21.2050, 2.4150) to layer `metal1_conn'.
+  info: Assign pin label "EXT_DATA_IN" at (21.2100, 1.9950) to layer `metal1_conn'.
+  info: Assign pin label "EXT_DATA_OUT" at (21.2050, 2.4150) to layer `metal1_conn'.
   info: Assign pin label "EXT_TX_IO" at (12.8025, 11.4075) to layer `metal1_conn'.
 
 ***** End of Label Report *****

@@ -5,7 +5,7 @@
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.17 03/26/2021 10:22 (sjfhw780) $
 sub-version 4.1_USR6_HF11, integ signature 2021-03-26-0950
 
-run on eceb-2022-11.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Sat Dec  2 19:18:26 2023
+run on eceb-2022-10.ews.illinois.edu from /software/cadence-2021-09/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Wed Dec  6 18:50:35 2023
 
 Echoing run specific file...
     ;----------------------------------------------------------------------------
@@ -294,8 +294,8 @@ Echoing run specific file...
 
                   Time Summary - Database
 
-reading DFII data. . . .      0 cpu      0 elap  470.0M virt       0 pf
-LVS preprocessing. . . .      0 cpu      1 elap  100.8M virt       0 pf
+reading DFII data. . . .      0 cpu      0 elap  469.9M virt       0 pf
+LVS preprocessing. . . .      0 cpu      2 elap  100.8M virt       0 pf
 duplicate inst removal .      0 cpu      0 elap  100.8M virt       0 pf
 cell boundary layer. . .      0 cpu      0 elap  100.8M virt       0 pf
 small cell flattening. .      0 cpu      0 elap  105.7M virt       0 pf
@@ -318,7 +318,7 @@ duplicate inst removal .      0 cpu      0 elap  105.7M virt       0 pf
 duplicate cell removal .      0 cpu      0 elap  108.1M virt       0 pf
 final VDB processing . .      0 cpu      0 elap  108.1M virt       0 pf
 -----------------------------------------------------------------------
-TOTALS (secs). . . . . .      0 cpu      1 elap  470.0M virt       0 pf
+TOTALS (secs). . . . . .      0 cpu      2 elap  469.9M virt       0 pf
 
 
 ************************************************************************
@@ -1278,7 +1278,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  470.0M virt       0 pf
 
  ;# 239
     L92042 = geomAnd( metal10_conn metal11_conn ) 
-    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 0
 
  ;# 240
  ;  region( L92042 )
@@ -1294,7 +1294,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  470.0M virt       0 pf
 
  ;# 243
     L61645 = geomAnd( NPNdummy ndiff_conn ) 
-    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 0
 
  ;# 244
     npn_emit = geomAndNot( L61645 Nwell ) 
@@ -1458,11 +1458,11 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  470.0M virt       0 pf
 
  ;# 284
     L28555 = geomAnd( NPNdummy Psub ) 
-    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 138M   task sum: 0
 
  ;# 285
     ntap = geomAndNot( L74405 L28555 ) 
-    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 2
+    cpu: 0.0   elapsed: 0   virtual: 138M   task sum: 2
 
  ;# 286
     dataReduction( ntap ) 
@@ -3215,7 +3215,7 @@ TOTALS (secs). . . . . .      0 cpu      1 elap  470.0M virt       0 pf
         label( poly_conn_text poly_conn )
         label( poly_conn_pintext poly_conn )
     ) 
-    cpu: 0.0   elapsed: 0   virtual: 167M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 170M   task sum: 0
 
  ;# 682
     geomStamp( ptap pdiff_conn multConnect "T?536" ) 
@@ -9855,43 +9855,43 @@ measureProximity2( T?2521 nwell_conn  5.000000 output( SCA_raw SCB_raw SCC_raw )
 
  ;# 2333
     CALC_T?2129 = calculateParameter( ( ATTACH_T?2117 - ( 0.45 * CALC_T?2128 ) * ATTACH_T?2109 ) * 1e-06 ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2334
     attachParameter( CALC_T?2129 "l" _resnsppoly_nw )
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2335
     attachParameter( CALC_T?2129 "lSim" _resnsppoly_nw )
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2336
     T?2599 = _geomExtractMerge( _resnwsti ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2337
     unstable_device_for__resnwsti_RES_39 = unstableDevices( "g45rnws" _resnwsti_RES_39 T?2599)
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2338
     dataReduction( T?2599 ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2339
  ;  region( T?2599 )
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2340
     T?2878 = _geomPushDown( nwell_conn T?2599 and ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2341
     T?2879 = geomMerge( T?2878 ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2342
     dataReduction( T?2879 ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2343
     extractRES( "g45rnws" T?2599 nwell_conn( "PLUS" "MINUS" ) pwell( "B" ) flagMalformed spiceModel("g45rnws") cellView("resnwsti ivpcell gpdk045"))
@@ -9995,43 +9995,43 @@ measureProximity2( T?2521 nwell_conn  5.000000 output( SCA_raw SCB_raw SCC_raw )
 
  ;# 2368
     CALC_T?2172 = calculateParameter( ( ATTACH_T?2160 - ( 0.45 * CALC_T?2171 ) * ATTACH_T?2152 ) * 1e-06 ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2369
     attachParameter( CALC_T?2172 "l" _resnwsti )
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2370
     attachParameter( CALC_T?2172 "lSim" _resnwsti )
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2371
     T?2602 = _geomExtractMerge( _resnwoxide ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2372
     unstable_device_for__resnwoxide_RES_40 = unstableDevices( "g45rnwo" _resnwoxide_RES_40 T?2602)
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2373
     dataReduction( T?2602 ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2374
  ;  region( T?2602 )
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2375
     T?2881 = _geomPushDown( nwell_conn T?2602 and ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2376
     T?2882 = geomMerge( T?2881 ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2377
     dataReduction( T?2882 ) 
-    cpu: 0.0   elapsed: 0   virtual: 143M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 140M   task sum: 0
 
  ;# 2378
     extractRES( "g45rnwo" T?2602 nwell_conn( "PLUS" "MINUS" ) pwell( "B" ) flagMalformed spiceModel("g45rnwo") cellView("resnwoxide ivpcell gpdk045"))
@@ -11723,59 +11723,59 @@ measureProximity2( T?2521 nwell_conn  5.000000 output( SCA_raw SCB_raw SCC_raw )
 
  ;# 2800
     CALC_T?2434 = calculateParameter( ATTACH_T?2433 * 1 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2801
     attachParameter( CALC_T?2434 "area" _npn10 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2802
     T?2975 = geomAvoiding( _mimcap pwell ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2803
     T?2976 = geomAndNot( _mimcap T?2975 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2804
     T?2653 = _geomExtractMerge( T?2976 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2805
     unstable_device_for__mimcap_CAP_57 = unstableDevices( "g45cmim" _mimcap_CAP_57 T?2653)
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2806
     dataReduction( T?2653 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2807
  ;  region( T?2653 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2808
     T?2977 = _geomPushDown( CapMetal T?2653 and ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2809
     T?2978 = geomMerge( T?2977 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2810
     dataReduction( T?2978 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2811
     T?2979 = _geomPushDown( metal10_conn T?2653 and ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2812
     T?2980 = geomMerge( T?2979 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2813
     dataReduction( T?2980 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2814
     extractCAP( "g45cmim" T?2653 CapMetal( "PLUS" ) metal10_conn( "MINUS" ) pwell( "B" ) flagMalformed spiceModel("mimcap") cellView("g45cmim ivpcell gpdk045"))
@@ -11855,43 +11855,43 @@ measureProximity2( T?2521 nwell_conn  5.000000 output( SCA_raw SCB_raw SCC_raw )
 
  ;# 2833
     attachParameter( CALC_T?2456 "perim" _mimcap )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2834
     T?2981 = geomAvoiding( _ind_s pwell ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2835
     T?2982 = geomAndNot( _ind_s T?2981 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2836
     T?2656 = _geomExtractMerge( T?2982 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2837
     unstable_device_for__ind_s_Device_58 = unstableDevices( "g45inds" _ind_s_Device_58 T?2656)
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2838
     dataReduction( T?2656 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2839
  ;  region( T?2656 )
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2840
     T?2983 = _geomPushDown( ind11 T?2656 and ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2841
     T?2984 = geomMerge( T?2983 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2842
     dataReduction( T?2984 ) 
-    cpu: 0.0   elapsed: 0   virtual: 145M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 147M   task sum: 0
 
  ;# 2843
     extractDevice( "g45inds" T?2656 ind11( "PLUS" "MINUS" ) pwell( "B" ) bulkLayers( pwell ) flagMalformed )
@@ -12157,8 +12157,8 @@ measureProximity2( T?2521 nwell_conn  5.000000 output( SCA_raw SCB_raw SCC_raw )
 Total cells checked = 8
 Total rules checked = 2906
 
-Run time =  4.00 seconds
-CPU time =  0.31 seconds
+Run time =  5.00 seconds
+CPU time =  0.30 seconds
 VM HWM   =   470 Mbytes
 Disk HWM =     0 Mbytes
 Disk end =     0 Mbytes

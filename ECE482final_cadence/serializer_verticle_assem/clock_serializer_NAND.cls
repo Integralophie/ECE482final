@@ -175,7 +175,7 @@ Cell/Device                               schematic  layout
 (g45p1svt) MOS                                    0       2*
                                              ------  ------
 Total                                             2       4
-                                                                                                                                                                                                                            
+
 Reduce Statistics
 =================                               Original             Reduced
 Cell/Device                               schematic  layout   schematic  layout
@@ -184,12 +184,13 @@ Cell/Device                               schematic  layout   schematic  layout
                                              ------  ------      ------  ------
 Total                                             4       4           4       4
 
-*******************************************************************************
-****** prbs_mux_blk schematic ECE482final_cadence  <vs>  prbs_mux_blk layout ECE482final_cadence
-*******************************************************************************
-
-Filter/Reduce statistics only. Network matching was OK.
-                                                                                                                                                                   
+###############################################################################
+###### prbs_mux_blk schematic ECE482final_cadence  <vs>  prbs_mux_blk layout ECE482final_cadence
+###############################################################################
+###### This report is for informational purposes only. This cell
+###### has been expanded because of a pin-swapping analysis error.
+###############################################################################
+        
 Pre-expand Statistics                      
 ======================                          Original       
 Cell/Device                               schematic  layout
@@ -204,8 +205,16 @@ Reduce Statistics
 Cell/Device                               schematic  layout   schematic  layout
 (g45n1svt) MOS                                   32      32          32      32
 (g45p1svt) MOS                                   32      32          32      32
+
+Match Statistics
+================                                  Total             Unmatched
+Cell/Device                               schematic  layout   schematic  layout
+(g45n1svt) MOS                                   32      32           0       0
+(g45p1svt) MOS                                   32      32           0       0
                                              ------  ------      ------  ------
-Total                                            64      64          64      64
+Total                                            64      64           0       0
+
+Match Statistics for Nets                        52      52           0       0
 
 *******************************************************************************
 ****** c2mos_register_rst schematic ECE482final_cadence  <vs>  c2mos_register_rst layout ECE482final_cadence
@@ -497,12 +506,11 @@ Cell/Device                               schematic  layout   schematic  layout
 (inv_s4f16) Cell                                  2       2           2       2
 (inv_s8f8) Cell                                   1       1           1       1
 (prbs) Cell                                       1       1           1       1
-(prbs_mux_blk) Cell                               1       1           1       1
-(g45n1svt) MOS                                   96      98*         36      36
-(g45p1svt) MOS                                   96      98*         36      36
+(g45n1svt) MOS                                  128     130*         68      68
+(g45p1svt) MOS                                  128     130*         68      68
 (g45n1svt:SerMos2#1) MosBlk                       -       -          30      30
 (g45p1svt:SerMos2#1) MosBlk                       -       -          30      30
                                              ------  ------      ------  ------
-Total                                           203     207         143     143
+Total                                           266     270         206     206
 
 Schematic and Layout Match

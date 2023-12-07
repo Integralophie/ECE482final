@@ -35,7 +35,7 @@ ECE482final_cadence inv_s4f2_nowell layout 562
 ECE482final_cadence inv_s4f8 layout 877
 ECE482final_cadence inv_s4f8_nowell layout 931
 ECE482final_cadence lvl_shifter_iotoc layout 315
-ECE482final_cadence mux_chain layout 2340
+ECE482final_cadence mux_chain layout 2347
 gpdk045 nmos1v layout 236
 gpdk045 pmos1v layout 236
 ECE482final_cadence schmitt_buff_1_8V layout 807
@@ -51,6 +51,6 @@ ECE482final_cadence deserializer_reg_bank layout 2895
 ECE482final_cadence inv_s8f8 layout 914
 ECE482final_cadence mux layout 2162
 ECE482final_cadence prbs layout 8567
-ECE482final_cadence prbs_mux_blk layout 2221
+ECE482final_cadence prbs_mux_blk layout 2286
 ECE482final_cadence serializer_verticle_assem layout 5860
-ECE482final_cadence clock_serializer_NAND layout 6266
+ECE482final_cadence clock_serializer_NAND layout 8824

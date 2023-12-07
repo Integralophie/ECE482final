@@ -3,3 +3,8 @@ Assura Errors & Warnings Search (PLEASE CAREFULLY REVIEW THESE MESSAGES)
 WARNINGS & ERRORS found in Assura NVN Run Log file
 --------------------------------------------------------------------------------
 *WARNING* deleteCellPin - Unable to find cell 'g45inds'
+*ERROR* Device 'g45p2svt(MOS)' on Schematic is unbound to any Layout device.
+*ERROR* Device 'g45n2svt(MOS)' on Schematic is unbound to any Layout device.
+*ERROR* UnBound devices found.
+Info: All devices must be bound or filtered for comparison to be run.
+Exiting nvn.

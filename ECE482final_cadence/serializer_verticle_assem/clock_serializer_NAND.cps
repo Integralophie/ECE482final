@@ -18,12 +18,10 @@ swapPins("deserializer_reg_bank" "(p (f OUT0 IN0) (f OUT1 IN1) (f OUT2 IN2) (f
    OUT9 IN9) (f OUT10 IN10) (f OUT15 IN15) (f OUT13 IN13) (f OUT14 IN14) (f
    OUT12 IN12) (f OUT11 IN11))")
 
-swapPins("mux" "")
+swapPins("mux" "(p (f S0 A) (f S0_b B))")
 
-swapPins("prbs_mux_blk" "(p (f PRBS1 OUT1) (f PRBS0 OUT0) (f PRBS2 OUT2) (f
-   PRBS3 OUT3) (f PRBS4 OUT4) (f PRBS5 OUT5) (f PRBS6 OUT6) (f PRBS7 OUT7) (f
-   PRBS8 OUT8) (f PRBS9 OUT9) (f PRBS10 OUT10) (f PRBS11 OUT11) (f PRBS14 OUT14)
-   (f PRBS15 OUT15) (f PRBS13 OUT13) (f PRBS12 OUT12))")
+; INFORMATION: pinswap analysis failed, cell will be expanded.
+; Cell: prbs_mux_blk
 
 swapPins("c2mos_register_rst" "")
 
